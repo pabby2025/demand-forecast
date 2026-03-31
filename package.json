@@ -1,0 +1,7 @@
+{
+  "name": "demand-forecast-planner",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend-ang && npm install && npm run build:prod"
+  }
+}
