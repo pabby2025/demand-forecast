@@ -188,7 +188,6 @@ VALUES
   ('iOS',               ARRAY['iOS Development','Swift/iOS'],                   TRUE, 420, 520, 634),
   ('React Native',      ARRAY['ReactNative','React-Native'],                    TRUE, 340, 440, 534),
   ('Project Management',ARRAY['Project Mgmt','PM','PMP'],                       TRUE, 620, 780, 934),
-  ('Agile',             NULL, TRUE, 0, 0, 0),  -- duplicate guard; ON CONFLICT handles
   ('PPM',               ARRAY['Portfolio & Project Management','PPM Tools'],    TRUE, 410, 510, 623),
   ('Microsoft 365',     ARRAY['M365','MS365','Microsoft Office 365'],           TRUE, 380, 470, 567),
   ('Software Testing',  ARRAY['QA Testing','Software QA','Test Engineering'],  TRUE, 450, 580, 712),
