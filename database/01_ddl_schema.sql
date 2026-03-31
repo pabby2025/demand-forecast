@@ -678,7 +678,7 @@ CREATE TABLE IF NOT EXISTS dfc.app_task (
   task_type     TEXT         NOT NULL,   -- "Update Skill Micro Cluster" | "Conduct Scenario Planning" | "Feedback to Forecast"
   description   TEXT         NOT NULL,
   due_date      DATE         NOT NULL,
-  is_overdue    BOOLEAN      GENERATED ALWAYS AS (due_date < CURRENT_DATE) STORED,
+  is_overdue    BOOLEAN      NOT NULL DEFAULT FALSE,
   status        dfc.task_status_enum NOT NULL DEFAULT 'New',
   assigned_to   UUID         REFERENCES dfc.app_user(user_id),
   assigned_by   UUID         REFERENCES dfc.app_user(user_id),
@@ -698,7 +698,7 @@ CREATE TABLE IF NOT EXISTS dfc.app_alert (
   alert_type    TEXT         NOT NULL,   -- "Demand Spike" | "Model Accuracy Drop" | "Short Fuse Surge" | etc.
   description   TEXT         NOT NULL,
   due_date      DATE,
-  is_overdue    BOOLEAN      GENERATED ALWAYS AS (due_date IS NOT NULL AND due_date < CURRENT_DATE) STORED,
+  is_overdue    BOOLEAN      NOT NULL DEFAULT FALSE,
   status        dfc.alert_status_enum NOT NULL DEFAULT 'Action Required',
   severity      TEXT         NOT NULL DEFAULT 'Medium', -- "High" | "Medium" | "Low"
   cluster_id    INTEGER      REFERENCES dfc.dim_skill_cluster(cluster_id),
