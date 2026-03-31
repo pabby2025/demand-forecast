@@ -195,29 +195,9 @@ jobs:
           npm install
           npm run build:prod
 
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-
-      - name: Create Frontend Web App
-        run: |
-          EXISTS=$(az webapp show --name $FRONTEND_APP --resource-group $RESOURCE_GROUP --query name -o tsv 2>/dev/null || echo "")
-          if [ -z "$EXISTS" ]; then
-            az webapp create --name $FRONTEND_APP --resource-group $RESOURCE_GROUP --plan $APP_PLAN --runtime "NODE:20-lts"
-          else
-            echo "Frontend app already exists."
-          fi
-
-      - name: Configure Frontend Settings
-        run: |
-          az webapp config appsettings set --name $FRONTEND_APP --resource-group $RESOURCE_GROUP --settings \
-            API_URL="https://$BACKEND_APP.azurewebsites.net"
-
-      - name: Deploy Frontend
+      - name: Deploy Frontend via Publish Profile
         uses: azure/webapps-deploy@v3
         with:
           app-name: ${{ env.FRONTEND_APP }}
+          publish-profile: ${{ secrets.AZURE_FRONTEND_PUBLISH_PROFILE }}
           package: ./frontend-ang/dist/frontend-ang
