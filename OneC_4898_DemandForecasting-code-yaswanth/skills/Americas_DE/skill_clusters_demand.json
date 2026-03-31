@@ -1,0 +1,507 @@
+{
+  "market": "Americas",
+  "params": {
+    "max_clusters": 15,
+    "min_skills_per_cluster": 1,
+    "max_skills_per_cluster": 7,
+    "max_candidate_clusters": 250,
+    "min_jaccard_for_coverage": 0.5,
+    "min_mapped_demand_per_cluster": 500
+  },
+  "min_jaccard_for_coverage": 0.5,
+  "assignment_rule": "exclusive: each row assigned to the cluster with highest Jaccard (>= min_jaccard); tie-break by smaller cluster",
+  "ties_broken": 1951,
+  "total_demand": 44034,
+  "total_mapped_demand": 40468,
+  "unmapped_demand": 3566,
+  "coverage_fraction": 0.919,
+  "num_clusters": 15,
+  "unique_skills_in_clusters": [
+    ".NET",
+    "AWS",
+    "Agile",
+    "Android",
+    "Angular",
+    "Azure",
+    "C#",
+    "Design Patterns",
+    "DevOps",
+    "Docker Containers",
+    "HTML/CSS",
+    "Java",
+    "JavaScript",
+    "Kafka",
+    "Microservices",
+    "MySQL",
+    "Node JS",
+    "Project Management",
+    "Python",
+    "React",
+    "SQL",
+    "Software Testing",
+    "Spring Boot",
+    "Terraform",
+    "TypeScript",
+    "iOS"
+  ],
+  "unique_skills_count": 26,
+  "high_demand_skills_missed": {
+    "Shell Scripting/Linux": 998,
+    "Jenkins": 988,
+    "React Native": 963,
+    "YAML": 727
+  },
+  "high_demand_skills_missed_count": 4,
+  "injection_focus_missed_before": [
+    "MySQL",
+    "TypeScript",
+    "Docker Containers",
+    "Shell Scripting/Linux",
+    "Jenkins",
+    "Kafka",
+    "React Native",
+    "Design Patterns",
+    "YAML",
+    "Terraform"
+  ],
+  "injection_focus_missed_after": [],
+  "injection_actions_taken": 10,
+  "injection_details": [
+    {
+      "phase": "append",
+      "skill": "MySQL",
+      "cluster": 0,
+      "old": [
+        "AWS",
+        "Angular",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "Spring Boot"
+      ],
+      "new": [
+        "AWS",
+        "Angular",
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "SQL",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "TypeScript",
+      "cluster": 7,
+      "old": [
+        "Angular",
+        "Java",
+        "JavaScript",
+        "Node JS"
+      ],
+      "new": [
+        "Angular",
+        "Java",
+        "JavaScript",
+        "Node JS",
+        "TypeScript"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Docker Containers",
+      "cluster": 13,
+      "old": [
+        "Azure",
+        "DevOps"
+      ],
+      "new": [
+        "Azure",
+        "DevOps",
+        "Docker Containers"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Shell Scripting/Linux",
+      "cluster": 9,
+      "old": [
+        "AWS",
+        "Java",
+        "Microservices",
+        "Spring Boot"
+      ],
+      "new": [
+        "AWS",
+        "Java",
+        "Microservices",
+        "Shell Scripting/Linux",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Jenkins",
+      "cluster": 11,
+      "old": [
+        "Java",
+        "Software Testing",
+        "Spring Boot"
+      ],
+      "new": [
+        "Java",
+        "Jenkins",
+        "Software Testing",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Kafka",
+      "cluster": 9,
+      "old": [
+        "AWS",
+        "Java",
+        "Microservices",
+        "Shell Scripting/Linux",
+        "Spring Boot"
+      ],
+      "new": [
+        "AWS",
+        "Java",
+        "Kafka",
+        "Microservices",
+        "Shell Scripting/Linux",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "React Native",
+      "cluster": 5,
+      "old": [
+        "HTML/CSS",
+        "JavaScript",
+        "React"
+      ],
+      "new": [
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "React Native"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Design Patterns",
+      "cluster": 11,
+      "old": [
+        "Java",
+        "Jenkins",
+        "Software Testing",
+        "Spring Boot"
+      ],
+      "new": [
+        "Design Patterns",
+        "Java",
+        "Jenkins",
+        "Software Testing",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "YAML",
+      "cluster": 9,
+      "old": [
+        "AWS",
+        "Java",
+        "Kafka",
+        "Microservices",
+        "Shell Scripting/Linux",
+        "Spring Boot"
+      ],
+      "new": [
+        "AWS",
+        "Java",
+        "Kafka",
+        "Microservices",
+        "Shell Scripting/Linux",
+        "Spring Boot",
+        "YAML"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Terraform",
+      "cluster": 13,
+      "old": [
+        "Azure",
+        "DevOps",
+        "Docker Containers"
+      ],
+      "new": [
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Terraform"
+      ]
+    }
+  ],
+  "clusters_sorted_by": "mapped_demand descending",
+  "cv_note": "coefficient of variation (std/mean) of monthly demand per cluster",
+  "cv_2025_note": "CV of monthly demand in 2025 only",
+  "skill_occurrence_note": "count of mapped rows in this cluster containing each skill",
+  "clusters": [
+    {
+      "skills": [
+        "AWS",
+        "Angular",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "skill_count": 7,
+      "mapped_demand": 11670,
+      "skill_occurrence": {
+        "AWS": 9615,
+        "Angular": 5658,
+        "Java": 11222,
+        "JavaScript": 10595,
+        "SQL": 10819,
+        "Spring Boot": 9618,
+        "MySQL": 9605
+      },
+      "cv": 0.6305,
+      "cv_2025": 0.1575
+    },
+    {
+      "skills": [
+        "Java",
+        "Spring Boot"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 6352,
+      "skill_occurrence": {
+        "Java": 6191,
+        "Spring Boot": 5426
+      },
+      "cv": 0.4554,
+      "cv_2025": 0.3769
+    },
+    {
+      "skills": [
+        ".NET",
+        "Azure",
+        "C#",
+        "SQL"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 4478,
+      "skill_occurrence": {
+        ".NET": 4376,
+        "Azure": 3755,
+        "C#": 3198,
+        "SQL": 4121
+      },
+      "cv": 0.5512,
+      "cv_2025": 0.2095
+    },
+    {
+      "skills": [
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "Java"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 2878,
+      "skill_occurrence": {
+        "HTML/CSS": 1781,
+        "JavaScript": 2638,
+        "React": 1885,
+        "Java": 1371
+      },
+      "cv": 0.4414,
+      "cv_2025": 0.3168
+    },
+    {
+      "skills": [
+        "React"
+      ],
+      "skill_count": 1,
+      "mapped_demand": 2801,
+      "skill_occurrence": {
+        "React": 2801
+      },
+      "cv": 0.4317,
+      "cv_2025": 0.3672
+    },
+    {
+      "skills": [
+        "Agile",
+        "Project Management"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 2151,
+      "skill_occurrence": {
+        "Agile": 1940,
+        "Project Management": 894
+      },
+      "cv": 0.3502,
+      "cv_2025": 0.2831
+    },
+    {
+      "skills": [
+        ".NET",
+        "Angular"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1995,
+      "skill_occurrence": {
+        ".NET": 1611,
+        "Angular": 1381
+      },
+      "cv": 0.6571,
+      "cv_2025": 0.4097
+    },
+    {
+      "skills": [
+        "Angular",
+        "Java",
+        "JavaScript",
+        "Node JS",
+        "TypeScript"
+      ],
+      "skill_count": 5,
+      "mapped_demand": 1502,
+      "skill_occurrence": {
+        "Angular": 1277,
+        "Java": 527,
+        "JavaScript": 1000,
+        "Node JS": 908,
+        "TypeScript": 635
+      },
+      "cv": 0.4806,
+      "cv_2025": 0.3564
+    },
+    {
+      "skills": [
+        "AWS",
+        "Java",
+        "Microservices",
+        "Spring Boot",
+        "Kafka",
+        "Angular",
+        "React"
+      ],
+      "skill_count": 7,
+      "mapped_demand": 1482,
+      "skill_occurrence": {
+        "AWS": 605,
+        "Java": 1381,
+        "Microservices": 1247,
+        "Spring Boot": 1359,
+        "Kafka": 507,
+        "Angular": 591,
+        "React": 420
+      },
+      "cv": 0.5579,
+      "cv_2025": 0.6222
+    },
+    {
+      "skills": [
+        "Android",
+        "iOS"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1086,
+      "skill_occurrence": {
+        "Android": 586,
+        "iOS": 646
+      },
+      "cv": 0.5234,
+      "cv_2025": 0.425
+    },
+    {
+      "skills": [
+        "Java",
+        "Software Testing",
+        "Spring Boot",
+        "Design Patterns",
+        "AWS"
+      ],
+      "skill_count": 5,
+      "mapped_demand": 1026,
+      "skill_occurrence": {
+        "Java": 941,
+        "Software Testing": 794,
+        "Spring Boot": 831,
+        "Design Patterns": 716,
+        "AWS": 283
+      },
+      "cv": 0.7607,
+      "cv_2025": 0.3394
+    },
+    {
+      "skills": [
+        "AWS",
+        "Node JS"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 886,
+      "skill_occurrence": {
+        "AWS": 587,
+        "Node JS": 699
+      },
+      "cv": 0.3217,
+      "cv_2025": 0.2187
+    },
+    {
+      "skills": [
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Terraform"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 811,
+      "skill_occurrence": {
+        "Azure": 474,
+        "DevOps": 704,
+        "Docker Containers": 666,
+        "Terraform": 512
+      },
+      "cv": 0.5424,
+      "cv_2025": 0.2694
+    },
+    {
+      "skills": [
+        "Software Testing"
+      ],
+      "skill_count": 1,
+      "mapped_demand": 721,
+      "skill_occurrence": {
+        "Software Testing": 721
+      },
+      "cv": 0.6859,
+      "cv_2025": 0.5711
+    },
+    {
+      "skills": [
+        "AWS",
+        "Python"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 629,
+      "skill_occurrence": {
+        "AWS": 409,
+        "Python": 629
+      },
+      "cv": 0.4974,
+      "cv_2025": 0.3244
+    }
+  ]
+}

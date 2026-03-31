@@ -1,0 +1,84 @@
+{
+  "market": "Americas",
+  "params": {
+    "max_clusters": 12,
+    "min_skills_per_cluster": 2,
+    "max_skills_per_cluster": 6,
+    "max_candidate_clusters": 250,
+    "min_jaccard_for_coverage": 0.5,
+    "min_mapped_demand_per_cluster": 500
+  },
+  "min_jaccard_for_coverage": 0.5,
+  "assignment_rule": "exclusive: each row assigned to the cluster with highest Jaccard (>= min_jaccard); tie-break by smaller cluster",
+  "ties_broken": 466,
+  "total_demand": 6224,
+  "total_mapped_demand": 5395,
+  "unmapped_demand": 829,
+  "coverage_fraction": 0.8668,
+  "num_clusters": 3,
+  "unique_skills_in_clusters": [
+    "SAP ABAP",
+    "SAP Basis",
+    "SAP FICO",
+    "SAP MM",
+    "SAP Marketing Cloud",
+    "SAP SD"
+  ],
+  "unique_skills_count": 6,
+  "high_demand_skills_missed": {
+    "SAP Security": 843
+  },
+  "high_demand_skills_missed_count": 1,
+  "injection_focus_missed_before": [],
+  "injection_focus_missed_after": [],
+  "injection_actions_taken": 0,
+  "injection_details": [],
+  "clusters_sorted_by": "mapped_demand descending",
+  "cv_note": "coefficient of variation (std/mean) of monthly demand per cluster",
+  "cv_2025_note": "CV of monthly demand in 2025 only",
+  "skill_occurrence_note": "count of mapped rows in this cluster containing each skill",
+  "clusters": [
+    {
+      "skills": [
+        "SAP Basis",
+        "SAP FICO"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1992,
+      "skill_occurrence": {
+        "SAP Basis": 1028,
+        "SAP FICO": 997
+      },
+      "cv": 0.3669,
+      "cv_2025": 0.4155
+    },
+    {
+      "skills": [
+        "SAP ABAP",
+        "SAP Marketing Cloud"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1751,
+      "skill_occurrence": {
+        "SAP ABAP": 1604,
+        "SAP Marketing Cloud": 949
+      },
+      "cv": 0.4006,
+      "cv_2025": 0.3622
+    },
+    {
+      "skills": [
+        "SAP MM",
+        "SAP SD"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1652,
+      "skill_occurrence": {
+        "SAP MM": 894,
+        "SAP SD": 1034
+      },
+      "cv": 0.3352,
+      "cv_2025": 0.3318
+    }
+  ]
+}

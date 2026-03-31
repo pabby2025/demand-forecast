@@ -1,0 +1,219 @@
+{
+  "market": "EMEA",
+  "source": "skill_clusters.json",
+  "min_jaccard_for_coverage": 0.3,
+  "assignment_rule": "exclusive: each row assigned to the cluster with highest Jaccard (>= threshold); tie-break by smaller cluster; threshold from jaccard_by_union when set else single min_jaccard; rows containing any of priority_skills are assigned to the cluster that contains that skill (Jaccard ignored); second pass on unmapped rows: Jaccard computed only on primary skills (DEFAULT_PRIMARY_SKILLS or --primary-skills), then assign if >= threshold",
+  "ties_broken": 1,
+  "total_demand": 11371,
+  "total_mapped_demand": 9513,
+  "unmapped_demand": 1835,
+  "coverage_fraction": 0.8383,
+  "mapped_primary_skills_pass": 863,
+  "num_clusters": 9,
+  "unique_skills_in_clusters": [
+    ".NET",
+    "AWS",
+    "Agile",
+    "Angular",
+    "Apigee",
+    "Azure",
+    "C#",
+    "Design Patterns",
+    "DevOps",
+    "Docker Containers",
+    "HTML/CSS",
+    "Java",
+    "JavaScript",
+    "Jenkins",
+    "Microservices",
+    "Microsoft 365",
+    "MySQL",
+    "Node JS",
+    "Project Management",
+    "React",
+    "SQL",
+    "Shell Scripting/Linux",
+    "Software Testing",
+    "Spring Boot",
+    "Terraform",
+    "TypeScript"
+  ],
+  "unique_skills_count": 26,
+  "clusters_sorted_by": "mapped_demand descending",
+  "cv_note": "coefficient of variation (std/mean) of monthly demand per cluster",
+  "cv_2025_note": "CV of monthly demand in 2025 only",
+  "skill_occurrence_note": "count of mapped rows in this cluster containing each skill",
+  "clusters": [
+    {
+      "skills": [
+        "AWS",
+        "Angular",
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "SQL",
+        "Spring Boot"
+      ],
+      "skill_count": 7,
+      "mapped_demand": 3440,
+      "skill_occurrence": {
+        "AWS": 2715,
+        "Angular": 1468,
+        "Java": 3321,
+        "JavaScript": 2923,
+        "MySQL": 2604,
+        "SQL": 2944,
+        "Spring Boot": 2726
+      },
+      "cv": 0.7424,
+      "cv_2025": 0.4867
+    },
+    {
+      "skills": [
+        ".NET",
+        "Azure",
+        "C#",
+        "SQL"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 1265,
+      "skill_occurrence": {
+        ".NET": 1227,
+        "Azure": 1140,
+        "C#": 897,
+        "SQL": 1122
+      },
+      "cv": 0.6546,
+      "cv_2025": 0.2808
+    },
+    {
+      "skills": [
+        "Design Patterns",
+        "Java",
+        "Microservices",
+        "Shell Scripting/Linux",
+        "Software Testing",
+        "Spring Boot"
+      ],
+      "skill_count": 6,
+      "mapped_demand": 846,
+      "skill_occurrence": {
+        "Design Patterns": 226,
+        "Java": 795,
+        "Microservices": 509,
+        "Shell Scripting/Linux": 192,
+        "Software Testing": 276,
+        "Spring Boot": 819
+      },
+      "cv": 0.6615,
+      "cv_2025": 0.4325
+    },
+    {
+      "skills": [
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 822,
+      "skill_occurrence": {
+        "HTML/CSS": 541,
+        "JavaScript": 682,
+        "React": 572,
+        "TypeScript": 326
+      },
+      "cv": 0.496,
+      "cv_2025": 0.4056
+    },
+    {
+      "skills": [
+        "Java"
+      ],
+      "skill_count": 1,
+      "mapped_demand": 762,
+      "skill_occurrence": {
+        "Java": 762
+      },
+      "cv": 0.4561,
+      "cv_2025": 0.6092
+    },
+    {
+      "skills": [
+        "Apigee",
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Jenkins",
+        "Terraform"
+      ],
+      "skill_count": 6,
+      "mapped_demand": 758,
+      "skill_occurrence": {
+        "Apigee": 308,
+        "Azure": 378,
+        "DevOps": 593,
+        "Docker Containers": 378,
+        "Jenkins": 352,
+        "Terraform": 342
+      },
+      "cv": 0.4754,
+      "cv_2025": 0.3863
+    },
+    {
+      "skills": [
+        "Node JS",
+        "React"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 710,
+      "skill_occurrence": {
+        "Node JS": 377,
+        "React": 679
+      },
+      "cv": 0.6111,
+      "cv_2025": 0.4441
+    },
+    {
+      "skills": [
+        ".NET",
+        "Angular"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 601,
+      "skill_occurrence": {
+        ".NET": 418,
+        "Angular": 404
+      },
+      "cv": 0.6889,
+      "cv_2025": 0.4253
+    },
+    {
+      "skills": [
+        "Agile",
+        "Microsoft 365",
+        "Project Management"
+      ],
+      "skill_count": 3,
+      "mapped_demand": 309,
+      "skill_occurrence": {
+        "Agile": 280,
+        "Microsoft 365": 240,
+        "Project Management": 287
+      },
+      "cv": 0.731,
+      "cv_2025": 0.4863
+    }
+  ],
+  "jaccard_by_union": {
+    "union_size_threshold": 7,
+    "jaccard_when_union_ge": 0.3,
+    "jaccard_when_union_lt": 0.4
+  },
+  "priority_skills_force_assign": [
+    "SharePoint"
+  ],
+  "primary_skills_count": 15,
+  "primary_skills_source": "default_list",
+  "primary_skills_second_pass_note": "number of rows assigned in second pass using Jaccard on primary skills only"
+}

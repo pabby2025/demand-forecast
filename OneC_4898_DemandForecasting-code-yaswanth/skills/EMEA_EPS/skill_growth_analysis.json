@@ -1,0 +1,859 @@
+{
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "skills": [
+    {
+      "skill": "A10 ADC",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 187,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "ABAP Proxy",
+      "demands": {
+        "2023": 0,
+        "2024": 9,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 35,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Accounting",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 188,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Analytics",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 189,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Apache Camel",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 190,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "APIs",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 192,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "APO ABAP",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 123,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Architecture Design",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 193,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Automation Anywhere",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 196,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "BRF+ - Bus RulesFramework +",
+      "demands": {
+        "2023": 0,
+        "2024": 4,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 78,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Business Intelligence",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 125,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Business Operations",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 197,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Business Services",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 126,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Case Management",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 198,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Change Management",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 94,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Client Focus",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 95,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Coupa",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 128,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "CSV",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 200,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Custom Adapter",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 201,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Data Integration",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 202,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Data Management",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 203,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Data Migration",
+      "demands": {
+        "2023": 0,
+        "2024": 5,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 64,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Data Warehouse",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 96,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Delivery Excellence",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 204,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Design Patterns",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 205,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Design Trends",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 206,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Dynamics 365",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 207,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "ECC FICO",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 208,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Effective Communication",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 98,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "EHS ABAP",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 129,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Estimation & Resource Planning",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 130,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Execution Excellence",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 99,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Facets - Finance",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 209,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "FI- MM Integration",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 210,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "FI- SD Integration",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 211,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "File based Transport",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 213,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "FPM -Floor Plan Manager",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 214,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Global Labelling Management",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 216,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "GSAP",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 217,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "GTS - Global Trade Services",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 131,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "HR - India",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 219,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Incident Management",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 132,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Innovation",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 133,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Integration Architecture",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 221,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Internal Orders",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 134,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "iRCAS",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 222,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Knowledge Management",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 135,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Material Hierarchy",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 100,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Medical Devices",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 136,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Microsoft 365",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 223,
+        "2025": 206
+      },
+      "rank_change_start_to_end": -205,
+      "abs_rank_change": 205,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    }
+  ]
+}

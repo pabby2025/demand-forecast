@@ -1,0 +1,2842 @@
+[
+  {
+    "skills": ".NET",
+    "skill_count": 1,
+    "true_demand": 894
+  },
+  {
+    "skills": "Java",
+    "skill_count": 1,
+    "true_demand": 568
+  },
+  {
+    "skills": "Java, Microservices, Oracle, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 500
+  },
+  {
+    "skills": ".NET, SQL",
+    "skill_count": 2,
+    "true_demand": 474
+  },
+  {
+    "skills": "ServiceNow",
+    "skill_count": 1,
+    "true_demand": 376
+  },
+  {
+    "skills": "COBOL, DB2, JCL",
+    "skill_count": 3,
+    "true_demand": 292
+  },
+  {
+    "skills": "Java, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 270
+  },
+  {
+    "skills": "COBOL",
+    "skill_count": 1,
+    "true_demand": 178
+  },
+  {
+    "skills": "Java, Microservices, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 175
+  },
+  {
+    "skills": "Agile",
+    "skill_count": 1,
+    "true_demand": 153
+  },
+  {
+    "skills": ".NET, Angular, Azure, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 143
+  },
+  {
+    "skills": ".NET, Azure, SQL, Software Testing",
+    "skill_count": 4,
+    "true_demand": 130
+  },
+  {
+    "skills": "Java, Oracle",
+    "skill_count": 2,
+    "true_demand": 122
+  },
+  {
+    "skills": "IT Service Management, Java, Oracle",
+    "skill_count": 3,
+    "true_demand": 122
+  },
+  {
+    "skills": "ITIL, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 96
+  },
+  {
+    "skills": "DB2",
+    "skill_count": 1,
+    "true_demand": 88
+  },
+  {
+    "skills": ".NET, Azure",
+    "skill_count": 2,
+    "true_demand": 74
+  },
+  {
+    "skills": "DB2, IT Service Management",
+    "skill_count": 2,
+    "true_demand": 74
+  },
+  {
+    "skills": "ITIL",
+    "skill_count": 1,
+    "true_demand": 72
+  },
+  {
+    "skills": "Java, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 72
+  },
+  {
+    "skills": ".NET, Angular, Node JS, SQL",
+    "skill_count": 4,
+    "true_demand": 64
+  },
+  {
+    "skills": ".NET, IT Service Management, SQL",
+    "skill_count": 3,
+    "true_demand": 63
+  },
+  {
+    "skills": "Oracle",
+    "skill_count": 1,
+    "true_demand": 62
+  },
+  {
+    "skills": "Python",
+    "skill_count": 1,
+    "true_demand": 60
+  },
+  {
+    "skills": "Java, Microservices",
+    "skill_count": 2,
+    "true_demand": 53
+  },
+  {
+    "skills": "Azure",
+    "skill_count": 1,
+    "true_demand": 53
+  },
+  {
+    "skills": "Shell Scripting/Linux",
+    "skill_count": 1,
+    "true_demand": 52
+  },
+  {
+    "skills": "COBOL, DB2, IT Service Management, JCL",
+    "skill_count": 4,
+    "true_demand": 47
+  },
+  {
+    "skills": "Java, JavaScript",
+    "skill_count": 2,
+    "true_demand": 46
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 45
+  },
+  {
+    "skills": "SQL",
+    "skill_count": 1,
+    "true_demand": 44
+  },
+  {
+    "skills": "Oracle, SQL",
+    "skill_count": 2,
+    "true_demand": 43
+  },
+  {
+    "skills": ".NET, Angular, SQL",
+    "skill_count": 3,
+    "true_demand": 42
+  },
+  {
+    "skills": "AWS, Java, Microservices, Oracle, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 41
+  },
+  {
+    "skills": ".NET, Azure, SQL",
+    "skill_count": 3,
+    "true_demand": 40
+  },
+  {
+    "skills": "IT Service Management",
+    "skill_count": 1,
+    "true_demand": 39
+  },
+  {
+    "skills": "ITIL, ServiceNow",
+    "skill_count": 2,
+    "true_demand": 36
+  },
+  {
+    "skills": "Angular, Java, Microservices, Node JS, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 33
+  },
+  {
+    "skills": "JavaScript",
+    "skill_count": 1,
+    "true_demand": 32
+  },
+  {
+    "skills": ".NET, Azure, Node JS, SQL",
+    "skill_count": 4,
+    "true_demand": 32
+  },
+  {
+    "skills": "Software Testing",
+    "skill_count": 1,
+    "true_demand": 30
+  },
+  {
+    "skills": "AWS, Microservices, Python",
+    "skill_count": 3,
+    "true_demand": 29
+  },
+  {
+    "skills": "Node JS",
+    "skill_count": 1,
+    "true_demand": 28
+  },
+  {
+    "skills": "COBOL, JCL",
+    "skill_count": 2,
+    "true_demand": 28
+  },
+  {
+    "skills": "AWS, Java",
+    "skill_count": 2,
+    "true_demand": 26
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, Oracle, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 26
+  },
+  {
+    "skills": "AWS, ITIL, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 26
+  },
+  {
+    "skills": "Spring Boot",
+    "skill_count": 1,
+    "true_demand": 25
+  },
+  {
+    "skills": ".NET, Angular",
+    "skill_count": 2,
+    "true_demand": 24
+  },
+  {
+    "skills": "Agile, ITIL",
+    "skill_count": 2,
+    "true_demand": 24
+  },
+  {
+    "skills": "Agile, ITIL, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 23
+  },
+  {
+    "skills": "Java, MySQL, Oracle, Python",
+    "skill_count": 4,
+    "true_demand": 23
+  },
+  {
+    "skills": "AWS, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 22
+  },
+  {
+    "skills": "COBOL, DB2",
+    "skill_count": 2,
+    "true_demand": 22
+  },
+  {
+    "skills": "Java, Microservices, Node JS, Oracle, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 22
+  },
+  {
+    "skills": "Oracle, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 20
+  },
+  {
+    "skills": ".NET, AWS",
+    "skill_count": 2,
+    "true_demand": 19
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 17
+  },
+  {
+    "skills": "AWS",
+    "skill_count": 1,
+    "true_demand": 15
+  },
+  {
+    "skills": "Java, Oracle, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 15
+  },
+  {
+    "skills": "Angular",
+    "skill_count": 1,
+    "true_demand": 15
+  },
+  {
+    "skills": "COBOL, IT Service Management, JCL",
+    "skill_count": 3,
+    "true_demand": 15
+  },
+  {
+    "skills": ".NET, AWS, Java, Oracle, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 14
+  },
+  {
+    "skills": "Java, JavaScript, Oracle",
+    "skill_count": 3,
+    "true_demand": 14
+  },
+  {
+    "skills": ".NET, Node JS, SQL",
+    "skill_count": 3,
+    "true_demand": 14
+  },
+  {
+    "skills": "DB2, JCL",
+    "skill_count": 2,
+    "true_demand": 13
+  },
+  {
+    "skills": "Java, SQL",
+    "skill_count": 2,
+    "true_demand": 13
+  },
+  {
+    "skills": "COBOL, DB2, JCL, Python",
+    "skill_count": 4,
+    "true_demand": 13
+  },
+  {
+    "skills": "Agile, Java",
+    "skill_count": 2,
+    "true_demand": 13
+  },
+  {
+    "skills": "AWS, Agile, ITIL, Java, Python, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 7,
+    "true_demand": 13
+  },
+  {
+    "skills": "Angular, Java",
+    "skill_count": 2,
+    "true_demand": 12
+  },
+  {
+    "skills": "ITIL, Oracle, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 12
+  },
+  {
+    "skills": ".NET, AWS, Azure, Node JS, Python, SQL",
+    "skill_count": 6,
+    "true_demand": 12
+  },
+  {
+    "skills": ".NET, Python",
+    "skill_count": 2,
+    "true_demand": 11
+  },
+  {
+    "skills": ".NET, AWS, SQL",
+    "skill_count": 3,
+    "true_demand": 11
+  },
+  {
+    "skills": "IT Service Management, Python, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 11
+  },
+  {
+    "skills": "IT Service Management, ITIL",
+    "skill_count": 2,
+    "true_demand": 10
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, MySQL, Oracle",
+    "skill_count": 5,
+    "true_demand": 10
+  },
+  {
+    "skills": "DB2, IT Service Management, JCL",
+    "skill_count": 3,
+    "true_demand": 10
+  },
+  {
+    "skills": "Azure, Java, Microservices, Oracle, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 10
+  },
+  {
+    "skills": "Java, Microservices, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 9
+  },
+  {
+    "skills": "Java, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 9
+  },
+  {
+    "skills": ".NET, Angular, Azure",
+    "skill_count": 3,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, Java, Microservices, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 9
+  },
+  {
+    "skills": ".NET, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, Microservices, Oracle",
+    "skill_count": 3,
+    "true_demand": 9
+  },
+  {
+    "skills": ".NET, AWS, Angular, Azure",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, MySQL, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, Java, Microservices",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": "Java, Microservices, Oracle",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": ".NET, AWS, Angular, Azure, IT Service Management, JavaScript, Node JS, SQL",
+    "skill_count": 8,
+    "true_demand": 8
+  },
+  {
+    "skills": ".NET, Angular, Azure, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 8
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, JavaScript, Oracle",
+    "skill_count": 5,
+    "true_demand": 8
+  },
+  {
+    "skills": "IT Service Management, Java, MySQL, Oracle",
+    "skill_count": 4,
+    "true_demand": 8
+  },
+  {
+    "skills": "Angular, Java, Python",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": "Python, ServiceNow",
+    "skill_count": 2,
+    "true_demand": 8
+  },
+  {
+    "skills": "AWS, Node JS, Python",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": "Microservices, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": "AWS, Azure",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": "Angular, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "MySQL, Oracle",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": ".NET, Java",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": ".NET, JavaScript, SQL",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": ".NET, AWS, IT Service Management, SQL",
+    "skill_count": 4,
+    "true_demand": 7
+  },
+  {
+    "skills": "Java, Oracle, SQL, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 7
+  },
+  {
+    "skills": ".NET, AWS, Azure, IT Service Management, SQL",
+    "skill_count": 5,
+    "true_demand": 7
+  },
+  {
+    "skills": "Azure, Python",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": ".NET, Angular, Azure, SQL",
+    "skill_count": 4,
+    "true_demand": 7
+  },
+  {
+    "skills": "Agile, ITIL, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, SQL, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 7
+  },
+  {
+    "skills": "AWS, Agile, ITIL, Oracle, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 7
+  },
+  {
+    "skills": "Java, Microservices, Node JS, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "SQL, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "Oracle, SQL, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, Oracle, SQL",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, JavaScript, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "AWS, Azure, Java, Microservices, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 6
+  },
+  {
+    "skills": "AWS, Agile, Oracle, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Oracle",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": ".NET, Azure, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "Agile, Software Testing",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "Azure, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, Oracle, ServiceNow",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, Python",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": ".NET, Azure, JavaScript, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, Microservices, Oracle, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, Microservices, Oracle, ServiceNow, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, MySQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "AWS, Python",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "ITIL, Java, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Oracle",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "Microservices, Oracle",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, Java, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, Oracle",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "Java, MySQL",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, MySQL, Oracle",
+    "skill_count": 5,
+    "true_demand": 5
+  },
+  {
+    "skills": "Azure, SQL",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "Azure, Java, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, Azure, IT Service Management, Java, Microservices, MySQL, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, AWS, Azure, IT Service Management, JavaScript, Node JS, SQL",
+    "skill_count": 7,
+    "true_demand": 5
+  },
+  {
+    "skills": "Java, Software Testing",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "Java, MySQL, Node JS, Oracle, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, Java, SQL",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Microservices, MySQL, Oracle, Python, SQL, ServiceNow, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 12,
+    "true_demand": 5
+  },
+  {
+    "skills": "Agile, ITIL, Python, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, ITIL, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, AWS, Angular, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, AWS, Azure, SQL",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "Angular, JavaScript, Node JS",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, MySQL, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "JavaScript, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Azure, IT Service Management, Java, Microservices, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 4
+  },
+  {
+    "skills": "COBOL, IT Service Management, JCL, Python",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Agile, Oracle, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "IT Service Management, Java",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, MySQL, Oracle",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "Azure, Java",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, Microservices, Oracle, SQL, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "MySQL",
+    "skill_count": 1,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Angular, IT Service Management, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, Microservices, Oracle, Python, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, IT Service Management",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "IT Service Management, Java, Oracle, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Agile, Oracle, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, JavaScript, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "Azure, Java, Microservices, MySQL, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "Python, SQL, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Node JS",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, JavaScript, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "COBOL, DB2, IT Service Management",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, Oracle, Python",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, MySQL, Oracle, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Microservices",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Agile, IT Service Management",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Azure, Oracle",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Microservices",
+    "skill_count": 1,
+    "true_demand": 3
+  },
+  {
+    "skills": "Python, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, SQL",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Agile, Java, SQL",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, COBOL, DB2, Java",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Node JS",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "MySQL, Oracle, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, ServiceNow",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, JavaScript, MySQL",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Java, Oracle, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "Agile, JavaScript, Oracle",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "IT Service Management, SQL",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Agile, Java, Microservices, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Java, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, Oracle, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, MySQL, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, AWS, Azure, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Python, SQL",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Azure, Node JS, Python, SQL",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Java, Python",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Azure, Python, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Azure, JavaScript",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, MySQL, Oracle, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "IT Service Management, Oracle, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Angular, JavaScript",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, Microservices, Oracle, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Microservices, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Agile",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Agile, Oracle",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "MySQL, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, AWS, Azure, SQL, Software Testing",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, Java, Node JS, Oracle, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, SQL",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Java, Oracle",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Microservices, Oracle, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, JavaScript, MySQL, Oracle",
+    "skill_count": 6,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, JavaScript, Node JS, Python, SQL",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Agile, ITIL, Oracle, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, Microservices, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Microservices, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Microservices",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, Oracle, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "JavaScript, Oracle, SQL, Software Testing",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Software Testing, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, Oracle, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "MySQL, SQL",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, Oracle, Python",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, Java, JavaScript, Software Testing",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, JavaScript, MySQL, Oracle, SQL, ServiceNow, Shell Scripting/Linux, Software Testing",
+    "skill_count": 10,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, JavaScript, Python, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, Oracle, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "IT Service Management, ServiceNow",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, Microservices, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Azure, Java, Microservices, MySQL, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Microservices, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, IT Service Management, JavaScript, MySQL, Oracle, Python, Shell Scripting/Linux",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Node JS, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, Java, MySQL, Oracle",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Oracle, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, SQL, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Microservices, Oracle, ServiceNow, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, SQL, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Java, Microservices, Oracle, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "DB2, JCL, Python",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "JavaScript, Oracle, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, IT Service Management, Java, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, Java, Oracle, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, Microservices, MySQL, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, MySQL, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Node JS",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, Java, Software Testing",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "ITIL, SQL, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, Java, Microservices, Oracle, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Oracle, Shell Scripting/Linux, Software Testing",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, Java, Microservices, Oracle, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, Oracle, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "ServiceNow, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, AWS, Azure",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "IT Service Management, Java, Oracle, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "JCL",
+    "skill_count": 1,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, Python, SQL, Software Testing",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, Microservices",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, Python",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "ITIL, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, Oracle, Python, ServiceNow, Software Testing",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, Java, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, MySQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, JavaScript, MySQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Azure, Python, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "JavaScript, Node JS, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Oracle, Python, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Agile, Oracle, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, AWS, Angular, Azure, Node JS, SQL",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, IT Service Management, Python, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, COBOL, DB2, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "DB2, IT Service Management, Python",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, MySQL, Oracle, Python, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Microservices, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Node JS, Python",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, MySQL, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Microservices, MySQL, Oracle, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "IT Service Management, ITIL, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Angular, Node JS, Python, SQL",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "DB2, Python",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Microservices, Oracle, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, JavaScript, Node JS, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, MySQL, Oracle, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, AWS, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Oracle, SQL",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, Python, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "ITIL, Java, Python, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "IT Service Management, Java, Oracle, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, ITIL, Oracle, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Node JS, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Azure, Java, Microservices, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, IT Service Management, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Node JS, SQL",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Microservices, Python, SQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, JavaScript, Microservices, Oracle, Python",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, ITIL, Oracle, Python, ServiceNow",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Agile, ITIL, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Angular, Azure, Node JS, Python, SQL",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Shell Scripting/Linux, Software Testing",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "COBOL, Oracle, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Oracle, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, JavaScript",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Node JS, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Microservices",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Node JS, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "DB2, SQL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Oracle",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Node JS",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "MySQL, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Microservices",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Java, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Microservices, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Node JS, Oracle",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Java, JavaScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, Oracle, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, Node JS, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, IT Service Management, Java, Microservices, Oracle, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, IT Service Management, Java, MySQL, Oracle, Python, SQL, ServiceNow, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 11,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, JavaScript, MySQL, Oracle, SQL, Shell Scripting/Linux",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Node JS, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Software Testing, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, MySQL, Node JS, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Oracle, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, IT Service Management, Java, Microservices, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": "COBOL, DB2, JCL, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Oracle, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Azure, ITIL, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Software Testing",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, MySQL, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, DB2, IT Service Management, Java",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, MySQL, Node JS",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Oracle, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Oracle, SQL, Software Testing",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Oracle, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, MySQL, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "DB2, IT Service Management, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Azure, Oracle, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Oracle, Software Testing",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, JavaScript, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Microservices, MySQL, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": "SQL, ServiceNow",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Oracle, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, SQL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Oracle, ServiceNow",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, MySQL, Python, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, JavaScript, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, ITIL, Oracle, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Java, JavaScript, MySQL, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, MySQL, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, IT Service Management, Java, JavaScript, MySQL, Oracle, Python, SQL, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 10,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, Microservices, Oracle, SQL, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Python",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, MySQL, Oracle, Software Testing",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, ITIL, MySQL, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, Oracle, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, MySQL, Oracle, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, JavaScript, Microservices, Oracle, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, SQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, ITIL, Oracle, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, IT Service Management, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, MySQL, Oracle, ServiceNow",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, COBOL, DB2, JCL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, MySQL, Oracle, SQL, ServiceNow, Software Testing, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, MySQL, Oracle, SQL, ServiceNow, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Microservices, Oracle, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, IT Service Management",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, Oracle",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, IT Service Management, Java, Microservices, MySQL, Oracle, SQL, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Azure, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, SQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Java",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Microservices, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Microservices, Oracle, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, Oracle",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, MySQL, Oracle, Python",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, IT Service Management, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Angular, Azure, IT Service Management, JavaScript, SQL",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, JavaScript, Oracle",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, JavaScript, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, Oracle, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Oracle, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, COBOL, DB2",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "COBOL, IT Service Management, JCL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Node JS",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, JavaScript, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Python, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, JavaScript",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Agile, SQL, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, Oracle, ServiceNow, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, JavaScript, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Python, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, MySQL, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, MySQL, Oracle, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, DB2",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, MySQL, Oracle, ServiceNow",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Microservices, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Oracle, Python",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Azure, MySQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, MySQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, IT Service Management, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Oracle",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Microservices, Node JS, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, MySQL, SQL, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, IT Service Management",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Microservices, Oracle, SQL, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, Microservices, Oracle",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Oracle, SQL, ServiceNow",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, JavaScript, Microservices, MySQL, Oracle, SQL, ServiceNow, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 11,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Azure, Oracle, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Oracle, SQL, Software Testing",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, JavaScript, Oracle, SQL, ServiceNow",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, Microservices, MySQL, Node JS, Oracle, SQL, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, Microservices, Oracle, Python, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, SQL, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, Oracle, Python, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "MySQL, Python, SQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Node JS",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, IT Service Management, Java, JavaScript, Microservices, MySQL, Oracle, Python, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 12,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, Oracle, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, MySQL, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, JCL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Microservices, Oracle, ServiceNow, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Azure, Java, MySQL, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, Node JS, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, MySQL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, MySQL, Oracle, Python, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, Oracle, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Oracle, Python, Shell Scripting/Linux",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Oracle",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, JavaScript, SQL, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, IT Service Management, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Node JS, Python, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Oracle, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, IT Service Management, Java, Microservices, MySQL, Oracle, Python, SQL, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 12,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Microservices, MySQL, Oracle, Python, SQL, Shell Scripting/Linux",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, MySQL, Oracle, Python, SQL, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Agile, SQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, Node JS, Oracle, Python, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, ITIL, Oracle, Shell Scripting/Linux, Software Testing",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, MySQL, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "MySQL, Python, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, ITIL, MySQL, Python, ServiceNow",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Azure, MySQL, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Oracle, Python",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, ServiceNow",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Python, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Java, Microservices, SQL, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, MySQL, Oracle, Python",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, MySQL, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, JavaScript",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Microservices, Python, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, MySQL, Oracle, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Azure",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Agile, Azure",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, Oracle",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Python, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "COBOL, Oracle, SQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Microservices, Python, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Oracle, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, MySQL, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Oracle, Python, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, Node JS, Oracle, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Oracle, Python, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, Microservices, MySQL, Oracle, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Angular, Java, MySQL, Node JS, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, Microservices, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, IT Service Management, Java, Microservices, MySQL, Node JS, Oracle, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Microservices, Node JS, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Node JS, SQL, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Azure, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Microservices, MySQL, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Java, Microservices, MySQL, Oracle, Python, SQL, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 10,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Oracle, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "MySQL, Python",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Python, SQL, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, JavaScript, Microservices, Oracle, Python, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, Oracle, SQL, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, MySQL, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Microservices, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, Node JS, Oracle, Python, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Python, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, IT Service Management, Java, Oracle",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, MySQL, Oracle, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Java, Python, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Oracle, ServiceNow",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, JavaScript, MySQL, Python",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Python, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Java, Node JS, Oracle, Shell Scripting/Linux",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Java, Node JS",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Python, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Node JS, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Node JS",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, ITIL, ServiceNow",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, ITIL, Python, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, JavaScript, Node JS, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, Microservices, Node JS, Oracle, Python, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, JavaScript, Oracle, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Java, Oracle",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Oracle, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Azure, JavaScript, Node JS, SQL",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, ITIL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, Java",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, Python, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Java, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, MySQL, Oracle, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Microservices, Python, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, SQL, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, MySQL, Oracle, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, JavaScript, MySQL, Oracle, Python, SQL",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Microservices, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Oracle, Python, SQL, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, SQL, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "IT Service Management, Java, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, Node JS, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, JavaScript, Oracle",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Python, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "ITIL, Python",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, IT Service Management, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, Microservices, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, Python, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, ITIL, SQL, ServiceNow",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Java, SQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Java, Microservices, Oracle, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Oracle, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, ITIL, Java, ServiceNow, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Microservices, MySQL, Oracle, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Python, SQL, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 1
+  }
+]

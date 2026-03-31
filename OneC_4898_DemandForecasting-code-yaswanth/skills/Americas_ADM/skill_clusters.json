@@ -1,0 +1,79 @@
+{
+  "market": "Americas",
+  "num_clusters": 13,
+  "min_jaccard_for_coverage": 0.5,
+  "clusters": [
+    [
+      "Java",
+      "Microservices",
+      "Oracle",
+      "Shell Scripting/Linux",
+      "Software Testing",
+      "Spring Boot"
+    ],
+    [
+      ".NET",
+      "SQL"
+    ],
+    [
+      "COBOL",
+      "DB2",
+      "IT Service Management",
+      "JCL",
+      "VSAM"
+    ],
+    [
+      "Agile",
+      "PPM"
+    ],
+    [
+      "COBOL",
+      "DB2"
+    ],
+    [
+      "AWS",
+      "Java",
+      "Microservices",
+      "Oracle",
+      "Spring Boot"
+    ],
+    [
+      ".NET",
+      "Angular",
+      "Azure",
+      "Node JS",
+      "SQL"
+    ],
+    [
+      "Java",
+      "Oracle"
+    ],
+    [
+      "React",
+      "Spring Boot"
+    ],
+    [
+      "Oracle",
+      "ServiceNow",
+      "Shell Scripting/Linux"
+    ],
+    [
+      "Python",
+      "Shell Scripting/Linux"
+    ],
+    [
+      ".NET",
+      "Node JS",
+      "React",
+      "SQL"
+    ],
+    [
+      "AWS",
+      "Java",
+      "Kubernetes",
+      "Microservices",
+      "Oracle",
+      "Spring Boot"
+    ]
+  ]
+}

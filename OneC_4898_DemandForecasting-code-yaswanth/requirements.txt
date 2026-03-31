@@ -1,0 +1,55 @@
+# Core data processing - FAST versions!
+polars>=0.19.0  # ⚡ Lightning fast DataFrame library (10x-100x faster than pandas!)
+pandas>=1.5.0    # For compatibility
+numpy>=1.21.0
+dask>=2023.5.0
+pyarrow>=10.0.0  # Apache Arrow for high-performance data processing
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# Statistical analysis
+scipy>=1.7.0
+statsmodels>=0.13.0
+
+# Machine learning preprocessing
+scikit-learn>=1.1.0
+imbalanced-learn>=0.11.0  # SMOTE and other techniques for imbalanced data
+
+# Graph analysis and community detection
+networkx>=3.0
+python-louvain>=0.16
+leidenalg  # Leiden algorithm - improved community detection over Louvain
+python-igraph  # Required by leidenalg
+
+# Progress and logging
+tqdm>=4.64.0
+coloredlogs>=15.0.1
+
+# Date utilities
+python-dateutil>=2.8.0
+
+# Jupyter notebook support
+ipykernel>=6.0.0
+jupyter>=1.0.0
+
+# Memory monitoring
+memory-profiler>=0.60.0
+psutil>=5.9.0
+
+# Optional: for advanced time series
+# prophet>=1.1.0
+# torch>=1.12.0
+# pytorch-forecasting>=0.10.0
+catboost>=1.2.0
+shap>=0.42.0  # For interpretable machine learning and feature importance
+optuna>=3.0.0  # Hyperparameter optimization
+
+torch>=2.1.0
+
+# Alternative ML models (optional - for model comparison)
+xgboost  # Install with: pip install xgboost
+lightgbm  # Install with: pip install lightgbm
+autogluon.tabular  # Install with: pip install autogluon (large package, ~2GB)

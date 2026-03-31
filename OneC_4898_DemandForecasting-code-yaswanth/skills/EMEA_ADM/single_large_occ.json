@@ -1,0 +1,112 @@
+[
+  {
+    "skills": ".NET",
+    "skill_count": 1,
+    "true_demand": 894
+  },
+  {
+    "skills": "Java",
+    "skill_count": 1,
+    "true_demand": 568
+  },
+  {
+    "skills": "ServiceNow",
+    "skill_count": 1,
+    "true_demand": 376
+  },
+  {
+    "skills": "COBOL",
+    "skill_count": 1,
+    "true_demand": 178
+  },
+  {
+    "skills": "Agile",
+    "skill_count": 1,
+    "true_demand": 153
+  },
+  {
+    "skills": "DB2",
+    "skill_count": 1,
+    "true_demand": 88
+  },
+  {
+    "skills": "ITIL",
+    "skill_count": 1,
+    "true_demand": 72
+  },
+  {
+    "skills": "Oracle",
+    "skill_count": 1,
+    "true_demand": 62
+  },
+  {
+    "skills": "Python",
+    "skill_count": 1,
+    "true_demand": 60
+  },
+  {
+    "skills": "Azure",
+    "skill_count": 1,
+    "true_demand": 53
+  },
+  {
+    "skills": "Shell Scripting/Linux",
+    "skill_count": 1,
+    "true_demand": 52
+  },
+  {
+    "skills": "SQL",
+    "skill_count": 1,
+    "true_demand": 44
+  },
+  {
+    "skills": "IT Service Management",
+    "skill_count": 1,
+    "true_demand": 39
+  },
+  {
+    "skills": "JavaScript",
+    "skill_count": 1,
+    "true_demand": 32
+  },
+  {
+    "skills": "Software Testing",
+    "skill_count": 1,
+    "true_demand": 30
+  },
+  {
+    "skills": "Node JS",
+    "skill_count": 1,
+    "true_demand": 28
+  },
+  {
+    "skills": "Spring Boot",
+    "skill_count": 1,
+    "true_demand": 25
+  },
+  {
+    "skills": "Angular",
+    "skill_count": 1,
+    "true_demand": 15
+  },
+  {
+    "skills": "AWS",
+    "skill_count": 1,
+    "true_demand": 15
+  },
+  {
+    "skills": "MySQL",
+    "skill_count": 1,
+    "true_demand": 4
+  },
+  {
+    "skills": "Microservices",
+    "skill_count": 1,
+    "true_demand": 3
+  },
+  {
+    "skills": "JCL",
+    "skill_count": 1,
+    "true_demand": 2
+  }
+]

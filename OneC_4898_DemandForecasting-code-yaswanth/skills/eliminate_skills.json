@@ -1,0 +1,11 @@
+{
+  "eliminate": [
+    "JSON",
+    "XML",
+    "Git",
+    "IntelliJ IDEA",
+    "Eclipse",
+    "Visual Studio",
+    "Direct"
+  ]
+}

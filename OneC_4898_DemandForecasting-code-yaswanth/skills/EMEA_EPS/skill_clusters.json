@@ -1,0 +1,30 @@
+{
+  "market": "EMEA",
+  "num_clusters": 6,
+  "min_jaccard_for_coverage": 0.5,
+  "clusters": [
+    [
+      "SAP BW for HANA",
+      "SAP Basis"
+    ],
+    [
+      "SAP FICO",
+      "SAP SD"
+    ],
+    [
+      "SAP ABAP",
+      "SAP Marketing Cloud"
+    ],
+    [
+      "SAP Data Services",
+      "SAP MM"
+    ],
+    [
+      "SAP Basis",
+      "SAP Security"
+    ],
+    [
+      "SAP SuccessFactors"
+    ]
+  ]
+}

@@ -1,0 +1,40 @@
+server {
+    listen 3000;
+    root /usr/share/nginx/html;
+    index index.html;
+
+    # Angular routing — always serve index.html for non-asset paths
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    # Proxy all /api/ calls to FastAPI backend (URL injected at container startup)
+    location /api/ {
+        proxy_pass         ${BACKEND_URL};
+        proxy_http_version 1.1;
+        proxy_set_header   Host              $host;
+        proxy_set_header   X-Real-IP         $remote_addr;
+        proxy_set_header   X-Forwarded-For   $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 60s;
+    }
+
+    # Health check passthrough
+    location /health {
+        proxy_pass ${BACKEND_URL}/health;
+    }
+
+    # Cache static assets aggressively
+    location ~* \.(js|css|png|jpg|ico|svg|woff2?)$ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+    }
+
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 1024;
+    gzip_types
+        text/plain text/css text/xml text/javascript
+        application/json application/javascript application/xml
+        application/x-font-ttf font/opentype image/svg+xml;
+}

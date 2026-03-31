@@ -1,0 +1,137 @@
+[
+  {
+    "skills": ".NET",
+    "skill_count": 1,
+    "true_demand": 3734
+  },
+  {
+    "skills": "Java",
+    "skill_count": 1,
+    "true_demand": 2580
+  },
+  {
+    "skills": "ServiceNow",
+    "skill_count": 1,
+    "true_demand": 1244
+  },
+  {
+    "skills": "COBOL",
+    "skill_count": 1,
+    "true_demand": 890
+  },
+  {
+    "skills": "PPM",
+    "skill_count": 1,
+    "true_demand": 872
+  },
+  {
+    "skills": "Agile",
+    "skill_count": 1,
+    "true_demand": 866
+  },
+  {
+    "skills": "DB2",
+    "skill_count": 1,
+    "true_demand": 403
+  },
+  {
+    "skills": "Oracle",
+    "skill_count": 1,
+    "true_demand": 279
+  },
+  {
+    "skills": "React",
+    "skill_count": 1,
+    "true_demand": 266
+  },
+  {
+    "skills": "Spring Boot",
+    "skill_count": 1,
+    "true_demand": 248
+  },
+  {
+    "skills": "Python",
+    "skill_count": 1,
+    "true_demand": 217
+  },
+  {
+    "skills": "SQL",
+    "skill_count": 1,
+    "true_demand": 212
+  },
+  {
+    "skills": "Angular",
+    "skill_count": 1,
+    "true_demand": 181
+  },
+  {
+    "skills": "Shell Scripting/Linux",
+    "skill_count": 1,
+    "true_demand": 132
+  },
+  {
+    "skills": "IT Service Management",
+    "skill_count": 1,
+    "true_demand": 96
+  },
+  {
+    "skills": "Software Testing",
+    "skill_count": 1,
+    "true_demand": 93
+  },
+  {
+    "skills": "JavaScript",
+    "skill_count": 1,
+    "true_demand": 88
+  },
+  {
+    "skills": "AWS",
+    "skill_count": 1,
+    "true_demand": 73
+  },
+  {
+    "skills": "Azure",
+    "skill_count": 1,
+    "true_demand": 66
+  },
+  {
+    "skills": "Node JS",
+    "skill_count": 1,
+    "true_demand": 59
+  },
+  {
+    "skills": "Microservices",
+    "skill_count": 1,
+    "true_demand": 40
+  },
+  {
+    "skills": "Splunk",
+    "skill_count": 1,
+    "true_demand": 31
+  },
+  {
+    "skills": "VSAM",
+    "skill_count": 1,
+    "true_demand": 17
+  },
+  {
+    "skills": "Gen AI",
+    "skill_count": 1,
+    "true_demand": 13
+  },
+  {
+    "skills": "MySQL",
+    "skill_count": 1,
+    "true_demand": 13
+  },
+  {
+    "skills": "JCL",
+    "skill_count": 1,
+    "true_demand": 12
+  },
+  {
+    "skills": "Kubernetes",
+    "skill_count": 1,
+    "true_demand": 5
+  }
+]

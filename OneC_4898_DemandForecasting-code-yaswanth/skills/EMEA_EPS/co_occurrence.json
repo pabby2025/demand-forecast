@@ -1,0 +1,242 @@
+[
+  {
+    "skills": "SAP BW for HANA",
+    "skill_count": 1,
+    "true_demand": 692
+  },
+  {
+    "skills": "SAP Basis",
+    "skill_count": 1,
+    "true_demand": 677
+  },
+  {
+    "skills": "SAP FICO",
+    "skill_count": 1,
+    "true_demand": 624
+  },
+  {
+    "skills": "SAP SD",
+    "skill_count": 1,
+    "true_demand": 505
+  },
+  {
+    "skills": "SAP ABAP",
+    "skill_count": 1,
+    "true_demand": 440
+  },
+  {
+    "skills": "SAP MM",
+    "skill_count": 1,
+    "true_demand": 375
+  },
+  {
+    "skills": "SAP ABAP, SAP Marketing Cloud",
+    "skill_count": 2,
+    "true_demand": 299
+  },
+  {
+    "skills": "SAP Security",
+    "skill_count": 1,
+    "true_demand": 287
+  },
+  {
+    "skills": "SAP SuccessFactors",
+    "skill_count": 1,
+    "true_demand": 250
+  },
+  {
+    "skills": "SAP Data Services",
+    "skill_count": 1,
+    "true_demand": 198
+  },
+  {
+    "skills": "SAP MM, SAP SD",
+    "skill_count": 2,
+    "true_demand": 85
+  },
+  {
+    "skills": "SAP Marketing Cloud",
+    "skill_count": 1,
+    "true_demand": 81
+  },
+  {
+    "skills": "SAP Basis, SAP Security",
+    "skill_count": 2,
+    "true_demand": 77
+  },
+  {
+    "skills": "SAP ABAP, SAP BW for HANA",
+    "skill_count": 2,
+    "true_demand": 75
+  },
+  {
+    "skills": "SAP BW for HANA, SAP Data Services",
+    "skill_count": 2,
+    "true_demand": 38
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP Marketing Cloud",
+    "skill_count": 3,
+    "true_demand": 31
+  },
+  {
+    "skills": "SAP Data Services, SAP MM",
+    "skill_count": 2,
+    "true_demand": 28
+  },
+  {
+    "skills": "SAP FICO, SAP MM, SAP SD",
+    "skill_count": 3,
+    "true_demand": 23
+  },
+  {
+    "skills": "SAP FICO, SAP SD",
+    "skill_count": 2,
+    "true_demand": 18
+  },
+  {
+    "skills": "SAP FICO, SAP MM",
+    "skill_count": 2,
+    "true_demand": 17
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP MM",
+    "skill_count": 3,
+    "true_demand": 12
+  },
+  {
+    "skills": "SAP Data Services, SAP FICO, SAP MM",
+    "skill_count": 3,
+    "true_demand": 12
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis",
+    "skill_count": 2,
+    "true_demand": 11
+  },
+  {
+    "skills": "SAP ABAP, SAP MM",
+    "skill_count": 2,
+    "true_demand": 10
+  },
+  {
+    "skills": "SAP ABAP, SAP FICO",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP MM, SAP Marketing Cloud",
+    "skill_count": 4,
+    "true_demand": 7
+  },
+  {
+    "skills": "SAP BW for HANA, SAP Basis",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP FICO, SAP MM, SAP Marketing Cloud, SAP SD",
+    "skill_count": 6,
+    "true_demand": 6
+  },
+  {
+    "skills": "SAP Basis, SAP FICO",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "SAP ABAP, SAP MM, SAP Marketing Cloud",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "SAP FICO, SAP Marketing Cloud",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "SAP ABAP, SAP Security",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "SAP Basis, SAP Marketing Cloud",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "SAP ABAP, SAP SD",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "SAP BW for HANA, SAP SD",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "SAP BW for HANA, SAP FICO",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "SAP ABAP, SAP FICO, SAP Marketing Cloud",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "SAP Data Services, SAP FICO",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "SAP ABAP, SAP MM, SAP Marketing Cloud, SAP SD",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP BW for HANA, SAP Basis, SAP Data Services",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP ABAP, SAP Marketing Cloud, SAP Security",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP BW for HANA, SAP Marketing Cloud",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP ABAP, SAP SuccessFactors",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP ABAP, SAP FICO, SAP SD",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP Basis, SAP MM",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP SD, SAP Security",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP FICO, SAP Marketing Cloud, SAP SD",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP FICO, SAP Security",
+    "skill_count": 2,
+    "true_demand": 1
+  }
+]

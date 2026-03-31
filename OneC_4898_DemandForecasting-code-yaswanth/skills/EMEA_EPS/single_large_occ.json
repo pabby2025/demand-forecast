@@ -1,0 +1,52 @@
+[
+  {
+    "skills": "SAP BW for HANA",
+    "skill_count": 1,
+    "true_demand": 692
+  },
+  {
+    "skills": "SAP Basis",
+    "skill_count": 1,
+    "true_demand": 677
+  },
+  {
+    "skills": "SAP FICO",
+    "skill_count": 1,
+    "true_demand": 624
+  },
+  {
+    "skills": "SAP SD",
+    "skill_count": 1,
+    "true_demand": 505
+  },
+  {
+    "skills": "SAP ABAP",
+    "skill_count": 1,
+    "true_demand": 440
+  },
+  {
+    "skills": "SAP MM",
+    "skill_count": 1,
+    "true_demand": 375
+  },
+  {
+    "skills": "SAP Security",
+    "skill_count": 1,
+    "true_demand": 287
+  },
+  {
+    "skills": "SAP SuccessFactors",
+    "skill_count": 1,
+    "true_demand": 250
+  },
+  {
+    "skills": "SAP Data Services",
+    "skill_count": 1,
+    "true_demand": 198
+  },
+  {
+    "skills": "SAP Marketing Cloud",
+    "skill_count": 1,
+    "true_demand": 81
+  }
+]

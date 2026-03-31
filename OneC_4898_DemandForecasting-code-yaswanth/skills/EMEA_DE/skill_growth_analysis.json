@@ -1,0 +1,859 @@
+{
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "skills": [
+    {
+      "skill": "Adobe Campaign",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 224,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Adobe Commerce",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 225,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Ajax",
+      "demands": {
+        "2023": 0,
+        "2024": 10,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 74,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Amazon API Gateway",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 227,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Amazon Aurora",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 228,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Android NDK",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 177,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Android Testing",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 229,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Apache Ant",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 179,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Apache Tomcat",
+      "demands": {
+        "2023": 0,
+        "2024": 4,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 142,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "App Extensions",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 231,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "AppDynamics",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 180,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Application Environment Setup",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 232,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Apttus",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 181,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Aras",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 182,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Argus PL SQL",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 234,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "ARIS",
+      "demands": {
+        "2023": 0,
+        "2024": 21,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 54,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Attivio",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 235,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Authentication & Authorization",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 183,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Automated Insights",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 185,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Automotive Industry",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 155,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Availability",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 186,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Azure DB Migration service",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 236,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Backbone js",
+      "demands": {
+        "2023": 0,
+        "2024": 4,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 144,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Beats",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 239,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Build Acceptance Validation",
+      "demands": {
+        "2023": 0,
+        "2024": 8,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 95,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Business Resilience Management",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 240,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "CA Agile Central",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 241,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Change",
+      "demands": {
+        "2023": 0,
+        "2024": 7,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 104,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "ClearQuest",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 243,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Client Focus",
+      "demands": {
+        "2023": 0,
+        "2024": 28,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 44,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Client Focused",
+      "demands": {
+        "2023": 0,
+        "2024": 7,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 105,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Cloud Functions",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 244,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Collab & Comm Mgmt",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 246,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Collaborative",
+      "demands": {
+        "2023": 0,
+        "2024": 7,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 106,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Content Audit",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 247,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Content Delivery Patterns",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 248,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Cordova",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 189,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Couchbase",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 156,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Data Architecture",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 191,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Data Visualization",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 249,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Database Security",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 251,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Dell Migration Suite for SharePoint",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 193,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Documentum",
+      "demands": {
+        "2023": 0,
+        "2024": 10,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 77,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Dojo Toolkit",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 194,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Domain Industry Knowledge",
+      "demands": {
+        "2023": 0,
+        "2024": 27,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 48,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Domain Knowledge",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 253,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "DX Product Lifecycle Management",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 255,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Dynamics 365 Finance & Operations",
+      "demands": {
+        "2023": 0,
+        "2024": 5,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 129,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "DynamoDB",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 256,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "ECCS",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 257,
+        "2025": 355
+      },
+      "rank_change_start_to_end": -354,
+      "abs_rank_change": 354,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    }
+  ]
+}

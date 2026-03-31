@@ -1,0 +1,147 @@
+[
+  {
+    "skills": "Agile",
+    "skill_count": 1,
+    "true_demand": 1257
+  },
+  {
+    "skills": "React",
+    "skill_count": 1,
+    "true_demand": 1079
+  },
+  {
+    "skills": "Java",
+    "skill_count": 1,
+    "true_demand": 926
+  },
+  {
+    "skills": ".NET",
+    "skill_count": 1,
+    "true_demand": 614
+  },
+  {
+    "skills": "Software Testing",
+    "skill_count": 1,
+    "true_demand": 552
+  },
+  {
+    "skills": "iOS",
+    "skill_count": 1,
+    "true_demand": 500
+  },
+  {
+    "skills": "Android",
+    "skill_count": 1,
+    "true_demand": 440
+  },
+  {
+    "skills": "Angular",
+    "skill_count": 1,
+    "true_demand": 384
+  },
+  {
+    "skills": "Node JS",
+    "skill_count": 1,
+    "true_demand": 299
+  },
+  {
+    "skills": "Azure",
+    "skill_count": 1,
+    "true_demand": 283
+  },
+  {
+    "skills": "Python",
+    "skill_count": 1,
+    "true_demand": 220
+  },
+  {
+    "skills": "Project Management",
+    "skill_count": 1,
+    "true_demand": 211
+  },
+  {
+    "skills": "DevOps",
+    "skill_count": 1,
+    "true_demand": 188
+  },
+  {
+    "skills": "AWS",
+    "skill_count": 1,
+    "true_demand": 187
+  },
+  {
+    "skills": "Spring Boot",
+    "skill_count": 1,
+    "true_demand": 161
+  },
+  {
+    "skills": "JavaScript",
+    "skill_count": 1,
+    "true_demand": 97
+  },
+  {
+    "skills": "React Native",
+    "skill_count": 1,
+    "true_demand": 97
+  },
+  {
+    "skills": "HTML/CSS",
+    "skill_count": 1,
+    "true_demand": 69
+  },
+  {
+    "skills": "SQL",
+    "skill_count": 1,
+    "true_demand": 49
+  },
+  {
+    "skills": "Docker Containers",
+    "skill_count": 1,
+    "true_demand": 46
+  },
+  {
+    "skills": "Shell Scripting/Linux",
+    "skill_count": 1,
+    "true_demand": 38
+  },
+  {
+    "skills": "Kafka",
+    "skill_count": 1,
+    "true_demand": 33
+  },
+  {
+    "skills": "Microservices",
+    "skill_count": 1,
+    "true_demand": 20
+  },
+  {
+    "skills": "C#",
+    "skill_count": 1,
+    "true_demand": 15
+  },
+  {
+    "skills": "TypeScript",
+    "skill_count": 1,
+    "true_demand": 14
+  },
+  {
+    "skills": "Jenkins",
+    "skill_count": 1,
+    "true_demand": 10
+  },
+  {
+    "skills": "Design Patterns",
+    "skill_count": 1,
+    "true_demand": 7
+  },
+  {
+    "skills": "Terraform",
+    "skill_count": 1,
+    "true_demand": 7
+  },
+  {
+    "skills": "MySQL",
+    "skill_count": 1,
+    "true_demand": 4
+  }
+]

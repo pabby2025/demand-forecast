@@ -1,0 +1,132 @@
+<!-- New Scenario View -->
+<div *ngIf="view === 'new'" class="space-y-5">
+  <div class="flex items-center gap-3">
+    <button (click)="view = 'list'" class="text-gray-400 hover:text-gray-600 text-sm">← Back</button>
+    <h1 class="text-xl font-bold text-gray-900">New Scenario</h1>
+  </div>
+  <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
+    <div class="grid grid-cols-2 gap-4 mb-6">
+      <div>
+        <label class="block text-xs font-medium text-gray-600 mb-1">Scenario Name</label>
+        <input [(ngModel)]="formName" type="text" placeholder="e.g. Q3 Expansion Plan"
+               class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:border-teal-500" />
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-gray-600 mb-1">Description</label>
+        <input [(ngModel)]="formDesc" type="text" placeholder="Brief description..."
+               class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:border-teal-500" />
+      </div>
+    </div>
+    <ng-container *ngTemplateOutlet="driverForm"></ng-container>
+    <div class="flex gap-3 justify-end mt-5">
+      <button (click)="view = 'list'" class="px-5 py-2 border border-gray-200 text-gray-600 text-sm rounded-lg hover:bg-gray-50">Cancel</button>
+      <button (click)="submitNew()" [disabled]="!formName" class="px-5 py-2 bg-[#00BCD4] text-white text-sm font-medium rounded-lg hover:bg-[#00ACC1] disabled:opacity-50">Submit for Review</button>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Scenario View -->
+<div *ngIf="view === 'edit' && editTarget" class="space-y-5">
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <button (click)="view = 'list'" class="text-gray-400 hover:text-gray-600 text-sm">← Back</button>
+      <h1 class="text-xl font-bold text-gray-900">{{ editTarget.name }}</h1>
+      <app-status-badge [status]="editTarget.status"></app-status-badge>
+    </div>
+    <div *ngIf="editTarget.status === 'In Review'" class="flex gap-2">
+      <button (click)="approve()" class="px-4 py-1.5 bg-green-600 text-white text-xs rounded-lg hover:bg-green-700">Approve</button>
+      <button (click)="reject()" class="px-4 py-1.5 bg-red-600 text-white text-xs rounded-lg hover:bg-red-700">Reject</button>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
+    <ng-container *ngTemplateOutlet="driverForm"></ng-container>
+    <div class="flex gap-3 justify-end mt-5">
+      <button (click)="view = 'list'" class="px-5 py-2 border border-gray-200 text-gray-600 text-sm rounded-lg hover:bg-gray-50">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- List View -->
+<div *ngIf="view === 'list'" class="space-y-5">
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <h1 class="text-xl font-bold text-gray-900">Scenario Planning</h1>
+      <span class="bg-[#1B2559] text-white text-xs font-bold px-2 py-0.5 rounded-full">{{ scenarios.length }}</span>
+    </div>
+    <button (click)="openNew()" class="flex items-center gap-2 bg-[#00BCD4] text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-[#00ACC1] transition-colors">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19" stroke-width="2"/><line x1="5" y1="12" x2="19" y2="12" stroke-width="2"/></svg>
+      New Scenario
+    </button>
+  </div>
+  <app-loading-skeleton *ngIf="loading" type="table" [rows]="3"></app-loading-skeleton>
+  <app-error-card *ngIf="error && !loading" (onRetry)="load()"></app-error-card>
+  <div *ngIf="!loading && !error" class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div *ngFor="let scn of scenarios" (click)="openEdit(scn)"
+         class="bg-white rounded-xl border border-gray-100 shadow-sm p-5 cursor-pointer hover:border-[#00BCD4] transition-colors">
+      <div class="flex items-start justify-between mb-3">
+        <div class="w-8 h-8 bg-blue-50 rounded-lg flex items-center justify-center">
+          <svg class="w-4 h-4 text-[#1B2559]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><line x1="6" y1="3" x2="6" y2="15" stroke-width="2"/><circle cx="18" cy="6" r="3" stroke-width="2"/><circle cx="6" cy="18" r="3" stroke-width="2"/><path d="M18 9a9 9 0 0 1-9 9" stroke-width="2"/></svg>
+        </div>
+        <app-status-badge [status]="scn.status"></app-status-badge>
+      </div>
+      <h3 class="font-semibold text-gray-900 text-sm mb-1">{{ scn.name }}</h3>
+      <p class="text-xs text-gray-500 mb-4 line-clamp-2">{{ scn.description }}</p>
+      <div class="grid grid-cols-2 gap-2 text-xs">
+        <div class="bg-gray-50 rounded-lg p-2">
+          <div class="text-gray-400">Demand Δ</div>
+          <div [class]="'font-bold mt-0.5 ' + deltaClass(scn.impact?.demand_delta ?? 0)">
+            {{ (scn.impact?.demand_delta ?? 0) >= 0 ? '+' : '' }}{{ (scn.impact?.demand_delta ?? 0) | number }}
+          </div>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-2">
+          <div class="text-gray-400">Δ %</div>
+          <div [class]="'font-bold mt-0.5 ' + deltaClass(scn.impact?.demand_delta_pct ?? 0)">
+            {{ (scn.impact?.demand_delta_pct ?? 0) >= 0 ? '+' : '' }}{{ scn.impact?.demand_delta_pct ?? 0 }}%
+          </div>
+        </div>
+      </div>
+      <div class="text-xs text-gray-400 mt-3">By {{ scn.created_by }} · {{ scn.created_at }}</div>
+    </div>
+  </div>
+</div>
+
+<!-- Driver Form Template -->
+<ng-template #driverForm>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div class="bg-gray-50 rounded-xl p-5">
+      <h3 class="text-sm font-semibold text-gray-700 mb-4">Driver Adjustments</h3>
+      <div class="space-y-5">
+        <div *ngFor="let key of driverKeys">
+          <div class="flex justify-between mb-1.5">
+            <label class="text-xs font-medium text-gray-600">{{ driverLabels[key] }}</label>
+            <span [class]="'text-xs font-bold ' + (formDrivers[key] >= 0 ? 'text-green-600' : 'text-red-500')">
+              {{ formDrivers[key] >= 0 ? '+' : '' }}{{ formDrivers[key] }}%
+            </span>
+          </div>
+          <input type="range" min="-20" max="30" step="0.5" [(ngModel)]="formDrivers[key]" (input)="onDriverChange()" [disabled]="isReadOnly()" class="w-full" />
+          <div class="flex justify-between text-xs text-gray-400 mt-0.5"><span>-20%</span><span>0%</span><span>+30%</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="space-y-4">
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+        <h3 class="text-sm font-semibold text-gray-700 mb-3">Forecast Impact</h3>
+        <div class="space-y-3">
+          <div class="flex justify-between text-sm"><span class="text-gray-500">Baseline Demand</span><span class="font-semibold">47,420</span></div>
+          <div class="flex justify-between text-sm">
+            <span class="text-gray-500">Delta</span>
+            <span [class]="'font-bold ' + deltaClass(impact.delta)">{{ impact.delta >= 0 ? '+' : '' }}{{ impact.delta | number }} ({{ impact.delta_pct >= 0 ? '+' : '' }}{{ impact.delta_pct }}%)</span>
+          </div>
+          <div class="border-t pt-3 flex justify-between text-sm">
+            <span class="text-gray-700 font-medium">Scenario Total</span>
+            <span class="font-bold text-[#1B2559] text-base">{{ impact.new_total | number }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+        <h3 class="text-sm font-semibold text-gray-700 mb-3">Baseline vs Scenario</h3>
+        <div style="height:140px"><canvas baseChart [data]="comparisonChart" [type]="'line'" [options]="chartOptions"></canvas></div>
+      </div>
+    </div>
+  </div>
+</ng-template>

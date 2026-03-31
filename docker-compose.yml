@@ -1,0 +1,83 @@
+version: '3.9'
+
+# ── Demand Forecast Planner — Full Stack ──────────────────────────────────────
+# Services:  frontend (nginx:3000) → backend (fastapi:8000) → db (postgres:5432)
+#
+# Quick start:
+#   cp .env.example .env          # edit passwords if needed
+#   docker-compose up --build     # builds all images, starts everything
+#   open http://localhost:3000    # Angular app
+#   open http://localhost:8000/docs  # FastAPI Swagger UI
+#
+# DB schema is initialised automatically on first run from database/docker-init/
+
+services:
+
+  # ── PostgreSQL ──────────────────────────────────────────────────────────────
+  db:
+    image: ankane/pgvector:latest   # postgres:15 + pgvector extension
+    container_name: dfc_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB:       ${POSTGRES_DB:-demand_forecast_db}
+      POSTGRES_USER:     ${POSTGRES_USER:-dfc_app}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dfc_secret_2026}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Init scripts run in alphabetical order on first boot (empty volume only)
+      - ./database/docker-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-dfc_app} -d ${POSTGRES_DB:-demand_forecast_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  # ── FastAPI Backend ─────────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: dfc_backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL:     postgresql://${POSTGRES_USER:-dfc_app}:${POSTGRES_PASSWORD:-dfc_secret_2026}@db:5432/${POSTGRES_DB:-demand_forecast_db}
+      SECRET_KEY:       ${SECRET_KEY:-change_me_in_production_32chars_min}
+      AZURE_OPENAI_KEY: ${AZURE_OPENAI_KEY:-mock}
+      ENVIRONMENT:      ${ENVIRONMENT:-production}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # ── Angular Frontend (nginx) ────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend-ang
+      dockerfile: Dockerfile
+    container_name: dfc_frontend
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3000/ | grep -q '<title>' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  pgdata:
+    driver: local

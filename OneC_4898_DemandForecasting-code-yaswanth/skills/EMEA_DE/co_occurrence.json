@@ -1,0 +1,4487 @@
+[
+  {
+    "skills": "AWS, Angular, Java, JavaScript, MySQL, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 583
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, React, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 568
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 556
+  },
+  {
+    "skills": "Agile",
+    "skill_count": 1,
+    "true_demand": 445
+  },
+  {
+    "skills": ".NET, Angular, Azure, C#, JavaScript, SQL",
+    "skill_count": 6,
+    "true_demand": 384
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, MySQL, Node JS, SQL",
+    "skill_count": 7,
+    "true_demand": 364
+  },
+  {
+    "skills": "Java, Microservices, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 218
+  },
+  {
+    "skills": "React",
+    "skill_count": 1,
+    "true_demand": 205
+  },
+  {
+    "skills": "Java, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 203
+  },
+  {
+    "skills": ".NET",
+    "skill_count": 1,
+    "true_demand": 190
+  },
+  {
+    "skills": "Agile, Microsoft 365, Project Management",
+    "skill_count": 3,
+    "true_demand": 188
+  },
+  {
+    "skills": "Software Testing",
+    "skill_count": 1,
+    "true_demand": 176
+  },
+  {
+    "skills": "Java",
+    "skill_count": 1,
+    "true_demand": 175
+  },
+  {
+    "skills": ".NET, Azure, C#, SQL",
+    "skill_count": 4,
+    "true_demand": 172
+  },
+  {
+    "skills": "Design Patterns, Java, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 172
+  },
+  {
+    "skills": ".NET, Azure, C#, JavaScript, React, SQL",
+    "skill_count": 6,
+    "true_demand": 166
+  },
+  {
+    "skills": "Angular",
+    "skill_count": 1,
+    "true_demand": 135
+  },
+  {
+    "skills": "Azure",
+    "skill_count": 1,
+    "true_demand": 130
+  },
+  {
+    "skills": "API Development, Apigee, Azure, DevOps, Docker Containers, Jenkins, Software Testing, Terraform",
+    "skill_count": 8,
+    "true_demand": 122
+  },
+  {
+    "skills": "DevOps",
+    "skill_count": 1,
+    "true_demand": 121
+  },
+  {
+    "skills": "AWS",
+    "skill_count": 1,
+    "true_demand": 113
+  },
+  {
+    "skills": "Angular, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 110
+  },
+  {
+    "skills": "API Development, AWS, Apigee, DevOps, Docker Containers, Jenkins, Software Testing, Terraform",
+    "skill_count": 8,
+    "true_demand": 110
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, React Native, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 110
+  },
+  {
+    "skills": ".NET, Azure, DevOps, SQL, Software Testing",
+    "skill_count": 5,
+    "true_demand": 105
+  },
+  {
+    "skills": "Node JS, React",
+    "skill_count": 2,
+    "true_demand": 95
+  },
+  {
+    "skills": "Angular, Java, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 75
+  },
+  {
+    "skills": "JavaScript, React",
+    "skill_count": 2,
+    "true_demand": 74
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, React",
+    "skill_count": 3,
+    "true_demand": 73
+  },
+  {
+    "skills": "HTML/CSS, JavaScript",
+    "skill_count": 2,
+    "true_demand": 71
+  },
+  {
+    "skills": ".NET, Angular, Azure",
+    "skill_count": 3,
+    "true_demand": 69
+  },
+  {
+    "skills": "Agile, Project Management",
+    "skill_count": 2,
+    "true_demand": 67
+  },
+  {
+    "skills": ".NET, Angular",
+    "skill_count": 2,
+    "true_demand": 66
+  },
+  {
+    "skills": "Project Management",
+    "skill_count": 1,
+    "true_demand": 64
+  },
+  {
+    "skills": "Angular, Java, JavaScript, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 59
+  },
+  {
+    "skills": "AWS, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 56
+  },
+  {
+    "skills": ".NET, Angular, Azure, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 51
+  },
+  {
+    "skills": "React Native",
+    "skill_count": 1,
+    "true_demand": 50
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript",
+    "skill_count": 3,
+    "true_demand": 49
+  },
+  {
+    "skills": "Java, Microservices",
+    "skill_count": 2,
+    "true_demand": 49
+  },
+  {
+    "skills": "JavaScript",
+    "skill_count": 1,
+    "true_demand": 47
+  },
+  {
+    "skills": "React, TypeScript",
+    "skill_count": 2,
+    "true_demand": 46
+  },
+  {
+    "skills": "Java, JavaScript",
+    "skill_count": 2,
+    "true_demand": 45
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Node JS, React, TypeScript",
+    "skill_count": 6,
+    "true_demand": 45
+  },
+  {
+    "skills": "Java, JavaScript, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 44
+  },
+  {
+    "skills": "AWS, Java, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 43
+  },
+  {
+    "skills": "Spring Boot",
+    "skill_count": 1,
+    "true_demand": 41
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, SQL",
+    "skill_count": 5,
+    "true_demand": 39
+  },
+  {
+    "skills": "Java, React",
+    "skill_count": 2,
+    "true_demand": 38
+  },
+  {
+    "skills": "HTML/CSS",
+    "skill_count": 1,
+    "true_demand": 37
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, Node JS, React, TypeScript",
+    "skill_count": 5,
+    "true_demand": 37
+  },
+  {
+    "skills": "AWS, Java, MySQL, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 37
+  },
+  {
+    "skills": "Java, JavaScript, Software Testing",
+    "skill_count": 3,
+    "true_demand": 37
+  },
+  {
+    "skills": ".NET, Azure, SQL",
+    "skill_count": 3,
+    "true_demand": 36
+  },
+  {
+    "skills": ".NET, SQL",
+    "skill_count": 2,
+    "true_demand": 35
+  },
+  {
+    "skills": "Java, Software Testing",
+    "skill_count": 2,
+    "true_demand": 35
+  },
+  {
+    "skills": "Python",
+    "skill_count": 1,
+    "true_demand": 35
+  },
+  {
+    "skills": "Angular, JavaScript",
+    "skill_count": 2,
+    "true_demand": 34
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Microservices, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 34
+  },
+  {
+    "skills": "AWS, Java, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 34
+  },
+  {
+    "skills": "AWS, Node JS",
+    "skill_count": 2,
+    "true_demand": 34
+  },
+  {
+    "skills": "AWS, Node JS, React",
+    "skill_count": 3,
+    "true_demand": 32
+  },
+  {
+    "skills": "Java, JavaScript, React, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 31
+  },
+  {
+    "skills": ".NET, JavaScript",
+    "skill_count": 2,
+    "true_demand": 31
+  },
+  {
+    "skills": "Node JS",
+    "skill_count": 1,
+    "true_demand": 31
+  },
+  {
+    "skills": "GCP, Java, JavaScript, MySQL, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 31
+  },
+  {
+    "skills": ".NET, Azure",
+    "skill_count": 2,
+    "true_demand": 30
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 30
+  },
+  {
+    "skills": "HTML/CSS, Java, JavaScript",
+    "skill_count": 3,
+    "true_demand": 29
+  },
+  {
+    "skills": "DevOps, GCP",
+    "skill_count": 2,
+    "true_demand": 29
+  },
+  {
+    "skills": "Angular, HTML/CSS",
+    "skill_count": 2,
+    "true_demand": 28
+  },
+  {
+    "skills": "Microsoft 365, Node JS, React, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 28
+  },
+  {
+    "skills": "JavaScript, Node JS, React",
+    "skill_count": 3,
+    "true_demand": 28
+  },
+  {
+    "skills": "Microsoft 365, Project Management",
+    "skill_count": 2,
+    "true_demand": 28
+  },
+  {
+    "skills": "HTML/CSS, React",
+    "skill_count": 2,
+    "true_demand": 26
+  },
+  {
+    "skills": "Java, React, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 26
+  },
+  {
+    "skills": "Java, Python",
+    "skill_count": 2,
+    "true_demand": 26
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, Java, Jenkins, Microservices, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 26
+  },
+  {
+    "skills": "Angular, Java",
+    "skill_count": 2,
+    "true_demand": 25
+  },
+  {
+    "skills": "React, React Native",
+    "skill_count": 2,
+    "true_demand": 25
+  },
+  {
+    "skills": ".NET, Angular, JavaScript",
+    "skill_count": 3,
+    "true_demand": 24
+  },
+  {
+    "skills": "Java, SQL, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 24
+  },
+  {
+    "skills": "Microservices, SQL, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 24
+  },
+  {
+    "skills": "API Development",
+    "skill_count": 1,
+    "true_demand": 23
+  },
+  {
+    "skills": "GCP",
+    "skill_count": 1,
+    "true_demand": 23
+  },
+  {
+    "skills": "Microsoft 365",
+    "skill_count": 1,
+    "true_demand": 23
+  },
+  {
+    "skills": "Node JS, React, React Native",
+    "skill_count": 3,
+    "true_demand": 23
+  },
+  {
+    "skills": ".NET, C#, SQL",
+    "skill_count": 3,
+    "true_demand": 22
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 21
+  },
+  {
+    "skills": "JavaScript, Software Testing",
+    "skill_count": 2,
+    "true_demand": 21
+  },
+  {
+    "skills": "Angular, Java, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 21
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, TypeScript",
+    "skill_count": 3,
+    "true_demand": 21
+  },
+  {
+    "skills": ".NET, Angular, C#, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 20
+  },
+  {
+    "skills": "Agile, Microsoft 365",
+    "skill_count": 2,
+    "true_demand": 20
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 20
+  },
+  {
+    "skills": "API Development, Apigee, DevOps, Docker Containers, GCP, Jenkins, Software Testing, Terraform",
+    "skill_count": 8,
+    "true_demand": 20
+  },
+  {
+    "skills": "Java, Node JS",
+    "skill_count": 2,
+    "true_demand": 19
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, Node JS, React",
+    "skill_count": 4,
+    "true_demand": 19
+  },
+  {
+    "skills": "Design Patterns, Java, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 19
+  },
+  {
+    "skills": "AWS, Java",
+    "skill_count": 2,
+    "true_demand": 19
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Node JS, TypeScript",
+    "skill_count": 5,
+    "true_demand": 19
+  },
+  {
+    "skills": "Angular, Java, JavaScript",
+    "skill_count": 3,
+    "true_demand": 18
+  },
+  {
+    "skills": "API Development, AWS, Apigee, DevOps, Docker Containers, Jenkins, Microservices, Software Testing, Terraform",
+    "skill_count": 9,
+    "true_demand": 18
+  },
+  {
+    "skills": "Java, Microservices, MySQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 18
+  },
+  {
+    "skills": "Azure, DevOps",
+    "skill_count": 2,
+    "true_demand": 18
+  },
+  {
+    "skills": "AWS, Java, JavaScript, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 18
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, React, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 18
+  },
+  {
+    "skills": "Azure, JavaScript, React, SQL",
+    "skill_count": 4,
+    "true_demand": 18
+  },
+  {
+    "skills": "Java, Microservices, MySQL, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 17
+  },
+  {
+    "skills": "AWS, Design Patterns, DevOps, Java, Project Management, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 17
+  },
+  {
+    "skills": "Java, React, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 17
+  },
+  {
+    "skills": "GCP, Node JS, React",
+    "skill_count": 3,
+    "true_demand": 17
+  },
+  {
+    "skills": "AWS, GCP",
+    "skill_count": 2,
+    "true_demand": 17
+  },
+  {
+    "skills": "HTML/CSS, Node JS, React",
+    "skill_count": 3,
+    "true_demand": 16
+  },
+  {
+    "skills": "AWS, Java, JavaScript, React, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 16
+  },
+  {
+    "skills": "Java, Software Testing, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 16
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, TypeScript",
+    "skill_count": 4,
+    "true_demand": 16
+  },
+  {
+    "skills": "AWS, Azure",
+    "skill_count": 2,
+    "true_demand": 16
+  },
+  {
+    "skills": "JavaScript, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 16
+  },
+  {
+    "skills": "AWS, Python",
+    "skill_count": 2,
+    "true_demand": 16
+  },
+  {
+    "skills": "GCP, Node JS, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 16
+  },
+  {
+    "skills": "Node JS, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 16
+  },
+  {
+    "skills": "Java, MySQL, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 15
+  },
+  {
+    "skills": "Angular, Node JS",
+    "skill_count": 2,
+    "true_demand": 15
+  },
+  {
+    "skills": ".NET, React",
+    "skill_count": 2,
+    "true_demand": 15
+  },
+  {
+    "skills": "Angular, Java, JavaScript, MySQL, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 15
+  },
+  {
+    "skills": "Azure, React",
+    "skill_count": 2,
+    "true_demand": 15
+  },
+  {
+    "skills": "AWS, Node JS, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 15
+  },
+  {
+    "skills": "AWS, Docker Containers",
+    "skill_count": 2,
+    "true_demand": 14
+  },
+  {
+    "skills": "HTML/CSS, Java, JavaScript, React",
+    "skill_count": 4,
+    "true_demand": 14
+  },
+  {
+    "skills": ".NET, Angular, Azure, JavaScript",
+    "skill_count": 4,
+    "true_demand": 14
+  },
+  {
+    "skills": ".NET, Azure, C#",
+    "skill_count": 3,
+    "true_demand": 14
+  },
+  {
+    "skills": "GCP, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 14
+  },
+  {
+    "skills": "Angular, JavaScript, Node JS",
+    "skill_count": 3,
+    "true_demand": 13
+  },
+  {
+    "skills": "Java, JavaScript, React",
+    "skill_count": 3,
+    "true_demand": 13
+  },
+  {
+    "skills": "AWS, Java, MySQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 13
+  },
+  {
+    "skills": "Python, React",
+    "skill_count": 2,
+    "true_demand": 13
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 13
+  },
+  {
+    "skills": "Microservices, Node JS, React",
+    "skill_count": 3,
+    "true_demand": 13
+  },
+  {
+    "skills": "React, React Native, Software Testing",
+    "skill_count": 3,
+    "true_demand": 13
+  },
+  {
+    "skills": "GCP, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 13
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 12
+  },
+  {
+    "skills": "Java, SQL",
+    "skill_count": 2,
+    "true_demand": 12
+  },
+  {
+    "skills": "Microservices, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 12
+  },
+  {
+    "skills": ".NET, Angular, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 12
+  },
+  {
+    "skills": ".NET, Angular, MySQL",
+    "skill_count": 3,
+    "true_demand": 12
+  },
+  {
+    "skills": "GCP, Java, JavaScript, MySQL, Node JS, SQL",
+    "skill_count": 6,
+    "true_demand": 12
+  },
+  {
+    "skills": "Azure, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 12
+  },
+  {
+    "skills": "AWS, Angular, Java, MySQL, SQL",
+    "skill_count": 5,
+    "true_demand": 12
+  },
+  {
+    "skills": "Azure, Docker Containers",
+    "skill_count": 2,
+    "true_demand": 11
+  },
+  {
+    "skills": "GCP, JavaScript, React",
+    "skill_count": 3,
+    "true_demand": 11
+  },
+  {
+    "skills": "AWS, Java, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 11
+  },
+  {
+    "skills": "Java, JavaScript, React, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 11
+  },
+  {
+    "skills": ".NET, Azure, React",
+    "skill_count": 3,
+    "true_demand": 11
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 11
+  },
+  {
+    "skills": "Azure, DevOps, Terraform",
+    "skill_count": 3,
+    "true_demand": 11
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, MySQL, SQL",
+    "skill_count": 6,
+    "true_demand": 11
+  },
+  {
+    "skills": "Node JS, React, Terraform, TypeScript",
+    "skill_count": 4,
+    "true_demand": 11
+  },
+  {
+    "skills": "Java, Microservices, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 10
+  },
+  {
+    "skills": "Azure, SQL",
+    "skill_count": 2,
+    "true_demand": 10
+  },
+  {
+    "skills": "Angular, C#",
+    "skill_count": 2,
+    "true_demand": 10
+  },
+  {
+    "skills": "AWS, Node JS, TypeScript",
+    "skill_count": 3,
+    "true_demand": 10
+  },
+  {
+    "skills": ".NET, JavaScript, SQL",
+    "skill_count": 3,
+    "true_demand": 10
+  },
+  {
+    "skills": "AWS, React",
+    "skill_count": 2,
+    "true_demand": 10
+  },
+  {
+    "skills": ".NET, Azure, C#, JavaScript, React",
+    "skill_count": 5,
+    "true_demand": 10
+  },
+  {
+    "skills": "GCP, Node JS, Terraform, TypeScript",
+    "skill_count": 4,
+    "true_demand": 10
+  },
+  {
+    "skills": "AWS, GCP, Java",
+    "skill_count": 3,
+    "true_demand": 10
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, Node JS",
+    "skill_count": 5,
+    "true_demand": 10
+  },
+  {
+    "skills": "API Development, Apigee, Azure, DevOps, Docker Containers, Jenkins, Microservices, Software Testing, Terraform",
+    "skill_count": 9,
+    "true_demand": 10
+  },
+  {
+    "skills": "DevOps, HTML/CSS, Java, JavaScript",
+    "skill_count": 4,
+    "true_demand": 10
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": "Angular, HTML/CSS, TypeScript",
+    "skill_count": 3,
+    "true_demand": 9
+  },
+  {
+    "skills": "Design Patterns, Java, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, MySQL, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": "SQL",
+    "skill_count": 1,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, Java, Microservices",
+    "skill_count": 3,
+    "true_demand": 9
+  },
+  {
+    "skills": "JavaScript, MySQL, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, JavaScript, MySQL, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 9
+  },
+  {
+    "skills": "HTML/CSS, Java",
+    "skill_count": 2,
+    "true_demand": 9
+  },
+  {
+    "skills": "Design Patterns, DevOps, HTML/CSS, JavaScript, Project Management, Software Testing",
+    "skill_count": 6,
+    "true_demand": 9
+  },
+  {
+    "skills": "Angular, Azure, JavaScript",
+    "skill_count": 3,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, Angular, Java, Node JS",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, Java, React, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, Angular, Java, SQL",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": ".NET, Azure, C#, DevOps, SQL, Software Testing",
+    "skill_count": 6,
+    "true_demand": 9
+  },
+  {
+    "skills": "GCP, Node JS",
+    "skill_count": 2,
+    "true_demand": 9
+  },
+  {
+    "skills": "API Development, Agile",
+    "skill_count": 2,
+    "true_demand": 9
+  },
+  {
+    "skills": "AWS, Java, MySQL, SQL",
+    "skill_count": 4,
+    "true_demand": 9
+  },
+  {
+    "skills": "API Development, AWS, DevOps",
+    "skill_count": 3,
+    "true_demand": 9
+  },
+  {
+    "skills": "Angular, React",
+    "skill_count": 2,
+    "true_demand": 8
+  },
+  {
+    "skills": "Java, JavaScript, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 8
+  },
+  {
+    "skills": "Angular, Azure, C#",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": "HTML/CSS, Java, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 8
+  },
+  {
+    "skills": "DevOps, Microservices, Software Testing",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": ".NET, Azure, JavaScript, React, SQL",
+    "skill_count": 5,
+    "true_demand": 8
+  },
+  {
+    "skills": "Agile, DevOps, Docker Containers",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": "AWS, Terraform",
+    "skill_count": 2,
+    "true_demand": 8
+  },
+  {
+    "skills": ".NET, AWS, Angular",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": "AWS, Java, JavaScript, React, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 8
+  },
+  {
+    "skills": "Azure, Python",
+    "skill_count": 2,
+    "true_demand": 8
+  },
+  {
+    "skills": "Angular, Azure, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 8
+  },
+  {
+    "skills": "MySQL",
+    "skill_count": 1,
+    "true_demand": 8
+  },
+  {
+    "skills": ".NET, C#",
+    "skill_count": 2,
+    "true_demand": 8
+  },
+  {
+    "skills": "AWS, Angular, Node JS",
+    "skill_count": 3,
+    "true_demand": 8
+  },
+  {
+    "skills": "Node JS, TypeScript",
+    "skill_count": 2,
+    "true_demand": 8
+  },
+  {
+    "skills": "Java, JavaScript, Python",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "HTML/CSS, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "Angular, Java, React",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "Angular, Node JS, React",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "Azure, DevOps, Software Testing",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "Angular, Azure, Java",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "JavaScript, React, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "Microservices",
+    "skill_count": 1,
+    "true_demand": 7
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, Microservices, MySQL, SQL, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 7
+  },
+  {
+    "skills": "AWS, Azure, Java, Node JS, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 7
+  },
+  {
+    "skills": "API Development, AWS",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": "AWS, JavaScript, React",
+    "skill_count": 3,
+    "true_demand": 7
+  },
+  {
+    "skills": "Azure, C#",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": "Angular, HTML/CSS, Java, JavaScript",
+    "skill_count": 4,
+    "true_demand": 7
+  },
+  {
+    "skills": "AWS, DevOps",
+    "skill_count": 2,
+    "true_demand": 7
+  },
+  {
+    "skills": "Jenkins",
+    "skill_count": 1,
+    "true_demand": 7
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 7
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, Node JS, SQL",
+    "skill_count": 6,
+    "true_demand": 7
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, JavaScript, Node JS, React, TypeScript",
+    "skill_count": 7,
+    "true_demand": 7
+  },
+  {
+    "skills": "API Development, DevOps, GCP, React",
+    "skill_count": 4,
+    "true_demand": 7
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, Jenkins, Terraform",
+    "skill_count": 6,
+    "true_demand": 7
+  },
+  {
+    "skills": "Azure, HTML/CSS, Java, JavaScript",
+    "skill_count": 4,
+    "true_demand": 7
+  },
+  {
+    "skills": "JavaScript, TypeScript",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "JavaScript, Node JS",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "AWS, React, React Native",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "AWS, Docker Containers, Python",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Agile, Software Testing",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "Python, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Node JS, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "Azure, JavaScript, React",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, React, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, JavaScript, Node JS",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Angular, JavaScript, SQL",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Azure, Node JS",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": ".NET, Angular, Azure, C#, JavaScript",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "DevOps, Software Testing",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": "AWS, MySQL, SQL",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "Azure, DevOps, HTML/CSS, Java, JavaScript",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "AWS, Azure, DevOps",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": ".NET, HTML/CSS, JavaScript",
+    "skill_count": 3,
+    "true_demand": 6
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, Jenkins",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": ".NET, Azure, Design Patterns, DevOps, SQL, Software Testing",
+    "skill_count": 6,
+    "true_demand": 6
+  },
+  {
+    "skills": "Angular, JavaScript, MySQL, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": "Design Patterns, Shell Scripting/Linux, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "Java, JavaScript, Python, SQL",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "Agile, Angular, GCP, HTML/CSS, Java, Microservices, SQL, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 6
+  },
+  {
+    "skills": "GCP, Microservices, Python, Terraform",
+    "skill_count": 4,
+    "true_demand": 6
+  },
+  {
+    "skills": "API Development, Software Testing",
+    "skill_count": 2,
+    "true_demand": 6
+  },
+  {
+    "skills": ".NET, Azure, C#, Docker Containers, Microservices",
+    "skill_count": 5,
+    "true_demand": 6
+  },
+  {
+    "skills": ".NET, Azure, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, DevOps",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, Angular, Java, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, Java, Node JS",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "Java, Node JS, Python",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "Angular, TypeScript",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "JavaScript, React, SQL",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, Azure, JavaScript, React",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "Terraform",
+    "skill_count": 1,
+    "true_demand": 5
+  },
+  {
+    "skills": "Angular, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "Java, JavaScript, Node JS, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, C#, React",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "Microservices, Python",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "JavaScript, React, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "Java, Node JS, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, Microservices",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "Angular, Java, JavaScript, MySQL, SQL",
+    "skill_count": 5,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, Java, JavaScript",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "DevOps, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "Angular, HTML/CSS, Java, JavaScript, Node JS, Python, React, TypeScript",
+    "skill_count": 8,
+    "true_demand": 5
+  },
+  {
+    "skills": "DevOps, JavaScript",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "JavaScript, MySQL, React, SQL",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "Docker Containers, Software Testing",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, HTML/CSS, Java, Microservices, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, Azure, C#, Design Patterns, Docker Containers, SQL, Software Testing",
+    "skill_count": 7,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, AWS, GCP, Java",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "Python, Terraform",
+    "skill_count": 2,
+    "true_demand": 5
+  },
+  {
+    "skills": ".NET, Azure, DevOps, HTML/CSS, JavaScript, React",
+    "skill_count": 6,
+    "true_demand": 5
+  },
+  {
+    "skills": "AWS, HTML/CSS, JavaScript, Python",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "Design Patterns, Docker Containers, JavaScript, React, React Native, Software Testing",
+    "skill_count": 6,
+    "true_demand": 5
+  },
+  {
+    "skills": "Azure, Java, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "GCP, Java, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 5
+  },
+  {
+    "skills": "Docker Containers",
+    "skill_count": 1,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Java, Microservices, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Azure, Java, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, MySQL, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, JavaScript, React Native, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "JavaScript, Python",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, SQL",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, MySQL",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Angular, Java, JavaScript, MySQL, Node JS, SQL",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "Python, Software Testing",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Angular, C#, SQL",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Software Testing",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, C#, Java, JavaScript, Python",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "API Development, Apigee, Azure, DevOps, Docker Containers, Jenkins, Software Testing",
+    "skill_count": 7,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, JavaScript, SQL",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Angular, SQL",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Azure, Java, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Agile, Azure, C#, Docker Containers, Microservices, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 4
+  },
+  {
+    "skills": "Azure, Java",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "Azure, DevOps, Microservices, Software Testing",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Agile, Java",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "Node JS, React, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, React",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Docker Containers, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Angular, Java, JavaScript, MySQL",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Agile, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Java, Shell Scripting/Linux, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "JavaScript, Node JS, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Azure, Java, JavaScript, Microservices, MySQL, SQL, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 4
+  },
+  {
+    "skills": "Angular, Java, JavaScript, React",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Angular, JavaScript, MySQL, SQL",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "DevOps, Java",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Java, SQL, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Azure, DevOps, SQL",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Agile, Angular, GCP, HTML/CSS, Java, Microservices, SQL",
+    "skill_count": 7,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Java, Python, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, DevOps, GCP, Python, Terraform, TypeScript",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "Agile, Angular, GCP, HTML/CSS, Java, Microservices",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "DevOps, GCP, Python, Terraform, TypeScript",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Java, Node JS, TypeScript",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Azure, Docker Containers",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Node JS, React, Software Testing, TypeScript",
+    "skill_count": 7,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Azure, C#, HTML/CSS, Microservices, SQL",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "Agile, Java, Jenkins, Software Testing",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, AWS, Angular, Azure, Docker Containers, JavaScript, Microservices, SQL",
+    "skill_count": 8,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, DevOps, SQL",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, React, SQL",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "Apigee, Azure, DevOps, Docker Containers, Jenkins, Software Testing",
+    "skill_count": 6,
+    "true_demand": 4
+  },
+  {
+    "skills": "JavaScript, Microsoft 365",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "React Native, TypeScript",
+    "skill_count": 2,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, HTML/CSS, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Azure, C#, Docker Containers, Python, React, SQL, Shell Scripting/Linux, TypeScript",
+    "skill_count": 9,
+    "true_demand": 4
+  },
+  {
+    "skills": "AWS, Apigee, Node JS, TypeScript",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": ".NET, Azure, Docker Containers, Microservices",
+    "skill_count": 4,
+    "true_demand": 4
+  },
+  {
+    "skills": "Angular, Java, Microservices, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, Microservices, Node JS, React, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, JavaScript, Node JS, React",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "Python, SQL",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "HTML/CSS, Node JS",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, MySQL, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "Azure, JavaScript, Node JS",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Azure, Node JS, TypeScript",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "C#, JavaScript, SQL",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, React, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Angular, Microservices",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Azure, Microservices, Node JS, TypeScript",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Node JS",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Angular, Java, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, Microservices, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, Java, MySQL, SQL",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, Java, MySQL, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "HTML/CSS, React, Software Testing",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, HTML/CSS, React",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, Java, Node JS",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, Microservices, Node JS, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "JavaScript, SQL",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Azure, Terraform",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, HTML/CSS, Node JS",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, React, Software Testing, TypeScript",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Java, Microservices, MySQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "React, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Angular, JavaScript, Node JS",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Azure, DevOps, Docker Containers, SQL, Software Testing",
+    "skill_count": 6,
+    "true_demand": 3
+  },
+  {
+    "skills": "HTML/CSS, Python",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Azure, Node JS, React",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Angular, JavaScript, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, AWS, C#, JavaScript",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, Azure, HTML/CSS, JavaScript",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, MySQL, Python",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "SQL, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Python, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "Docker Containers, Java, Jenkins, Microservices, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "Microservices, SQL, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "HTML/CSS, Node JS, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, JavaScript, MySQL, React, SQL",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "DevOps, Docker Containers",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "DevOps, GCP, Java, JavaScript",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Java, MySQL, React, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Angular, JavaScript",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Python",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "DevOps, GCP, Node JS, React",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Software Testing",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Angular, Azure, SQL",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, HTML/CSS, JavaScript, React",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, JavaScript, MySQL, SQL",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "API Development, AWS, Jenkins, Software Testing",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, C#, HTML/CSS, JavaScript",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Java, Python",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Azure, Node JS",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, HTML/CSS, Python",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "API Development, DevOps, React, Software Testing, Terraform",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, GCP, Microservices, Python, Terraform",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Angular, Azure, C#, SQL, Terraform",
+    "skill_count": 6,
+    "true_demand": 3
+  },
+  {
+    "skills": "GCP, Python",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "API Development, Apigee, DevOps, Docker Containers, GCP, Jenkins, Microservices, Software Testing, Terraform",
+    "skill_count": 9,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Azure, C#, Design Patterns, DevOps, SQL, Software Testing",
+    "skill_count": 7,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, GCP, HTML/CSS, Java, JavaScript, Node JS, React, SQL",
+    "skill_count": 8,
+    "true_demand": 3
+  },
+  {
+    "skills": "GCP, Java, React",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "Agile, Azure, Node JS, React",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Angular, Azure, C#, SQL",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, JavaScript, Node JS, React, Spring Boot, TypeScript",
+    "skill_count": 8,
+    "true_demand": 3
+  },
+  {
+    "skills": "JavaScript, React, React Native",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "API Development, Docker Containers, Jenkins, Microservices, Software Testing",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "GCP, React",
+    "skill_count": 2,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, React",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, Microservices, Python",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Azure, Java",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, DevOps, HTML/CSS, Java, JavaScript",
+    "skill_count": 5,
+    "true_demand": 3
+  },
+  {
+    "skills": "AWS, DevOps, Java, Jenkins",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": ".NET, Azure, Node JS, React",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Node JS",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Node JS, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Software Testing",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, JavaScript, React",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, JavaScript",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, TypeScript",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "API Development, Apigee, Azure, DevOps, Docker Containers, GCP, Jenkins, Microservices, Software Testing, Terraform",
+    "skill_count": 10,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, SQL, Software Testing",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, DevOps, Jenkins",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Java, Node JS, React, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Java, Microservices",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "DevOps, Microsoft 365",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, MySQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Angular, Azure, JavaScript, React, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Python",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, MySQL, Spring Boot, Terraform",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, DevOps, Project Management",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Docker Containers, Java, Software Testing",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, DevOps, Python",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, AWS, Angular, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, Java, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, JavaScript, Node JS, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Node JS, Python, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Angular, Azure, JavaScript, SQL, Terraform",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "TypeScript",
+    "skill_count": 1,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Agile, Azure, Docker Containers, HTML/CSS, React, SQL",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, SQL, TypeScript",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, Microservices, React, Spring Boot, TypeScript",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "HTML/CSS, React, React Native",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "HTML/CSS, Java, React, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "HTML/CSS, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, DevOps, HTML/CSS, JavaScript",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, C#, Java, Python, SQL, Shell Scripting/Linux, Software Testing",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, AWS, GCP, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "API Development, DevOps, Software Testing",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, SQL",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Design Patterns",
+    "skill_count": 1,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, MySQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, Jenkins, Software Testing",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Python, SQL",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, MySQL, React, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "HTML/CSS, Java, JavaScript, MySQL, React, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, Spring Boot, Terraform",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Azure, Java, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, Python",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "HTML/CSS, Java, JavaScript, React Native, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Jenkins",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, JavaScript, Node JS, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, Node JS, TypeScript",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, React Native",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Java",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "Docker Containers, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, HTML/CSS",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Agile, DevOps",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, AWS, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, HTML/CSS, Java, Jenkins, Microservices, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, SQL, Software Testing",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, Microservices, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, React",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Microservices, MySQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, Jenkins, Microservices, MySQL, SQL, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, C#, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, MySQL, React, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Azure",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, JavaScript, React, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, Node JS, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, C#, SQL, Software Testing",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, DevOps, HTML/CSS, JavaScript, SQL",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, Azure",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Azure, DevOps, Terraform",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Azure, Java, Microservices, MySQL",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, DevOps, Jenkins",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, C#, JavaScript",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, DevOps",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "DevOps, Jenkins",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Python, React",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Apigee, DevOps, Docker Containers, Jenkins, Software Testing",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, Docker Containers, GCP",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, JavaScript, MySQL, Node JS, SQL",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, HTML/CSS, Java, Jenkins, Microservices, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, JavaScript, Node JS, React, TypeScript",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, DevOps, Docker Containers, Microservices, Terraform",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, Python",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, Node JS, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Angular, C#",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, JavaScript, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, HTML/CSS, Java, Jenkins, Microservices, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, Java, Spring Boot, Terraform",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Design Patterns, Software Testing",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Node JS",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, Jenkins, Microservices, Software Testing, Terraform",
+    "skill_count": 8,
+    "true_demand": 2
+  },
+  {
+    "skills": "MySQL, React, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Azure, C#, DevOps, SQL",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Microservices, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Java, MySQL, Node JS",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, React Native",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Azure, Terraform",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, JavaScript, Spring Boot, TypeScript",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, DevOps, Docker Containers, Jenkins, Microservices, Software Testing, Terraform",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, GCP, Python",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Java, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, Java, Node JS, Spring Boot, TypeScript",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, MySQL",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "DevOps, React, Software Testing, Terraform",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "JavaScript, Microservices, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, DevOps, JavaScript",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, MySQL, Node JS, SQL",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "GCP, Java, Microservices, React",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "API Development, AWS, Apigee, DevOps, Jenkins, Software Testing",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, React Native",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, Java, Python, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "API Development, AWS, Docker Containers, Terraform",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Python, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "GCP, Python, Terraform",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "API Development, AWS, Docker Containers, Jenkins, Terraform",
+    "skill_count": 5,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, DevOps, Docker Containers, Jenkins, Microservices, Terraform",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Agile, GCP, Microsoft 365",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Microservices, SQL",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": ".NET, AWS, Java, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Azure, JavaScript, React, React Native",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "DevOps, GCP, Java, Python, Terraform, TypeScript",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "GCP, HTML/CSS, Java, Microservices, Node JS, SQL",
+    "skill_count": 6,
+    "true_demand": 2
+  },
+  {
+    "skills": "Docker Containers, Java, JavaScript, Microservices, SQL, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, Jenkins, Microservices, Terraform",
+    "skill_count": 7,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, TypeScript",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "Design Patterns, Java, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Azure, Java",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Angular, Azure, SQL",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "Java, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 2
+  },
+  {
+    "skills": "AWS, Python, React, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 2
+  },
+  {
+    "skills": "DevOps, Terraform",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "HTML/CSS, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, React, React Native",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, Microservices, Node JS, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, MySQL, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "MySQL, SQL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, Python, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Java, Jenkins, Microservices, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, Node JS, Software Testing, TypeScript",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, Microservices",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Java, Node JS",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, Design Patterns, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, JavaScript, MySQL, Node JS",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Jenkins, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Node JS, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, SQL, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, MySQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, Design Patterns, DevOps, Docker Containers",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, MySQL, Python, React Native, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, JavaScript, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, JavaScript, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, HTML/CSS, Java, JavaScript, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, JavaScript, MySQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Java, Microservices, MySQL, SQL, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, DevOps, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, SQL, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, DevOps, Java, JavaScript, Node JS, Python",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, Microservices, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Node JS, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, HTML/CSS",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Docker Containers, Java, Microservices, Python, Shell Scripting/Linux, Terraform",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Docker Containers, HTML/CSS, JavaScript, MySQL, Node JS, React",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, MySQL, Node JS, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Docker Containers, Python",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Node JS, React, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, MySQL, Python, SQL, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, React, SQL, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Node JS, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, JavaScript",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, Node JS",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Python, React",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, MySQL, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, HTML/CSS, JavaScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, HTML/CSS, JavaScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Apigee, Microservices",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, SQL, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Java, Python, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Java, MySQL, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, JavaScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Angular, MySQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Apigee, JavaScript, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Node JS, Software Testing, TypeScript",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, DevOps, Docker Containers, Jenkins",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, Microservices, MySQL, React, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, TypeScript",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, GCP",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, C#, Terraform",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, DevOps, Docker Containers",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "GCP, Java",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Apigee, Design Patterns, Java, Jenkins, Microservices, MySQL, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, Node JS",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, Java, MySQL, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, HTML/CSS, Java, Jenkins, SQL, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Jenkins, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Java, JavaScript, MySQL, SQL, Software Testing, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, SQL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, MySQL, Node JS, SQL, TypeScript",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Python",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Angular, HTML/CSS, JavaScript, Jenkins, React",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, React, React Native",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, DevOps, Java",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, DevOps, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Apigee, DevOps, Docker Containers, GCP, Java, Jenkins, Software Testing, Terraform",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Docker Containers, JavaScript, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, DevOps, Docker Containers, Jenkins, Terraform",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Shell Scripting/Linux, Spring Boot",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, HTML/CSS, JavaScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, C#, HTML/CSS, JavaScript, SQL",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Node JS, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Node JS, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Design Patterns, Java, Project Management, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Azure, C#, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, C#, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, DevOps, Microservices, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Microservices, Node JS, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, SQL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, JavaScript, MySQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, DevOps, Python, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Microservices, MySQL, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, DevOps, Java, MySQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Microservices, React",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Agile, Azure, Docker Containers, HTML/CSS, React, SQL, TypeScript",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, Microservices, React, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, Java, JavaScript, React",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Agile, Microservices",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, DevOps, Microsoft 365, Project Management",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Docker Containers, Jenkins, Terraform",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Jenkins, SQL, Software Testing, Spring Boot",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, JavaScript, Microservices, React, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, Microservices, MySQL, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, GCP, JavaScript, React, Software Testing, TypeScript",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, React Native, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Python, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, GCP, Java, JavaScript, Node JS, React, Software Testing, TypeScript",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, Design Patterns, Docker Containers",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Microservices, Software Testing",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Angular, React",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, Docker Containers, Jenkins, Microservices",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, JavaScript, Node JS, TypeScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Apigee, Azure, Docker Containers, GCP, Jenkins, Microservices",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Java, Python",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, Jenkins, Microservices, MySQL, React, SQL, Spring Boot",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Node JS, React",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Docker Containers, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Microservices, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Node JS, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, JavaScript, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Angular, HTML/CSS, JavaScript, React, TypeScript",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, HTML/CSS, Java, JavaScript, React",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Docker Containers",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, Software Testing",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, MySQL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Docker Containers, JavaScript, SQL, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Angular, GCP, HTML/CSS, JavaScript, MySQL",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, React",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "React Native, Software Testing",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "MySQL, Python",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Microsoft 365, Project Management",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, Docker Containers, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Node JS, Python",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Azure, MySQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Design Patterns, React Native",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Microservices, MySQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Node JS, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, DevOps, Docker Containers, Jenkins, Python",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, React Native, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Node JS, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, MySQL, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, JavaScript, Software Testing, TypeScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Microservices, React, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Apigee, DevOps, Docker Containers, GCP, Microservices, Software Testing, Terraform",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, JavaScript, Microservices, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, C#, JavaScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Microservices, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, JavaScript, React, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Software Testing",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, Java, Python, TypeScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Apigee, Azure, DevOps, Docker Containers, Terraform",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "React, SQL, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, React Native, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, Java, JavaScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, C#, Docker Containers, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, C#, JavaScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Azure, Microservices",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, C#, JavaScript, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, DevOps, Docker Containers",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, Java, JavaScript, React, SQL, Software Testing, Spring Boot, TypeScript",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Agile, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, C#, Design Patterns, DevOps, Docker Containers",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, JavaScript, React",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Java, JavaScript, Node JS, SQL",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, Java, Jenkins, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, Docker Containers, Jenkins",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, DevOps, Docker Containers, Jenkins, Software Testing, Terraform",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, React Native",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Python, React, Terraform, TypeScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, MySQL, Node JS",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, GCP, Jenkins, Software Testing",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Jenkins, SQL, Software Testing, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, JavaScript, React, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, React, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Project Management",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Docker Containers, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, GCP, Microservices",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, C#, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Azure, DevOps, Docker Containers, Jenkins, Software Testing, Terraform",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, DevOps, JavaScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Jenkins",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, MySQL, Python, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, JavaScript, Python, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, C#, HTML/CSS, JavaScript, SQL",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, GCP, JavaScript, Node JS, React",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, Node JS, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Docker Containers, React, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, DevOps, Java, JavaScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "GCP, Python, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "GCP, Microservices",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Jenkins, SQL, Software Testing, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, MySQL, Node JS, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Azure, DevOps",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Shell Scripting/Linux, Terraform",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, GCP, Java, JavaScript, Node JS",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, SQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, Java, JavaScript, MySQL, Spring Boot, TypeScript",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "GCP, Python, React, Terraform, TypeScript",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, JavaScript, Node JS, React, Software Testing, TypeScript",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, Docker Containers, Terraform",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, MySQL, React, SQL",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "GCP, HTML/CSS, Node JS, React, TypeScript",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, Docker Containers, Software Testing, Terraform",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, HTML/CSS, JavaScript, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, Docker Containers, Jenkins, Terraform",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, DevOps, Software Testing, Terraform",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, DevOps, Docker Containers, Jenkins, Terraform",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, GCP, Python, Shell Scripting/Linux",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Docker Containers, HTML/CSS, Java, JavaScript, React, Spring Boot, TypeScript",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, Node JS, TypeScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "GCP, Java, Microservices, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, Docker Containers, Node JS, React, Terraform, TypeScript",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, DevOps, Docker Containers, Jenkins, Software Testing, Terraform",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Azure, C#",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, DevOps, Docker Containers, Jenkins, Microservices, Terraform",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, Java, JavaScript, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, Project Management, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Node JS, React, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "C#",
+    "skill_count": 1,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Azure, HTML/CSS, JavaScript, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Jenkins",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Docker Containers, Java",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Agile, Azure, C#, Software Testing",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Apigee, Docker Containers, Jenkins, Software Testing",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, DevOps, HTML/CSS, JavaScript, Node JS, React, TypeScript",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, React, SQL",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Design Patterns, JavaScript, React, React Native, Software Testing",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Apigee, Azure, DevOps, Docker Containers, Jenkins",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, JavaScript, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Python, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Azure, HTML/CSS, JavaScript, Node JS",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, React, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, Java, JavaScript, Node JS, React, TypeScript",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, Apigee, DevOps, Docker Containers, Jenkins, Software Testing",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, C#, HTML/CSS, Microservices, React, SQL",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, HTML/CSS, Java, JavaScript, React",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, React, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "React, SQL",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, Python, React",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Docker Containers, Java, Microservices, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Azure, C#, JavaScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, MySQL, Node JS, React",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, Apigee, DevOps, Docker Containers, GCP, Jenkins, Microservices, Software Testing, Terraform",
+    "skill_count": 10,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, DevOps, Python",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Apigee, Azure, DevOps, Docker Containers, GCP, Jenkins, Software Testing, Terraform",
+    "skill_count": 9,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, Java",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Docker Containers, GCP",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, Java, JavaScript, React, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Microservices",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Angular, Java, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Angular, Java, MySQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Java, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, Jenkins, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, HTML/CSS, JavaScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Angular, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Jenkins",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Azure, Python, Shell Scripting/Linux",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Docker Containers, Terraform",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, JavaScript, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, JavaScript, MySQL, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, GCP, Java, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, C#, DevOps",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, JavaScript, Python, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "GCP, Terraform",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, JavaScript, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Docker Containers, Java, Microservices, MySQL, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Design Patterns",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Python, Shell Scripting/Linux, Terraform",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Microsoft 365, Node JS, Shell Scripting/Linux",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, Angular, Azure, Docker Containers, JavaScript, SQL",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, Node JS",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Design Patterns, Docker Containers, Software Testing",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Python, React",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "JavaScript, React Native, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Java, JavaScript, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Azure, DevOps, Docker Containers, Jenkins, Microservices, Terraform",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, Node JS, React, Spring Boot, TypeScript",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Apigee, DevOps, Docker Containers, Java, Jenkins, Microservices, Spring Boot",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Terraform",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, Apigee, DevOps, Docker Containers, Jenkins, Terraform",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Microservices, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, HTML/CSS, React",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, HTML/CSS, JavaScript, Node JS",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, C#, GCP, Java, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, Java, JavaScript, Python, Software Testing",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, GCP, Microservices",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, React, SQL, Spring Boot",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Terraform, TypeScript",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, DevOps, HTML/CSS, JavaScript, Node JS, React, Spring Boot, TypeScript",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, React, SQL",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, JavaScript, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Java, Microservices, Project Management, React, React Native",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, React",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Software Testing, Terraform, TypeScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Agile, Azure, JavaScript, Microservices",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, MySQL, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, Jenkins, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, Docker Containers, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, Jenkins, Software Testing, Terraform",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "Project Management, Software Testing",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, DevOps, HTML/CSS, React",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, C#, Microservices, React, SQL",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, Java, SQL",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, DevOps",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Microsoft 365",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "API Development, AWS, DevOps, Docker Containers, Jenkins, Microservices, Software Testing",
+    "skill_count": 7,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, Jenkins, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Java, MySQL, React Native, SQL, Spring Boot",
+    "skill_count": 6,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, DevOps, Docker Containers, Jenkins, Terraform",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Agile, Java, Microservices",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Java, SQL, Software Testing, Spring Boot",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, AWS, DevOps",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Microservices, Software Testing, Spring Boot",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "Azure, Docker Containers, Shell Scripting/Linux, Terraform",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, HTML/CSS, JavaScript, Node JS, React, Software Testing, Spring Boot, TypeScript",
+    "skill_count": 8,
+    "true_demand": 1
+  },
+  {
+    "skills": "Angular, Java, Python",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, C#, React, TypeScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "C#, DevOps",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "SQL, Shell Scripting/Linux",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "DevOps, HTML/CSS, Java",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, DevOps, Software Testing",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Azure, C#, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": ".NET, Angular, Azure, React",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "Agile, Azure, Java, JavaScript",
+    "skill_count": 4,
+    "true_demand": 1
+  },
+  {
+    "skills": "HTML/CSS, Project Management",
+    "skill_count": 2,
+    "true_demand": 1
+  },
+  {
+    "skills": "AWS, Angular, Java",
+    "skill_count": 3,
+    "true_demand": 1
+  }
+]
