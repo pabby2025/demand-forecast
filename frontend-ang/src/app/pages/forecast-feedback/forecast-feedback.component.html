@@ -1,0 +1,176 @@
+<div class="space-y-5 p-6">
+  <!-- Breadcrumb -->
+  <div class="flex items-center gap-2 text-xs text-gray-500">
+    <svg class="w-4 h-4 text-[#1B2559]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="7" height="7" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" stroke-width="1.5"/>
+      <rect x="14" y="14" width="7" height="7" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" stroke-width="1.5"/>
+    </svg>
+    <a class="text-[#1B2559] hover:text-[#00BCD4] cursor-pointer font-medium">Home</a>
+    <span>/</span>
+    <span>Forecast Feedback</span>
+  </div>
+  <!-- Page title + subtitle -->
+  <div>
+    <h1 class="text-2xl font-bold text-gray-900">Forecast Feedback <span class="text-sm font-normal text-gray-400">(Alternative name: Planning Insights)</span></h1>
+    <p class="text-sm text-gray-500 mt-0.5">Compare system forecasts with scenario inputs to strengthen accuracy and planning confidence.</p>
+  </div>
+
+  <app-loading-skeleton *ngIf="loading" type="page"></app-loading-skeleton>
+  <app-error-card *ngIf="error && !loading" (onRetry)="load()"></app-error-card>
+
+  <ng-container *ngIf="!loading && !error">
+    <!-- Top Row: Stacked Bar Chart + Scenario Planning Inputs -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <!-- Stacked Bar Chart: System vs Mgmt Overlay -->
+      <div class="lg:col-span-2 bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+        <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+          Forecast Trend — System Generated vs Management Overlay
+        </h3>
+        <div style="height:220px"><canvas baseChart [data]="barChart" [type]="'bar'" [options]="barOptions"></canvas></div>
+      </div>
+
+      <!-- Scenario Planning Inputs Table -->
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+        <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Scenario Planning Inputs</h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-xs">
+            <thead>
+              <tr class="border-b border-gray-100">
+                <th class="text-left py-2 text-gray-400 font-semibold">Scenario ID</th>
+                <th class="text-left py-2 text-gray-400 font-semibold">Variable</th>
+                <th class="text-right py-2 text-gray-400 font-semibold">Value</th>
+                <th class="text-right py-2 text-gray-400 font-semibold">Impact %</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let s of scenarioInputs; let even = even" [class]="even ? 'bg-white' : 'bg-gray-50/50'">
+                <td class="py-1.5 text-[#1B2559] font-semibold">{{ s['scenario_id'] }}</td>
+                <td class="py-1.5 text-gray-600 truncate max-w-[100px]" [title]="s['variable']">{{ s['variable'] }}</td>
+                <td class="py-1.5 text-right text-gray-700">{{ asNum(s['value']) | number }}</td>
+                <td class="py-1.5 text-right" [class]="asNum(s['impact_pct']) >= 0 ? 'text-green-600 font-medium' : 'text-red-500 font-medium'">
+                  {{ asNum(s['impact_pct']) >= 0 ? '+' : '' }}{{ s['impact_pct'] }}%
+                </td>
+              </tr>
+              <tr *ngIf="scenarioInputs.length === 0">
+                <td colspan="4" class="py-4 text-center text-gray-400">No scenario data</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Summary Table -->
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Summary</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs">
+          <thead>
+            <tr class="bg-gray-50 border-b border-gray-100">
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Total FTE</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">HC Target</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Var. from Target</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Var. from Last Cycle</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Onsite %</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Grade Mix</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Stable vs Volatile</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Forecast Accuracy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-gray-50">
+              <td class="px-3 py-2.5 font-bold text-gray-800">{{ asNum(summary['total_fte']) | number }}</td>
+              <td class="px-3 py-2.5 text-gray-700">{{ asNum(summary['hc_target']) | number }}</td>
+              <td class="px-3 py-2.5" [class]="asNum(summary['variance_from_target']) > 0 ? 'text-red-500 font-medium' : 'text-green-600 font-medium'">
+                {{ asNum(summary['variance_from_target']) > 0 ? '+' : '' }}{{ asNum(summary['variance_from_target']) | number }}
+              </td>
+              <td class="px-3 py-2.5" [class]="asNum(summary['variance_last_cycle_pct']) > 0 ? 'text-orange-500 font-medium' : 'text-green-600 font-medium'">
+                {{ asNum(summary['variance_last_cycle_pct']) > 0 ? '+' : '' }}{{ summary['variance_last_cycle_pct'] }}%
+              </td>
+              <td class="px-3 py-2.5 text-gray-700">{{ summary['onsite_pct'] }}%</td>
+              <td class="px-3 py-2.5 text-gray-700">{{ summary['grade_pct'] }}</td>
+              <td class="px-3 py-2.5 text-gray-700">{{ summary['stable_volatile'] }}</td>
+              <td class="px-3 py-2.5">
+                <span class="inline-flex items-center gap-1">
+                  <span class="font-bold text-[#1B2559]">{{ summary['forecast_accuracy_pct'] }}%</span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Skill Microcluster Updates -->
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <div class="flex items-center justify-between mb-3">
+        <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Skill Microcluster Updates</h3>
+        <button (click)="addSkillUpdate()" class="flex items-center gap-1.5 text-xs text-[#1B2559] border border-[#1B2559] px-3 py-1.5 rounded-lg hover:bg-[#1B2559] hover:text-white transition-colors font-medium">
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19" stroke-width="2"/><line x1="5" y1="12" x2="19" y2="12" stroke-width="2"/></svg>
+          Add New Update
+        </button>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs">
+          <thead>
+            <tr class="bg-gray-50 border-b border-gray-100">
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Type of Change</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Skill Microcluster</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Old Leaf Skills</th>
+              <th class="text-left px-3 py-2 font-semibold text-gray-500">Updated Leaf Skills</th>
+              <th class="px-3 py-2 w-8"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let u of skillUpdates; let i = index; let even = even"
+                [class]="'border-b border-gray-50 ' + (even ? 'bg-white' : 'bg-gray-50/30')">
+              <td class="px-3 py-2.5">
+                <span [class]="changeTypeClass(u['type'])">{{ u['type'] }}</span>
+              </td>
+              <td class="px-3 py-2.5 text-gray-700 max-w-[180px] truncate" [title]="u['cluster']">{{ u['cluster'] }}</td>
+              <td class="px-3 py-2.5 text-gray-500">{{ u['old_skills'] }}</td>
+              <td class="px-3 py-2.5 text-gray-700 font-medium">{{ u['new_skills'] }}</td>
+              <td class="px-3 py-2.5 text-right">
+                <button (click)="removeSkillUpdate(i)" class="text-gray-300 hover:text-red-400 transition-colors">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6" stroke-width="2"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2" stroke-width="2"/></svg>
+                </button>
+              </td>
+            </tr>
+            <tr *ngIf="skillUpdates.length === 0">
+              <td colspan="5" class="px-3 py-6 text-center text-gray-400">No microcluster updates — click "Add New Update" to add one</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Feedback Textarea -->
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Give Your Feedback</h3>
+      <textarea [(ngModel)]="feedbackText" rows="4"
+                placeholder="Share your observations, concerns, or recommendations about this forecast cycle..."
+                class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:border-[#00BCD4] focus:ring-1 focus:ring-[#00BCD4]/20 resize-none transition-colors">
+      </textarea>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="flex items-center gap-3">
+      <button (click)="submitFeedback()" [disabled]="submitting"
+              class="bg-green-600 text-white text-sm font-semibold px-6 py-2.5 rounded-lg hover:bg-green-700 disabled:opacity-50 transition-colors">
+        {{ submitting ? 'Submitting...' : 'Submit' }}
+      </button>
+      <button class="flex items-center gap-2 border border-gray-300 text-gray-600 text-sm font-medium px-4 py-2.5 rounded-lg hover:bg-gray-50 transition-colors">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke-width="2" stroke-linecap="round"/>
+          <polyline points="7 10 12 15 17 10" stroke-width="2" stroke-linecap="round"/>
+          <line x1="12" y1="15" x2="12" y2="3" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Audit Report
+      </button>
+      <span *ngIf="submitSuccess" class="text-xs text-green-600 font-medium flex items-center gap-1">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2"/></svg>
+        Submitted successfully
+      </span>
+    </div>
+  </ng-container>
+</div>

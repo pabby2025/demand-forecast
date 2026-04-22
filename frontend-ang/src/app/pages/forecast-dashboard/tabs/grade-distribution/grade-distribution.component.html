@@ -1,0 +1,106 @@
+<app-loading-skeleton *ngIf="loading" type="page"></app-loading-skeleton>
+<app-error-card *ngIf="error && !loading" (onRetry)="load()"></app-error-card>
+
+<div *ngIf="!loading && !error && data" class="space-y-5">
+  <!-- 2×2 top section -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+    <!-- Top Left: Top Grade in Practice Area -->
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <div class="flex items-start justify-between mb-3">
+        <div>
+          <h3 class="text-xs font-semibold text-gray-700">Top grade</h3>
+          <p class="text-xs text-gray-400">in Practice Area</p>
+        </div>
+        <svg class="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2"/><line x1="12" y1="8" x2="12" y2="12" stroke-width="2"/><line x1="12" y1="16" x2="12.01" y2="16" stroke-width="2"/></svg>
+      </div>
+      <div class="flex items-center gap-4">
+        <!-- Grade list -->
+        <div class="flex-1 space-y-2">
+          <div *ngFor="let d of donutList; let i = index" class="flex items-center gap-2 text-xs">
+            <div class="w-2.5 h-2.5 rounded-sm flex-shrink-0" [style.background]="colorFor(i)"></div>
+            <span class="text-gray-700 font-medium w-6">{{ d.name }}</span>
+            <span class="text-gray-400">-</span>
+            <span class="text-gray-600">{{ asNum(d.value) | number }}</span>
+            <span class="ml-auto text-gray-500 font-semibold">{{ d.pct }} %</span>
+          </div>
+        </div>
+        <!-- Donut chart -->
+        <div style="width:120px; height:120px; flex-shrink:0">
+          <canvas baseChart [data]="donutChart" [type]="'doughnut'" [options]="donutOptions"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Right: Shortfuse demand requirement -->
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <div class="flex items-start justify-between mb-3">
+        <div>
+          <h3 class="text-xs font-semibold text-gray-700">Shortfuse demand requirement</h3>
+          <p class="text-xs text-gray-400">In 6 months</p>
+        </div>
+        <svg class="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2"/><line x1="12" y1="8" x2="12" y2="12" stroke-width="2"/><line x1="12" y1="16" x2="12.01" y2="16" stroke-width="2"/></svg>
+      </div>
+      <div class="space-y-2">
+        <div *ngFor="let g of shortfuseReqList" class="flex items-center gap-2 text-xs">
+          <span class="text-gray-500">–</span>
+          <span class="font-medium text-gray-800">{{ g['grade'] }}</span>
+          <span class="text-gray-400">-</span>
+          <span class="text-gray-600">{{ asNum(g['count']) | number }}</span>
+        </div>
+        <div *ngIf="shortfuseReqList.length === 0" class="text-xs text-gray-400">No shortfuse demands</div>
+      </div>
+    </div>
+
+    <!-- Middle Left: Grade wise Demand (stacked bar) -->
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <h3 class="text-xs font-semibold text-gray-700 mb-0.5">Grade wise Demand</h3>
+      <p class="text-xs text-gray-400 mb-3">Visualize demand split across grades for workforce balance</p>
+      <div style="height:200px">
+        <canvas baseChart [data]="trendChart" [type]="'bar'" [options]="barOptions"></canvas>
+      </div>
+    </div>
+
+    <!-- Middle Right: Short fuse demand heatmap by grade -->
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <div class="flex items-start justify-between mb-2">
+        <div>
+          <h3 class="text-xs font-semibold text-gray-700">Short fuse demand</h3>
+          <p class="text-xs text-gray-400">Spot urgent grade – specific demand spikes requiring immediate fulfilment.</p>
+        </div>
+      </div>
+      <!-- Big number -->
+      <div class="flex items-center gap-3 mb-3">
+        <span class="text-3xl font-bold text-gray-900">{{ shortfuseTotal | number }}</span>
+        <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">{{ shortfuseChange }}</span>
+      </div>
+      <!-- Blue color scale legend -->
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs text-gray-400">&lt;50</span>
+        <div class="flex gap-0.5">
+          <div class="w-6 h-2 rounded-sm bg-blue-100"></div>
+          <div class="w-6 h-2 rounded-sm bg-blue-300"></div>
+          <div class="w-6 h-2 rounded-sm bg-blue-500"></div>
+          <div class="w-6 h-2 rounded-sm bg-blue-700"></div>
+          <div class="w-6 h-2 rounded-sm bg-blue-900"></div>
+        </div>
+        <span class="text-xs text-gray-400">50-200</span>
+        <span class="text-xs text-gray-400">&gt;200</span>
+      </div>
+      <!-- Heatmap -->
+      <app-heatmap [data]="gradeHeatmapRows" [months]="gradeHeatmapMonths" rowLabel="Grade" colorScheme="blue"></app-heatmap>
+    </div>
+  </div>
+
+  <!-- Grid 1: Monthly Demand by Grade Level -->
+  <div>
+    <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Monthly Demand by Grade Level</h3>
+    <app-data-grid [data]="monthlyGrid" [columns]="monthlyColumns" [pageSize]="10" downloadFilename="grade-distribution-monthly.csv"></app-data-grid>
+  </div>
+
+  <!-- Grid 2: Short Fuse Demand for Next 6 Months -->
+  <div>
+    <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Short fuse demand for next 6 months</h3>
+    <app-data-grid [data]="shortFuseGrid" [columns]="sfColumns" [pageSize]="10" downloadFilename="grade-shortfuse.csv"></app-data-grid>
+  </div>
+</div>

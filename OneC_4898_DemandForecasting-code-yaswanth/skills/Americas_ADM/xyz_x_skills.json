@@ -1,0 +1,170 @@
+{
+  ".NET": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 4347
+    }
+  },
+  "Agile": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 692
+    }
+  },
+  "Angular": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1727
+    }
+  },
+  "AWS": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1139
+    }
+  },
+  "Azure": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1378
+    }
+  },
+  "COBOL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1850
+    }
+  },
+  "DB2": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1920
+    }
+  },
+  "Gen AI": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 696
+    }
+  },
+  "IT Service Management": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1137
+    }
+  },
+  "Java": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 7767
+    }
+  },
+  "JavaScript": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1334
+    }
+  },
+  "JCL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1801
+    }
+  },
+  "Kubernetes": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 639
+    }
+  },
+  "Microservices": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 5135
+    }
+  },
+  "MySQL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 714
+    }
+  },
+  "Node JS": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1857
+    }
+  },
+  "Oracle": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 5064
+    }
+  },
+  "PPM": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 334
+    }
+  },
+  "Python": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1065
+    }
+  },
+  "React": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1311
+    }
+  },
+  "ServiceNow": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 973
+    }
+  },
+  "Shell Scripting/Linux": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1555
+    }
+  },
+  "Software Testing": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1039
+    }
+  },
+  "Splunk": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 481
+    }
+  },
+  "Spring Boot": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 6319
+    }
+  },
+  "SQL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 4348
+    }
+  },
+  "VSAM": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1259
+    }
+  },
+  "WebLogic": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 562
+    }
+  }
+}

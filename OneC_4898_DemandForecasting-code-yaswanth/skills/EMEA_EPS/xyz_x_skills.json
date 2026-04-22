@@ -1,0 +1,62 @@
+{
+  "SAP ABAP": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 489
+    }
+  },
+  "SAP Basis": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 485
+    }
+  },
+  "SAP BW for HANA": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 455
+    }
+  },
+  "SAP Data Services": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 125
+    }
+  },
+  "SAP FICO": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 404
+    }
+  },
+  "SAP Marketing Cloud": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 247
+    }
+  },
+  "SAP MM": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 310
+    }
+  },
+  "SAP SD": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 359
+    }
+  },
+  "SAP Security": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 232
+    }
+  },
+  "SAP SuccessFactors": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 149
+    }
+  }
+}

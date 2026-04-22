@@ -1,0 +1,134 @@
+{
+  ".NET": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 802
+    }
+  },
+  "Agile": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 173
+    }
+  },
+  "Angular": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 195
+    }
+  },
+  "AWS": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 284
+    }
+  },
+  "Azure": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 364
+    }
+  },
+  "COBOL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 319
+    }
+  },
+  "DB2": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 366
+    }
+  },
+  "IT Service Management": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 219
+    }
+  },
+  "ITIL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 298
+    }
+  },
+  "Java": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1132
+    }
+  },
+  "JavaScript": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 171
+    }
+  },
+  "JCL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 282
+    }
+  },
+  "Microservices": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 611
+    }
+  },
+  "MySQL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 167
+    }
+  },
+  "Node JS": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 282
+    }
+  },
+  "Oracle": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 869
+    }
+  },
+  "Python": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 260
+    }
+  },
+  "ServiceNow": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 313
+    }
+  },
+  "Shell Scripting/Linux": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 414
+    }
+  },
+  "Software Testing": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 220
+    }
+  },
+  "Spring Boot": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 706
+    }
+  },
+  "SQL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 708
+    }
+  }
+}

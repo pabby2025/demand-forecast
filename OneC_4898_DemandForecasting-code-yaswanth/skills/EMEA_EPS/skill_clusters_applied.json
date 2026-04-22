@@ -1,0 +1,126 @@
+{
+  "market": "EMEA",
+  "source": "skill_clusters.json",
+  "min_jaccard_for_coverage": 0.3,
+  "assignment_rule": "exclusive: each row assigned to the cluster with highest Jaccard (>= threshold); tie-break by smaller cluster; threshold from jaccard_by_union when set else single min_jaccard; rows containing any of priority_skills are assigned to the cluster that contains that skill (Jaccard ignored); second pass on unmapped rows: Jaccard computed only on primary skills (DEFAULT_PRIMARY_SKILLS or --primary-skills), then assign if >= threshold",
+  "ties_broken": 678,
+  "total_demand": 4933,
+  "total_mapped_demand": 4643,
+  "unmapped_demand": 290,
+  "coverage_fraction": 0.9412,
+  "mapped_primary_skills_pass": 0,
+  "num_clusters": 6,
+  "unique_skills_in_clusters": [
+    "SAP ABAP",
+    "SAP BW for HANA",
+    "SAP Basis",
+    "SAP Data Services",
+    "SAP FICO",
+    "SAP MM",
+    "SAP Marketing Cloud",
+    "SAP SD",
+    "SAP Security",
+    "SAP SuccessFactors"
+  ],
+  "unique_skills_count": 10,
+  "clusters_sorted_by": "mapped_demand descending",
+  "cv_note": "coefficient of variation (std/mean) of monthly demand per cluster",
+  "cv_2025_note": "CV of monthly demand in 2025 only",
+  "skill_occurrence_note": "count of mapped rows in this cluster containing each skill",
+  "clusters": [
+    {
+      "skills": [
+        "SAP BW for HANA",
+        "SAP Basis"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1376,
+      "skill_occurrence": {
+        "SAP BW for HANA": 699,
+        "SAP Basis": 684
+      },
+      "cv": 0.3469,
+      "cv_2025": 0.3241
+    },
+    {
+      "skills": [
+        "SAP FICO",
+        "SAP SD"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1172,
+      "skill_occurrence": {
+        "SAP FICO": 667,
+        "SAP SD": 548
+      },
+      "cv": 0.3648,
+      "cv_2025": 0.3542
+    },
+    {
+      "skills": [
+        "SAP ABAP",
+        "SAP Marketing Cloud"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 867,
+      "skill_occurrence": {
+        "SAP ABAP": 786,
+        "SAP Marketing Cloud": 427
+      },
+      "cv": 0.3858,
+      "cv_2025": 0.35
+    },
+    {
+      "skills": [
+        "SAP Data Services",
+        "SAP MM"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 613,
+      "skill_occurrence": {
+        "SAP Data Services": 238,
+        "SAP MM": 415
+      },
+      "cv": 0.4337,
+      "cv_2025": 0.4315
+    },
+    {
+      "skills": [
+        "SAP Basis",
+        "SAP Security"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 364,
+      "skill_occurrence": {
+        "SAP Basis": 77,
+        "SAP Security": 364
+      },
+      "cv": 0.6532,
+      "cv_2025": 0.5408
+    },
+    {
+      "skills": [
+        "SAP SuccessFactors"
+      ],
+      "skill_count": 1,
+      "mapped_demand": 251,
+      "skill_occurrence": {
+        "SAP SuccessFactors": 251
+      },
+      "cv": 0.5214,
+      "cv_2025": 0.5689
+    }
+  ],
+  "jaccard_by_union": {
+    "union_size_threshold": 7,
+    "jaccard_when_union_ge": 0.3,
+    "jaccard_when_union_lt": 0.4
+  },
+  "priority_skills_force_assign": [
+    "SAP",
+    "Pega"
+  ],
+  "primary_skills_count": 14,
+  "primary_skills_source": "default_list",
+  "primary_skills_second_pass_note": "number of rows assigned in second pass using Jaccard on primary skills only"
+}

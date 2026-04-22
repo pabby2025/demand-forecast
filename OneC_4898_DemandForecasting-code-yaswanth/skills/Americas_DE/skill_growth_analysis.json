@@ -1,0 +1,859 @@
+{
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "skills": [
+    {
+      "skill": "ABBYY FlexiCapture",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 280,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Accessibility Testing",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 415,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Account Management",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 416,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "ACID BASE Concepts",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 417,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Adobe Creative Suite",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 420,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Adobe Firefly",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 421,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "After js",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 422,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Agilent VEE",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 332,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "ALM",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 424,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Altova MapForce",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 425,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Amazon AppSync",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 426,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Amazon Connect",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 427,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "AMH",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 334,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Analytics",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 429,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Analyzer",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 335,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Apache CXF",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 283,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Apache HTTP Server",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 432,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Application Environment Setup",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 336,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Apttus",
+      "demands": {
+        "2023": 0,
+        "2024": 4,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 248,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Aria",
+      "demands": {
+        "2023": 0,
+        "2024": 9,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 172,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Ariba SmartSpend",
+      "demands": {
+        "2023": 0,
+        "2024": 6,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 206,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Articulate",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 436,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Artificial Intelligence",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 339,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Aster",
+      "demands": {
+        "2023": 0,
+        "2024": 4,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 249,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Asynchronous Programming",
+      "demands": {
+        "2023": 0,
+        "2024": 4,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 250,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Augmented Reality",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 437,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Auth0",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 438,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Authentication & Authorization",
+      "demands": {
+        "2023": 0,
+        "2024": 4,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 251,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Automat Unit Test Integration",
+      "demands": {
+        "2023": 0,
+        "2024": 7,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 190,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Axe",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 440,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Backbone js",
+      "demands": {
+        "2023": 0,
+        "2024": 5,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 217,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Bicep",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 341,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Bill Inquiry Handling",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 342,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Billing & Revenue Management",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 286,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Boomi",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 444,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "BPC- Business Planning &consoli",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 445,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Browserify",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 446,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "BugTracker NET",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 447,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Caching",
+      "demands": {
+        "2023": 0,
+        "2024": 5,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 221,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Change",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 452,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Charging",
+      "demands": {
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 287,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Cisco Identity Services Engine",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 454,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Client Focus",
+      "demands": {
+        "2023": 0,
+        "2024": 21,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 94,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Client Focused",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 455,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Clinical Process",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 456,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Cloud Computing Administration",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 458,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Cloud Cost Optimization",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 459,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Cloud Foundry",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 460,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "CMM - IA",
+      "demands": {
+        "2023": 0,
+        "2024": 2,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 346,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    },
+    {
+      "skill": "Collaborative",
+      "demands": {
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      },
+      "ranks": {
+        "2023": 1,
+        "2024": 464,
+        "2025": 590
+      },
+      "rank_change_start_to_end": -589,
+      "abs_rank_change": 589,
+      "demand_pct_change_start_to_end": null,
+      "trend": "declining"
+    }
+  ]
+}

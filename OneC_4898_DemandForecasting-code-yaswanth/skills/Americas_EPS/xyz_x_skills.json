@@ -1,0 +1,44 @@
+{
+  "SAP ABAP": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 727
+    }
+  },
+  "SAP Basis": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 563
+    }
+  },
+  "SAP FICO": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 618
+    }
+  },
+  "SAP Marketing Cloud": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 384
+    }
+  },
+  "SAP MM": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 563
+    }
+  },
+  "SAP SD": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 610
+    }
+  },
+  "SAP Security": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 344
+    }
+  }
+}

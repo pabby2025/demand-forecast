@@ -1,0 +1,155 @@
+<div class="p-6 space-y-5">
+  <!-- Breadcrumb -->
+  <div class="flex items-center gap-2 text-xs text-gray-500">
+    <svg class="w-4 h-4 text-[#1B2559]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="7" height="7" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" stroke-width="1.5"/>
+      <rect x="14" y="14" width="7" height="7" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" stroke-width="1.5"/>
+    </svg>
+    <a class="text-[#1B2559] hover:text-[#00BCD4] cursor-pointer font-medium">Home</a>
+    <span>/</span>
+    <span>Scenario Planning</span>
+  </div>
+
+  <!-- Page title + subtitle -->
+  <div>
+    <h1 class="text-2xl font-bold text-gray-900 mb-1">Scenario Planning</h1>
+    <p class="text-sm text-gray-500">Incorporate adjustments and assumptions to refine forecasts and explore alternative outcomes.</p>
+  </div>
+
+  <!-- Main 2-col layout -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+    <!-- Left: Driver Sliders -->
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <h3 class="text-sm font-bold text-gray-800 mb-1">Top Drivers — What If Controls</h3>
+      <p class="text-xs text-gray-400 mb-5">Indicates how much growth is from new wins vs replacement</p>
+      <div class="space-y-5">
+        <div *ngFor="let d of drivers">
+          <div class="flex items-center justify-between mb-1.5">
+            <span class="text-xs font-medium text-gray-700">{{ d.label }}</span>
+            <span class="text-xs font-bold text-[#1B2559]">({{ d.value }}%)</span>
+          </div>
+          <input type="range" [min]="d.min" [max]="d.max" [step]="d.step" [(ngModel)]="d.value"
+                 (input)="onDriverChange()"
+                 class="w-full h-1.5 rounded-full appearance-none cursor-pointer"
+                 style="background: linear-gradient(to right, #00BCD4 0%, #00BCD4 var(--pct), #e5e7eb var(--pct), #e5e7eb 100%)"
+                 [style.--pct]="((d.value - d.min) / (d.max - d.min) * 100) + '%'" />
+        </div>
+      </div>
+      <div class="flex gap-2 mt-6">
+        <button (click)="applyScenario()" class="flex-1 bg-[#00BCD4] text-white text-xs font-semibold py-2 rounded-lg hover:bg-[#00ACC1] transition-colors">
+          Apply Scenario
+        </button>
+        <button (click)="resetDrivers()" class="flex-1 border border-gray-200 text-gray-600 text-xs font-medium py-2 rounded-lg hover:bg-gray-50 transition-colors">
+          Reset
+        </button>
+      </div>
+    </div>
+
+    <!-- Right: KPI cards + Chart -->
+    <div class="lg:col-span-2 space-y-4">
+      <!-- 3 KPI cards -->
+      <div class="grid grid-cols-3 gap-4">
+        <!-- Total Base -->
+        <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4 flex items-center justify-between">
+          <div>
+            <div class="text-xs text-gray-400 mb-1">Total Base</div>
+            <div class="text-3xl font-bold text-gray-900">{{ baseTotal }}</div>
+          </div>
+          <div class="w-12 h-12 rounded-full border-4 border-gray-200 flex items-center justify-center">
+            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="2"/><circle cx="9" cy="7" r="4" stroke-width="2"/><path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke-width="2"/><path d="M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2"/></svg>
+          </div>
+        </div>
+        <!-- Scenario Adjusted -->
+        <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4 flex items-center justify-between">
+          <div>
+            <div class="text-xs text-gray-400 mb-1">Scenario Adjusted</div>
+            <div class="text-3xl font-bold text-[#00BCD4]">{{ scenarioTotal }}</div>
+          </div>
+          <div class="w-12 h-12 rounded-full border-4 border-[#00BCD4]/30 flex items-center justify-center">
+            <svg class="w-5 h-5 text-[#00BCD4]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+        <!-- Net Change -->
+        <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4 flex items-center justify-between">
+          <div>
+            <div class="text-xs text-gray-400 mb-1">Net Change</div>
+            <div [class]="'text-3xl font-bold ' + (netChange >= 0 ? 'text-green-600' : 'text-red-500')">
+              {{ netChange >= 0 ? '+' : '' }}{{ netChange }}
+            </div>
+          </div>
+          <div class="w-12 h-12 rounded-full border-4 border-gray-200 flex items-center justify-center">
+            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="2"/><circle cx="9" cy="7" r="4" stroke-width="2"/><line x1="19" y1="8" x2="19" y2="14" stroke-width="2"/><line x1="22" y1="11" x2="16" y2="11" stroke-width="2"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scenario Adjustments card -->
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+        <div class="flex items-start justify-between mb-3">
+          <div>
+            <h3 class="text-sm font-bold text-gray-800">Scenario Adjustments #01</h3>
+            <p class="text-xs text-gray-400 mt-0.5">Capture key planning inputs and adjustments shaping forecast variations for decision support.</p>
+          </div>
+          <button class="w-7 h-7 flex items-center justify-center rounded-lg hover:bg-gray-100 text-gray-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6" stroke-width="2"/><path d="M19 6l-1 14H6L5 6" stroke-width="2"/></svg>
+          </button>
+        </div>
+
+        <!-- Comparison chart -->
+        <div style="height:160px" class="mb-4">
+          <canvas baseChart [data]="comparisonChart" [type]="'line'" [options]="chartOptions"></canvas>
+        </div>
+
+        <!-- Comparison table -->
+        <div class="overflow-x-auto">
+          <table class="min-w-full text-xs">
+            <thead>
+              <tr class="border-b border-gray-100">
+                <th class="text-left px-3 py-2 font-medium text-gray-600">Metric</th>
+                <th *ngFor="let m of months" class="text-center px-3 py-2 font-medium text-gray-600">{{ m }} 26</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let row of comparisonRows; let i = index"
+                  [class]="'border-b border-gray-50 ' + (i % 2 === 0 ? 'bg-white' : 'bg-gray-50/40')">
+                <td class="px-3 py-2 font-medium text-gray-700">{{ row.metric }}</td>
+                <td *ngFor="let v of row.values; let j = index" class="px-3 py-2 text-center"
+                    [class]="row.metric === 'Adjustment' ? (isAdjPos(v) ? 'text-green-600 font-semibold' : 'text-red-500 font-semibold') : 'text-gray-700'">
+                  <ng-container *ngIf="row.metric !== 'Feedback'; else feedbackCell">{{ v }}</ng-container>
+                  <ng-template #feedbackCell>
+                    <input type="text" placeholder="" class="w-full text-center bg-gray-50 border border-gray-200 rounded px-1 py-0.5 text-xs focus:outline-none focus:border-teal-400" />
+                  </ng-template>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="flex items-center justify-between mt-4">
+          <div class="flex gap-2">
+            <button class="px-4 py-1.5 bg-[#00BCD4] text-white text-xs font-semibold rounded-lg hover:bg-[#00ACC1] transition-colors">Submit</button>
+            <button class="px-4 py-1.5 border border-gray-200 text-gray-600 text-xs rounded-lg hover:bg-gray-50 transition-colors">Save</button>
+          </div>
+          <div class="flex items-center gap-2 text-xs text-gray-500">
+            <button class="w-7 h-7 flex items-center justify-center rounded border border-gray-200 hover:bg-gray-50">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6" stroke-width="2"/></svg>
+            </button>
+            <span class="px-2 py-1 rounded bg-[#1B2559] text-white font-medium">2</span>
+            <button class="w-7 h-7 flex items-center justify-center rounded border border-gray-200 hover:bg-gray-50">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6" stroke-width="2"/></svg>
+            </button>
+            <span>of 5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Explainability & Recommendations -->
+  <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+    <h3 class="text-sm font-bold text-gray-800 mb-1">Explainability and Recommendations</h3>
+    <p class="text-xs text-gray-400 mb-4">Indicates how much growth is from new wins vs replacement</p>
+    <div class="h-24 flex items-center justify-center text-gray-300 text-xs">
+      AI-generated insights will appear here after applying scenario
+    </div>
+  </div>
+</div>

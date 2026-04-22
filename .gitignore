@@ -1,0 +1,34 @@
+# Environment files — never commit secrets
+.env
+.env.*
+azure/.env.azure
+
+# Node
+node_modules/
+frontend-ang/node_modules/
+frontend-ang/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+backend/__pycache__/
+
+# Angular build output
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Design assets — keep off GitHub
+docs/figma-screens/
+docs/database-documentation.md
+
+# Build artifacts
+dfc-dist.zip
+*.zip
+
+# Lockfiles generated outside workspace
+/package-lock.json

@@ -1,0 +1,37 @@
+[
+  {
+    "skills": "SAP Basis",
+    "skill_count": 1,
+    "true_demand": 995
+  },
+  {
+    "skills": "SAP FICO",
+    "skill_count": 1,
+    "true_demand": 964
+  },
+  {
+    "skills": "SAP ABAP",
+    "skill_count": 1,
+    "true_demand": 802
+  },
+  {
+    "skills": "SAP SD",
+    "skill_count": 1,
+    "true_demand": 758
+  },
+  {
+    "skills": "SAP MM",
+    "skill_count": 1,
+    "true_demand": 618
+  },
+  {
+    "skills": "SAP Security",
+    "skill_count": 1,
+    "true_demand": 419
+  },
+  {
+    "skills": "SAP Marketing Cloud",
+    "skill_count": 1,
+    "true_demand": 147
+  }
+]

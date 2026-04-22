@@ -1,0 +1,212 @@
+[
+  {
+    "skills": "SAP Basis",
+    "skill_count": 1,
+    "true_demand": 995
+  },
+  {
+    "skills": "SAP FICO",
+    "skill_count": 1,
+    "true_demand": 964
+  },
+  {
+    "skills": "SAP ABAP",
+    "skill_count": 1,
+    "true_demand": 802
+  },
+  {
+    "skills": "SAP SD",
+    "skill_count": 1,
+    "true_demand": 758
+  },
+  {
+    "skills": "SAP MM",
+    "skill_count": 1,
+    "true_demand": 618
+  },
+  {
+    "skills": "SAP ABAP, SAP Marketing Cloud",
+    "skill_count": 2,
+    "true_demand": 421
+  },
+  {
+    "skills": "SAP Security",
+    "skill_count": 1,
+    "true_demand": 419
+  },
+  {
+    "skills": "SAP ABAP, SAP Marketing Cloud, SAP Security",
+    "skill_count": 3,
+    "true_demand": 307
+  },
+  {
+    "skills": "SAP MM, SAP SD",
+    "skill_count": 2,
+    "true_demand": 188
+  },
+  {
+    "skills": "SAP Marketing Cloud",
+    "skill_count": 1,
+    "true_demand": 147
+  },
+  {
+    "skills": "SAP Basis, SAP Security",
+    "skill_count": 2,
+    "true_demand": 94
+  },
+  {
+    "skills": "SAP FICO, SAP MM",
+    "skill_count": 2,
+    "true_demand": 93
+  },
+  {
+    "skills": "SAP FICO, SAP MM, SAP SD",
+    "skill_count": 3,
+    "true_demand": 88
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP FICO, SAP MM, SAP Marketing Cloud, SAP SD",
+    "skill_count": 6,
+    "true_demand": 48
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis",
+    "skill_count": 2,
+    "true_demand": 37
+  },
+  {
+    "skills": "SAP ABAP, SAP MM, SAP Marketing Cloud",
+    "skill_count": 3,
+    "true_demand": 32
+  },
+  {
+    "skills": "SAP ABAP, SAP MM",
+    "skill_count": 2,
+    "true_demand": 30
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP MM",
+    "skill_count": 3,
+    "true_demand": 23
+  },
+  {
+    "skills": "SAP ABAP, SAP FICO",
+    "skill_count": 2,
+    "true_demand": 22
+  },
+  {
+    "skills": "SAP Basis, SAP FICO",
+    "skill_count": 2,
+    "true_demand": 20
+  },
+  {
+    "skills": "SAP FICO, SAP SD",
+    "skill_count": 2,
+    "true_demand": 20
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP Marketing Cloud",
+    "skill_count": 3,
+    "true_demand": 17
+  },
+  {
+    "skills": "SAP Marketing Cloud, SAP Security",
+    "skill_count": 2,
+    "true_demand": 13
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP MM, SAP Marketing Cloud",
+    "skill_count": 4,
+    "true_demand": 11
+  },
+  {
+    "skills": "SAP ABAP, SAP SD",
+    "skill_count": 2,
+    "true_demand": 9
+  },
+  {
+    "skills": "SAP ABAP, SAP Security",
+    "skill_count": 2,
+    "true_demand": 8
+  },
+  {
+    "skills": "SAP ABAP, SAP FICO, SAP Marketing Cloud",
+    "skill_count": 3,
+    "true_demand": 5
+  },
+  {
+    "skills": "SAP Basis, SAP FICO, SAP SD",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "SAP ABAP, SAP FICO, SAP MM, SAP Marketing Cloud, SAP SD",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "SAP ABAP, SAP Marketing Cloud, SAP SD",
+    "skill_count": 3,
+    "true_demand": 4
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP FICO, SAP MM, SAP Marketing Cloud",
+    "skill_count": 5,
+    "true_demand": 4
+  },
+  {
+    "skills": "SAP ABAP, SAP FICO, SAP SD",
+    "skill_count": 3,
+    "true_demand": 3
+  },
+  {
+    "skills": "SAP Basis, SAP FICO, SAP MM, SAP SD",
+    "skill_count": 4,
+    "true_demand": 3
+  },
+  {
+    "skills": "SAP Basis, SAP MM",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "SAP FICO, SAP Security",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "SAP Basis, SAP Marketing Cloud",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "SAP FICO, SAP Marketing Cloud",
+    "skill_count": 2,
+    "true_demand": 2
+  },
+  {
+    "skills": "SAP Basis, SAP FICO, SAP Marketing Cloud",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP SD",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP FICO",
+    "skill_count": 3,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP ABAP, SAP Basis, SAP MM, SAP Marketing Cloud, SAP SD",
+    "skill_count": 5,
+    "true_demand": 1
+  },
+  {
+    "skills": "SAP ABAP, SAP FICO, SAP MM",
+    "skill_count": 3,
+    "true_demand": 1
+  }
+]

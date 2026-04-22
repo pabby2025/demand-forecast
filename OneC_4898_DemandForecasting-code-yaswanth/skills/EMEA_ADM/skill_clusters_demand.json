@@ -1,0 +1,247 @@
+{
+  "market": "EMEA",
+  "params": {
+    "max_clusters": 12,
+    "min_skills_per_cluster": 2,
+    "max_skills_per_cluster": 6,
+    "max_candidate_clusters": 100,
+    "min_jaccard_for_coverage": 0.5,
+    "min_mapped_demand_per_cluster": 250
+  },
+  "min_jaccard_for_coverage": 0.5,
+  "assignment_rule": "exclusive: each row assigned to the cluster with highest Jaccard (>= min_jaccard); tie-break by smaller cluster",
+  "ties_broken": 218,
+  "total_demand": 7641,
+  "total_mapped_demand": 6485,
+  "unmapped_demand": 1156,
+  "coverage_fraction": 0.8487,
+  "num_clusters": 9,
+  "unique_skills_in_clusters": [
+    ".NET",
+    "Angular",
+    "Azure",
+    "COBOL",
+    "DB2",
+    "IT Service Management",
+    "ITIL",
+    "JCL",
+    "Java",
+    "JavaScript",
+    "Microservices",
+    "MySQL",
+    "Node JS",
+    "Oracle",
+    "SQL",
+    "ServiceNow",
+    "Shell Scripting/Linux",
+    "Spring Boot"
+  ],
+  "unique_skills_count": 18,
+  "high_demand_skills_missed": {
+    "AWS": 490,
+    "Software Testing": 389,
+    "Agile": 370,
+    "Python": 368
+  },
+  "high_demand_skills_missed_count": 4,
+  "injection_focus_missed_before": [
+    "AWS",
+    "Node JS"
+  ],
+  "injection_focus_missed_after": [],
+  "injection_actions_taken": 2,
+  "injection_details": [
+    {
+      "phase": "append",
+      "skill": "AWS",
+      "cluster": 9,
+      "old": [
+        "IT Service Management",
+        "Java",
+        "JavaScript",
+        "Oracle"
+      ],
+      "new": [
+        "AWS",
+        "IT Service Management",
+        "Java",
+        "JavaScript",
+        "Oracle"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Node JS",
+      "cluster": 5,
+      "old": [
+        ".NET",
+        "Angular",
+        "Azure",
+        "SQL"
+      ],
+      "new": [
+        ".NET",
+        "Angular",
+        "Azure",
+        "Node JS",
+        "SQL"
+      ]
+    }
+  ],
+  "clusters_sorted_by": "mapped_demand descending",
+  "cv_note": "coefficient of variation (std/mean) of monthly demand per cluster",
+  "cv_2025_note": "CV of monthly demand in 2025 only",
+  "skill_occurrence_note": "count of mapped rows in this cluster containing each skill",
+  "clusters": [
+    {
+      "skills": [
+        ".NET",
+        "SQL"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1777,
+      "skill_occurrence": {
+        ".NET": 1733,
+        "SQL": 883
+      },
+      "cv": 0.3573,
+      "cv_2025": 0.4522
+    },
+    {
+      "skills": [
+        "Java",
+        "Spring Boot"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1233,
+      "skill_occurrence": {
+        "Java": 1208,
+        "Spring Boot": 665
+      },
+      "cv": 0.608,
+      "cv_2025": 0.5938
+    },
+    {
+      "skills": [
+        "Java",
+        "Microservices",
+        "Oracle"
+      ],
+      "skill_count": 3,
+      "mapped_demand": 925,
+      "skill_occurrence": {
+        "Java": 906,
+        "Microservices": 778,
+        "Oracle": 861
+      },
+      "cv": 0.8333,
+      "cv_2025": 0.4645
+    },
+    {
+      "skills": [
+        "ITIL",
+        "ServiceNow"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 685,
+      "skill_occurrence": {
+        "ITIL": 309,
+        "ServiceNow": 613
+      },
+      "cv": 0.5035,
+      "cv_2025": 0.4743
+    },
+    {
+      "skills": [
+        "COBOL",
+        "DB2",
+        "IT Service Management",
+        "JCL"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 509,
+      "skill_occurrence": {
+        "COBOL": 406,
+        "DB2": 460,
+        "IT Service Management": 159,
+        "JCL": 428
+      },
+      "cv": 0.9568,
+      "cv_2025": 0.6342
+    },
+    {
+      "skills": [
+        ".NET",
+        "Angular",
+        "Azure",
+        "SQL",
+        "Node JS"
+      ],
+      "skill_count": 5,
+      "mapped_demand": 460,
+      "skill_occurrence": {
+        ".NET": 448,
+        "Angular": 297,
+        "Azure": 348,
+        "SQL": 339,
+        "Node JS": 298
+      },
+      "cv": 1.1731,
+      "cv_2025": 0.6516
+    },
+    {
+      "skills": [
+        "IT Service Management",
+        "Java",
+        "JavaScript",
+        "Oracle"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 301,
+      "skill_occurrence": {
+        "IT Service Management": 212,
+        "Java": 288,
+        "JavaScript": 135,
+        "Oracle": 242
+      },
+      "cv": 0.6994,
+      "cv_2025": 0.4642
+    },
+    {
+      "skills": [
+        "Java",
+        "Microservices",
+        "MySQL",
+        "Oracle",
+        "Shell Scripting/Linux",
+        "Spring Boot"
+      ],
+      "skill_count": 6,
+      "mapped_demand": 301,
+      "skill_occurrence": {
+        "Java": 294,
+        "Microservices": 203,
+        "MySQL": 204,
+        "Oracle": 269,
+        "Shell Scripting/Linux": 160,
+        "Spring Boot": 246
+      },
+      "cv": 0.8685,
+      "cv_2025": 0.7181
+    },
+    {
+      "skills": [
+        "COBOL",
+        "DB2"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 294,
+      "skill_occurrence": {
+        "COBOL": 206,
+        "DB2": 116
+      },
+      "cv": 0.7167,
+      "cv_2025": 0.9275
+    }
+  ]
+}

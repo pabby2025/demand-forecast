@@ -1,0 +1,182 @@
+{
+  ".NET": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 3296
+    }
+  },
+  "Agile": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1277
+    }
+  },
+  "Android": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 289
+    }
+  },
+  "Angular": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 5952
+    }
+  },
+  "AWS": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 7493
+    }
+  },
+  "Azure": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 2885
+    }
+  },
+  "C#": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 2090
+    }
+  },
+  "Design Patterns": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 641
+    }
+  },
+  "DevOps": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 960
+    }
+  },
+  "Docker Containers": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 646
+    }
+  },
+  "HTML/CSS": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1572
+    }
+  },
+  "iOS": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 301
+    }
+  },
+  "Java": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 11706
+    }
+  },
+  "JavaScript": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 9716
+    }
+  },
+  "Jenkins": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 688
+    }
+  },
+  "Kafka": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 605
+    }
+  },
+  "Microservices": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1435
+    }
+  },
+  "MySQL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 5787
+    }
+  },
+  "Node JS": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 2347
+    }
+  },
+  "Project Management": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 641
+    }
+  },
+  "Python": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 596
+    }
+  },
+  "React": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 4845
+    }
+  },
+  "React Native": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 539
+    }
+  },
+  "Shell Scripting/Linux": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 657
+    }
+  },
+  "Software Testing": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 1819
+    }
+  },
+  "Spring Boot": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 9176
+    }
+  },
+  "SQL": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 9140
+    }
+  },
+  "Terraform": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 441
+    }
+  },
+  "TypeScript": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 694
+    }
+  },
+  "YAML": {
+    "cv": 0.0,
+    "demands": {
+      "2025": 553
+    }
+  }
+}

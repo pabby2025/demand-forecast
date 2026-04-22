@@ -1,0 +1,107 @@
+{
+  "MSC-.NET-Angular-Azure-C#-Java": {
+    "skills": [
+      ".NET",
+      "Angular",
+      "Azure",
+      "C#",
+      "Java"
+    ],
+    "mapped_demand": 7421,
+    "cv": 0.251208399167967,
+    "cv_2025": 0.21697151836573272
+  },
+  "MSC-Agile-Microsoft_365-PPM-Project_Management": {
+    "skills": [
+      "Agile",
+      "Microsoft 365",
+      "PPM",
+      "Project Management"
+    ],
+    "mapped_demand": 6363,
+    "cv": 0.30752182223672997,
+    "cv_2025": 0.33257030560903933
+  },
+  "MSC-Git-HTML/CSS-Node_JS-React-TypeScript": {
+    "skills": [
+      "Git",
+      "HTML/CSS",
+      "Node JS",
+      "React",
+      "TypeScript"
+    ],
+    "mapped_demand": 4884,
+    "cv": 0.34611482364501883,
+    "cv_2025": 0.30313466814948686
+  },
+  "MSC-AWS-DevOps-Docker_Containers-Jenkins-Terraform": {
+    "skills": [
+      "AWS",
+      "DevOps",
+      "Docker Containers",
+      "Jenkins",
+      "Terraform"
+    ],
+    "mapped_demand": 1339,
+    "cv": 0.3954336067411966,
+    "cv_2025": 0.1944219881116709
+  },
+  "MSC-Java-Kafka-Microservices-Python-Spring_Boot": {
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Python",
+      "Spring Boot"
+    ],
+    "mapped_demand": 5250,
+    "cv": 0.47140744541408847,
+    "cv_2025": 0.3563345562203833
+  },
+  "MSC-AWS-Java-MySQL-SQL-Spring_Boot": {
+    "skills": [
+      "AWS",
+      "Java",
+      "MySQL",
+      "SQL",
+      "Spring Boot"
+    ],
+    "mapped_demand": 15618,
+    "cv": 0.5314874997661371,
+    "cv_2025": 0.17367923001886573
+  },
+  "MSC-Android-React_Native-iOS": {
+    "skills": [
+      "Android",
+      "React Native",
+      "iOS"
+    ],
+    "mapped_demand": 2119,
+    "cv": 0.5330813999734746,
+    "cv_2025": 0.38188530432822104
+  },
+  "MSC-API_Development-Git-Java-Shell_Scripting/Linux-Software_Testing": {
+    "skills": [
+      "API Development",
+      "Git",
+      "Java",
+      "Shell Scripting/Linux",
+      "Software Testing"
+    ],
+    "mapped_demand": 1864,
+    "cv": 0.7224098411284224,
+    "cv_2025": 0.3497876604561794
+  },
+  "MSC-AWS-Java-JavaScript-MySQL-SQL": {
+    "skills": [
+      "AWS",
+      "Java",
+      "JavaScript",
+      "MySQL",
+      "SQL"
+    ],
+    "mapped_demand": 2562,
+    "cv": 0.8263594719008065,
+    "cv_2025": 0.24007440601997007
+  }
+}

@@ -1,0 +1,73 @@
+<div class="p-6">
+  <!-- Breadcrumb + Download -->
+  <div class="flex items-center justify-between mb-2">
+    <div class="flex items-center gap-2 text-xs text-gray-500">
+      <svg class="w-4 h-4 text-[#1B2559]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="7" height="7" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" stroke-width="1.5"/>
+        <rect x="14" y="14" width="7" height="7" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" stroke-width="1.5"/>
+      </svg>
+      <a class="text-[#1B2559] hover:text-[#00BCD4] cursor-pointer font-medium transition-colors">Home</a>
+      <span>/</span>
+      <span>Skill Micro Cluster Taxonomy</span>
+    </div>
+    <button class="w-8 h-8 flex items-center justify-center rounded-lg bg-white border border-gray-200 hover:bg-gray-50 shadow-sm" title="Download CSV">
+      <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke-width="2" stroke-linecap="round"/>
+        <polyline points="7 10 12 15 17 10" stroke-width="2" stroke-linecap="round"/>
+        <line x1="12" y1="15" x2="12" y2="3" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Page title + subtitle -->
+  <h1 class="text-2xl font-bold text-gray-900 mb-1">Skill Micro Cluster Taxonomy</h1>
+  <p class="text-sm text-gray-500 mb-6">Organize workforce demand into micro clusters for sharper skill visibility and planning.</p>
+
+  <app-loading-skeleton *ngIf="loading" type="table" [rows]="9" [cols]="6"></app-loading-skeleton>
+  <app-error-card *ngIf="error && !loading" (onRetry)="load()"></app-error-card>
+
+  <div *ngIf="!loading && !error" class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+    <div class="overflow-x-auto">
+      <table class="min-w-full text-sm">
+        <thead>
+          <tr class="border-b border-gray-200">
+            <th class="text-left px-4 py-3 font-medium text-gray-600 bg-gray-50 whitespace-nowrap">Skill Microcluster Name</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-600 bg-gray-50 whitespace-nowrap">Leaf Skill 1</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-600 bg-gray-50 whitespace-nowrap">Leaf Skill 2</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-600 bg-gray-50 whitespace-nowrap">Leaf Skill 3</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-600 bg-gray-50 whitespace-nowrap">Leaf Skill 4</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-600 bg-gray-50 whitespace-nowrap">Leaf Skill 5</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let cluster of pagedClusters"
+              class="border-b border-gray-100 hover:bg-blue-50/20 transition-colors">
+            <td class="px-4 py-3 font-medium text-gray-900">{{ cluster.cluster }}</td>
+            <td class="px-4 py-3 text-gray-600">{{ leafSkill(cluster, 0) }}</td>
+            <td class="px-4 py-3 text-gray-600">{{ leafSkill(cluster, 1) }}</td>
+            <td class="px-4 py-3 text-gray-600">{{ leafSkill(cluster, 2) }}</td>
+            <td class="px-4 py-3 text-gray-600">{{ leafSkill(cluster, 3) }}</td>
+            <td class="px-4 py-3 text-gray-600">{{ leafSkill(cluster, 4) }}</td>
+          </tr>
+          <tr *ngIf="clusters.length === 0">
+            <td colspan="6" class="px-4 py-12 text-center text-gray-400">No clusters found</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="px-4 py-3 border-t border-gray-100 flex items-center justify-end gap-2 text-xs text-gray-500">
+      <button (click)="prevPage()" [disabled]="currentPage === 1"
+              class="w-7 h-7 flex items-center justify-center rounded border border-gray-200 hover:bg-gray-50 disabled:opacity-40">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6" stroke-width="2"/></svg>
+      </button>
+      <span class="px-2 py-1 rounded bg-[#1B2559] text-white font-medium">{{ currentPage }}</span>
+      <button (click)="nextPage()" [disabled]="currentPage === totalPages"
+              class="w-7 h-7 flex items-center justify-center rounded border border-gray-200 hover:bg-gray-50 disabled:opacity-40">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6" stroke-width="2"/></svg>
+      </button>
+      <span>of {{ totalPages }}</span>
+    </div>
+  </div>
+</div>

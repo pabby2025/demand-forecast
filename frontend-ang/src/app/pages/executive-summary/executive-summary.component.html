@@ -1,0 +1,326 @@
+<!-- Always-visible header -->
+<div class="px-6 pt-6 pb-4 flex items-center justify-between border-b border-gray-100">
+  <div>
+    <h1 class="text-xl font-bold text-gray-900">Executive Summary</h1>
+    <p class="text-xs text-gray-500 mt-0.5">
+      {{ authService.user?.name }} · {{ authService.user?.role?.replace('_',' ') }} · {{ today }}
+    </p>
+  </div>
+  <div class="text-xs text-gray-400 bg-white border border-gray-200 px-3 py-1.5 rounded-lg">
+    Forecast Horizon: M0–M5
+  </div>
+</div>
+
+<!-- Filter bar -->
+<app-filter-bar></app-filter-bar>
+
+<!-- Loading -->
+<div *ngIf="loading" class="px-6 pt-4"><app-loading-skeleton type="page"></app-loading-skeleton></div>
+
+<!-- Error -->
+<div *ngIf="error && !loading" class="px-6 pt-6">
+  <app-error-card message="Failed to load executive summary. Please check your connection and try again." (onRetry)="load()"></app-error-card>
+</div>
+
+<!-- Content -->
+<div *ngIf="!loading && !error && data" class="space-y-6 px-6 py-5">
+
+  <!-- ── Section 1: Forecast Overview KPIs ─────────────────────────────────── -->
+  <div>
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Forecast Overview</h2>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center gap-2 mb-2">
+          <div class="w-7 h-7 bg-[#00BCD4]/10 rounded-lg flex items-center justify-center">
+            <svg class="w-4 h-4 text-[#00BCD4]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" stroke-width="2"/><polyline points="17 6 23 6 23 12" stroke-width="2"/></svg>
+          </div>
+          <span class="text-xs text-gray-500 font-medium">Total Demand Forecast</span>
+        </div>
+        <div class="text-2xl font-bold text-gray-900">{{ totalDemand | number }}</div>
+        <div class="text-xs text-gray-400 mt-0.5">FTEs · M0–M5 Rolling</div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center gap-2 mb-2">
+          <div class="w-7 h-7 bg-purple-100 rounded-lg flex items-center justify-center">
+            <svg class="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10" stroke-width="2"/><line x1="12" y1="20" x2="12" y2="4" stroke-width="2"/><line x1="6" y1="20" x2="6" y2="14" stroke-width="2"/></svg>
+          </div>
+          <span class="text-xs text-gray-500 font-medium">Demand Growth Rate</span>
+        </div>
+        <div class="text-2xl font-bold" [class]="growthClass(momChange)">{{ growthSign(momChange) }}{{ momChange }}%</div>
+        <div class="text-xs text-gray-400 mt-0.5">Month-over-Month</div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center gap-2 mb-2">
+          <div class="w-7 h-7 bg-orange-100 rounded-lg flex items-center justify-center">
+            <svg class="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07" stroke-width="2"/></svg>
+          </div>
+          <span class="text-xs text-gray-500 font-medium">Avg Cancellation</span>
+        </div>
+        <div class="text-2xl font-bold text-orange-500">{{ avgCancellation }}%</div>
+        <div class="text-xs text-gray-400 mt-0.5">SOs with cancellation reason</div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center gap-2 mb-2">
+          <div class="w-7 h-7 bg-[#1B2559]/10 rounded-lg flex items-center justify-center">
+            <svg class="w-4 h-4 text-[#1B2559]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2" stroke-width="2"/><polyline points="2 17 12 22 22 17" stroke-width="2"/><polyline points="2 12 12 17 22 12" stroke-width="2"/></svg>
+          </div>
+          <span class="text-xs text-gray-500 font-medium">Top Practice Areas</span>
+        </div>
+        <div class="space-y-1 mt-1">
+          <div *ngFor="let pa of topPracticeAreas.slice(0,3)" class="flex items-center justify-between text-xs">
+            <span class="text-gray-600 truncate max-w-[110px]">{{ pa['name'] }}</span>
+            <span class="font-bold text-[#1B2559]">{{ pa['pct'] }}%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Section 2: BU Performance ─────────────────────────────────────────── -->
+  <div>
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Business Unit Performance</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center justify-between mb-3">
+          <h3 class="text-sm font-semibold text-gray-700">Top BUs by Demand</h3>
+          <button (click)="router.navigate(['/forecast/bu-performance'])" class="text-xs text-[#00BCD4] hover:underline">View →</button>
+        </div>
+        <div class="space-y-2">
+          <div *ngFor="let bu of buPerformance.top_by_demand.slice(0,5)" class="flex items-center gap-3">
+            <span class="text-xs text-gray-600 w-32 truncate">{{ bu['name'] }}</span>
+            <div class="flex-1 bg-gray-100 rounded-full h-1.5">
+              <div class="bg-[#1B2559] h-1.5 rounded-full" [style.width.%]="bu['pct']"></div>
+            </div>
+            <span class="text-xs font-bold text-gray-800 w-10 text-right">{{ bu['pct'] }}%</span>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center justify-between mb-3">
+          <h3 class="text-sm font-semibold text-gray-700">Top BUs by Growth Rate</h3>
+          <button (click)="router.navigate(['/forecast/bu-performance'])" class="text-xs text-[#00BCD4] hover:underline">View →</button>
+        </div>
+        <div class="space-y-2">
+          <div *ngFor="let bu of buPerformance.top_by_growth.slice(0,5)" class="flex items-center justify-between text-xs">
+            <span class="text-gray-600 truncate max-w-[160px]">{{ bu['name'] }}</span>
+            <span class="font-bold" [class]="growthClass(asNum(bu['growth_pct']))">
+              {{ growthSign(asNum(bu['growth_pct'])) }}{{ bu['growth_pct'] }}% <span class="text-gray-400 font-normal">yoy</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Section 3: Geographic Distribution ───────────────────────────────── -->
+  <div>
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Geographic Distribution</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center justify-between mb-2">
+          <h3 class="text-sm font-semibold text-gray-700">Onsite vs Offshore</h3>
+          <button (click)="router.navigate(['/forecast/geographic'])" class="text-xs text-[#00BCD4] hover:underline">View →</button>
+        </div>
+        <div class="flex items-center gap-4">
+          <div style="height:110px; width:110px; flex-shrink:0">
+            <canvas baseChart [data]="onsiteChart" [type]="'doughnut'" [options]="donutOptsMini"></canvas>
+          </div>
+          <div class="flex flex-col gap-2">
+            <div class="flex items-center gap-2 text-xs">
+              <div class="w-3 h-3 rounded-full bg-[#1B2559]"></div>
+              <span class="text-gray-600">Onsite</span>
+              <span class="font-bold text-gray-900 ml-auto">{{ geographic.onsite_pct }}%</span>
+            </div>
+            <div class="flex items-center gap-2 text-xs">
+              <div class="w-3 h-3 rounded-full bg-[#00BCD4]"></div>
+              <span class="text-gray-600">Offshore</span>
+              <span class="font-bold text-gray-900 ml-auto">{{ geographic.offshore_pct }}%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-3">Top Countries for Delivery</h3>
+        <div class="space-y-1.5">
+          <div *ngFor="let c of geographic.top_countries" class="flex items-center gap-3 text-xs">
+            <span class="text-gray-600 w-24">{{ c['country'] }}</span>
+            <div class="flex-1 bg-gray-100 rounded-full h-1.5">
+              <div class="bg-[#00BCD4] h-1.5 rounded-full" [style.width.%]="c['pct']"></div>
+            </div>
+            <span class="font-bold text-gray-800 w-12 text-right">{{ asNum(c['demand']) | number:'1.0-0' }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Section 4: Skill Distribution ────────────────────────────────────── -->
+  <div>
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Skill Distribution</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center justify-between mb-2">
+          <h3 class="text-sm font-semibold text-gray-700">Top Clusters in Practice</h3>
+          <button (click)="router.navigate(['/forecast/skills'])" class="text-xs text-[#00BCD4] hover:underline">View →</button>
+        </div>
+        <div class="space-y-2">
+          <div *ngFor="let c of skillDistribution.top_clusters.slice(0,4)" class="text-xs">
+            <div class="flex justify-between mb-0.5">
+              <span class="text-gray-600 truncate max-w-[130px]" [title]="c['cluster']">{{ (c['cluster'] + '').replace('MSC-','') }}</span>
+              <span class="font-bold text-gray-800">{{ asNum(c['demand']) | number:'1.0-0' }}</span>
+            </div>
+            <div class="w-full bg-gray-100 rounded-full h-1">
+              <div class="bg-[#1B2559] h-1 rounded-full" [style.width.%]="asNum(c['demand']) / totalDemand * 100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-2">Top Clusters in SL</h3>
+        <div class="space-y-2">
+          <div *ngFor="let c of skillDistribution.top_clusters_in_sl.slice(0,4)" class="text-xs">
+            <div class="flex justify-between mb-0.5">
+              <span class="text-gray-600 truncate max-w-[130px]" [title]="c['cluster']">{{ (c['cluster'] + '').replace('MSC-','') }}</span>
+              <span class="font-bold text-gray-800">{{ asNum(c['demand']) | number:'1.0-0' }}</span>
+            </div>
+            <div class="w-full bg-gray-100 rounded-full h-1">
+              <div class="bg-[#00BCD4] h-1 rounded-full" [style.width.%]="asNum(c['demand']) / totalDemand * 100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-1">Stable vs Volatile</h3>
+        <div class="flex items-center gap-3">
+          <div style="height:100px; width:100px; flex-shrink:0">
+            <canvas baseChart [data]="stableChart" [type]="'doughnut'" [options]="donutOptsMini"></canvas>
+          </div>
+          <div class="flex flex-col gap-2 text-xs">
+            <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-green-500"></div><span class="text-gray-600">Stable</span><span class="font-bold ml-auto">{{ skillDistribution.stable_pct }}%</span></div>
+            <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-yellow-400"></div><span class="text-gray-600">Volatile</span><span class="font-bold ml-auto">{{ skillDistribution.volatile_pct }}%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Section 5: Grade Distribution ────────────────────────────────────── -->
+  <div>
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Grade Distribution</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center justify-between mb-2">
+          <h3 class="text-sm font-semibold text-gray-700">Grade Mix</h3>
+          <button (click)="router.navigate(['/forecast/grades'])" class="text-xs text-[#00BCD4] hover:underline">View →</button>
+        </div>
+        <div class="flex items-center gap-4">
+          <div style="height:110px; width:110px; flex-shrink:0">
+            <canvas baseChart [data]="gradeChart" [type]="'doughnut'" [options]="donutOptsMini"></canvas>
+          </div>
+          <div class="flex flex-col gap-1 text-xs flex-1">
+            <div *ngFor="let g of gradeDistribution.grade_donut.slice(0,5)" class="flex items-center justify-between">
+              <span class="text-gray-600">{{ g['grade'] }}</span>
+              <div class="flex items-center gap-1.5">
+                <span class="text-gray-500">{{ g['pct'] }}%</span>
+                <span class="font-bold text-gray-800 w-14 text-right">{{ asNum(g['count']) | number:'1.0-0' }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-2">Short-Fuse Demand (next 6 months)</h3>
+        <div class="flex items-end gap-4 mb-3">
+          <div class="text-3xl font-bold text-red-500">{{ gradeDistribution.shortfuse_total | number }}</div>
+          <div class="text-xs text-gray-400 pb-1">demands &lt; 30 days</div>
+        </div>
+        <div class="space-y-1">
+          <div *ngFor="let g of gradeDistribution.shortfuse_by_grade" class="flex items-center gap-2 text-xs">
+            <span class="w-10 text-gray-600 font-medium">{{ g['grade'] }}</span>
+            <div class="flex-1 bg-gray-100 rounded-full h-1.5">
+              <div class="bg-red-400 h-1.5 rounded-full" [style.width.%]="gradeDistribution.shortfuse_total ? (asNum(g['count']) / gradeDistribution.shortfuse_total * 100) : 0"></div>
+            </div>
+            <span class="font-bold text-gray-800 w-8 text-right">{{ g['count'] }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Section 6: Demand Type Breakdown ─────────────────────────────────── -->
+  <div>
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Demand Type Breakdown</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <div class="flex items-center justify-between mb-2">
+          <h3 class="text-sm font-semibold text-gray-700">New Demand vs Backfill</h3>
+          <button (click)="router.navigate(['/forecast/demand-type'])" class="text-xs text-[#00BCD4] hover:underline">View →</button>
+        </div>
+        <div class="flex items-center gap-4">
+          <div style="height:110px; width:110px; flex-shrink:0">
+            <canvas baseChart [data]="newBackfillChart" [type]="'doughnut'" [options]="donutOptsMini"></canvas>
+          </div>
+          <div class="flex flex-col gap-2 text-xs">
+            <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#1B2559]"></div><span class="text-gray-600">New Demand</span><span class="font-bold ml-2">{{ demandType.new_demand_pct }}%</span></div>
+            <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#00BCD4]"></div><span class="text-gray-600">Backfill</span><span class="font-bold ml-2">{{ demandType.backfill_pct }}%</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-2">Contract Type Mix</h3>
+        <div class="flex items-center gap-4">
+          <div style="height:110px; width:110px; flex-shrink:0">
+            <canvas baseChart [data]="contractChart" [type]="'doughnut'" [options]="donutOptsMini"></canvas>
+          </div>
+          <div class="flex flex-col gap-2 text-xs">
+            <div *ngFor="let c of demandType.contract_type_mix; let i = index" class="flex items-center gap-2">
+              <div class="w-3 h-3 rounded-full" [style.background]="['#1B2559','#00BCD4','#7C3AED'][i]"></div>
+              <span class="text-gray-600">{{ c['name'] }}</span>
+              <span class="font-bold ml-auto">{{ c['pct'] }}%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Section 7: My Tasks + My Alerts ──────────────────────────────────── -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5 cursor-pointer hover:border-[#00BCD4] transition-colors"
+         (click)="router.navigate(['/tasks'])">
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 bg-yellow-100 rounded-lg flex items-center justify-center">
+            <svg class="w-4 h-4 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4" stroke-width="2"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke-width="2"/></svg>
+          </div>
+          <span class="font-semibold text-sm text-gray-800">My Tasks</span>
+        </div>
+        <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6" stroke-width="2"/></svg>
+      </div>
+      <div class="flex gap-6 text-xs">
+        <div><span class="font-bold text-red-600 text-lg">{{ tasksSummary['pending'] }}</span><div class="text-gray-500">Pending</div></div>
+        <div><span class="font-bold text-blue-600 text-lg">{{ tasksSummary['in_progress'] }}</span><div class="text-gray-500">In Progress</div></div>
+        <div><span class="font-bold text-green-600 text-lg">{{ tasksSummary['completed'] }}</span><div class="text-gray-500">Completed</div></div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5 cursor-pointer hover:border-[#00BCD4] transition-colors"
+         (click)="router.navigate(['/alerts'])">
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
+            <svg class="w-4 h-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" stroke-width="2"/><path d="M13.73 21a2 2 0 0 1-3.46 0" stroke-width="2"/></svg>
+          </div>
+          <span class="font-semibold text-sm text-gray-800">My Alerts</span>
+        </div>
+        <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6" stroke-width="2"/></svg>
+      </div>
+      <div class="flex gap-6 text-xs">
+        <div><span class="font-bold text-red-600 text-lg">{{ alertsSummary['new'] }}</span><div class="text-gray-500">Action Req.</div></div>
+        <div><span class="font-bold text-yellow-500 text-lg">{{ alertsSummary['acknowledged'] }}</span><div class="text-gray-500">Pending</div></div>
+        <div><span class="font-bold text-gray-500 text-lg">{{ alertsSummary['total'] }}</span><div class="text-gray-500">Total</div></div>
+      </div>
+    </div>
+  </div>
+
+</div>

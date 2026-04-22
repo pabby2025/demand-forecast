@@ -1,0 +1,48 @@
+<app-loading-skeleton *ngIf="loading" type="page"></app-loading-skeleton>
+<app-error-card *ngIf="error && !loading" (onRetry)="load()"></app-error-card>
+
+<div *ngIf="!loading && !error && data" class="space-y-5">
+  <!-- KPI Row -->
+  <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+    <app-kpi-card title="Forecast Demand" [value]="kpis['total_forecast_fte'].toLocaleString()" subtitle="12-month horizon" [trend]="kpis['yoy_growth']" color="teal">
+      <svg slot="icon" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" stroke-width="2"/></svg>
+    </app-kpi-card>
+    <app-kpi-card title="MoM Change" [value]="(kpis['mom_change'] >= 0 ? '+' : '') + kpis['mom_change'] + '%'" subtitle="Month-over-Month" [trend]="kpis['mom_change']" color="navy"></app-kpi-card>
+    <app-kpi-card title="QoQ Growth" [value]="(kpis['yoy_growth'] >= 0 ? '+' : '') + kpis['yoy_growth'] + '%'" subtitle="Quarter-over-Quarter" [trend]="kpis['yoy_growth']" color="purple"></app-kpi-card>
+    <app-kpi-card title="Avg Cancellation" [value]="kpis['avg_cancellation_pct'] + '%'" subtitle="SOs cancelled" [trend]="0" color="orange"></app-kpi-card>
+  </div>
+
+  <!-- 3 Trend Charts -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">FTE Demand Monthly</h3>
+      <div style="height:180px"><canvas baseChart [data]="monthlyChart" [type]="'bar'" [options]="barLineOptions"></canvas></div>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">FTE Demand Weekly</h3>
+      <div style="height:180px"><canvas baseChart [data]="weeklyChart" [type]="'line'" [options]="commonOptions"></canvas></div>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+      <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">FTE Demand Quarterly</h3>
+      <div style="height:180px"><canvas baseChart [data]="quarterlyChart" [type]="'bar'" [options]="commonOptions"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Grid with Monthly/Weekly toggle -->
+  <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+    <div class="flex items-center justify-between px-5 py-3 border-b border-gray-100">
+      <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider">FTE Demand</h3>
+      <div class="flex items-center gap-1 bg-gray-100 rounded-lg p-0.5">
+        <button (click)="gridTab = 'monthly'"
+                [class]="'px-3 py-1 text-xs font-medium rounded-md transition-colors ' + (gridTab === 'monthly' ? 'bg-white text-gray-800 shadow-sm' : 'text-gray-500 hover:text-gray-700')">
+          Monthly
+        </button>
+        <button (click)="gridTab = 'weekly'"
+                [class]="'px-3 py-1 text-xs font-medium rounded-md transition-colors ' + (gridTab === 'weekly' ? 'bg-white text-gray-800 shadow-sm' : 'text-gray-500 hover:text-gray-700')">
+          Weekly
+        </button>
+      </div>
+    </div>
+    <app-data-grid [data]="activeGrid" [columns]="activeColumns" [pageSize]="9" [downloadFilename]="gridTab + '-forecast.csv'"></app-data-grid>
+  </div>
+</div>

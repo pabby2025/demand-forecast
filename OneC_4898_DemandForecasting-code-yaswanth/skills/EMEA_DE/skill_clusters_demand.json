@@ -1,0 +1,527 @@
+{
+  "market": "EMEA",
+  "params": {
+    "max_clusters": 10,
+    "min_skills_per_cluster": 1,
+    "max_skills_per_cluster": 7,
+    "max_candidate_clusters": 100,
+    "min_jaccard_for_coverage": 0.5,
+    "min_mapped_demand_per_cluster": 250
+  },
+  "min_jaccard_for_coverage": 0.5,
+  "assignment_rule": "exclusive: each row assigned to the cluster with highest Jaccard (>= min_jaccard); tie-break by smaller cluster",
+  "ties_broken": 1,
+  "total_demand": 11371,
+  "total_mapped_demand": 8662,
+  "unmapped_demand": 2709,
+  "coverage_fraction": 0.7618,
+  "num_clusters": 9,
+  "unique_skills_in_clusters": [
+    ".NET",
+    "API Development",
+    "AWS",
+    "Agile",
+    "Angular",
+    "Apigee",
+    "Azure",
+    "C#",
+    "Design Patterns",
+    "DevOps",
+    "Docker Containers",
+    "HTML/CSS",
+    "Java",
+    "JavaScript",
+    "Jenkins",
+    "Microservices",
+    "Microsoft 365",
+    "MySQL",
+    "Node JS",
+    "Project Management",
+    "React",
+    "SQL",
+    "Shell Scripting/Linux",
+    "Software Testing",
+    "Spring Boot",
+    "Terraform",
+    "TypeScript"
+  ],
+  "unique_skills_count": 27,
+  "high_demand_skills_missed": {
+    "GCP": 344,
+    "Python": 287,
+    "React Native": 268
+  },
+  "high_demand_skills_missed_count": 3,
+  "injection_focus_missed_before": [
+    "AWS",
+    "MySQL",
+    "C#",
+    "Microservices",
+    "Docker Containers",
+    "TypeScript",
+    "Terraform",
+    "Jenkins",
+    "API Development",
+    "GCP",
+    "Apigee",
+    "Microsoft 365",
+    "Python",
+    "React Native",
+    "Design Patterns",
+    "Shell Scripting/Linux"
+  ],
+  "injection_focus_missed_after": [],
+  "injection_actions_taken": 16,
+  "injection_details": [
+    {
+      "phase": "append",
+      "skill": "AWS",
+      "cluster": 0,
+      "old": [
+        "Angular",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "Spring Boot"
+      ],
+      "new": [
+        "AWS",
+        "Angular",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "MySQL",
+      "cluster": 0,
+      "old": [
+        "AWS",
+        "Angular",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "Spring Boot"
+      ],
+      "new": [
+        "AWS",
+        "Angular",
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "SQL",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "C#",
+      "cluster": 1,
+      "old": [
+        ".NET",
+        "Azure",
+        "SQL"
+      ],
+      "new": [
+        ".NET",
+        "Azure",
+        "C#",
+        "SQL"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Microservices",
+      "cluster": 2,
+      "old": [
+        "Java",
+        "Spring Boot"
+      ],
+      "new": [
+        "Java",
+        "Microservices",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Docker Containers",
+      "cluster": 7,
+      "old": [
+        "Azure",
+        "DevOps"
+      ],
+      "new": [
+        "Azure",
+        "DevOps",
+        "Docker Containers"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "TypeScript",
+      "cluster": 4,
+      "old": [
+        "HTML/CSS",
+        "JavaScript",
+        "React"
+      ],
+      "new": [
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Terraform",
+      "cluster": 7,
+      "old": [
+        "Azure",
+        "DevOps",
+        "Docker Containers"
+      ],
+      "new": [
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Terraform"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Jenkins",
+      "cluster": 7,
+      "old": [
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Terraform"
+      ],
+      "new": [
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Jenkins",
+        "Terraform"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "API Development",
+      "cluster": 7,
+      "old": [
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Jenkins",
+        "Terraform"
+      ],
+      "new": [
+        "API Development",
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Jenkins",
+        "Terraform"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "GCP",
+      "cluster": 4,
+      "old": [
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "new": [
+        "GCP",
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Apigee",
+      "cluster": 7,
+      "old": [
+        "API Development",
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Jenkins",
+        "Terraform"
+      ],
+      "new": [
+        "API Development",
+        "Apigee",
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Jenkins",
+        "Terraform"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Microsoft 365",
+      "cluster": 3,
+      "old": [
+        "Agile",
+        "Project Management"
+      ],
+      "new": [
+        "Agile",
+        "Microsoft 365",
+        "Project Management"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Python",
+      "cluster": 4,
+      "old": [
+        "GCP",
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "new": [
+        "GCP",
+        "HTML/CSS",
+        "JavaScript",
+        "Python",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "React Native",
+      "cluster": 4,
+      "old": [
+        "GCP",
+        "HTML/CSS",
+        "JavaScript",
+        "Python",
+        "React",
+        "TypeScript"
+      ],
+      "new": [
+        "GCP",
+        "HTML/CSS",
+        "JavaScript",
+        "Python",
+        "React",
+        "React Native",
+        "TypeScript"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Design Patterns",
+      "cluster": 9,
+      "old": [
+        "JavaScript",
+        "Software Testing"
+      ],
+      "new": [
+        "Design Patterns",
+        "JavaScript",
+        "Software Testing"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Shell Scripting/Linux",
+      "cluster": 2,
+      "old": [
+        "Java",
+        "Microservices",
+        "Spring Boot"
+      ],
+      "new": [
+        "Java",
+        "Microservices",
+        "Shell Scripting/Linux",
+        "Spring Boot"
+      ]
+    }
+  ],
+  "clusters_sorted_by": "mapped_demand descending",
+  "cv_note": "coefficient of variation (std/mean) of monthly demand per cluster",
+  "cv_2025_note": "CV of monthly demand in 2025 only",
+  "skill_occurrence_note": "count of mapped rows in this cluster containing each skill",
+  "clusters": [
+    {
+      "skills": [
+        "Angular",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "Spring Boot",
+        "AWS",
+        "MySQL"
+      ],
+      "skill_count": 7,
+      "mapped_demand": 3436,
+      "skill_occurrence": {
+        "Angular": 1464,
+        "Java": 3317,
+        "JavaScript": 2923,
+        "SQL": 2940,
+        "Spring Boot": 2726,
+        "AWS": 2715,
+        "MySQL": 2604
+      },
+      "cv": 0.743,
+      "cv_2025": 0.4885
+    },
+    {
+      "skills": [
+        ".NET",
+        "Azure",
+        "SQL",
+        "C#"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 1254,
+      "skill_occurrence": {
+        ".NET": 1218,
+        "Azure": 1133,
+        "SQL": 1120,
+        "C#": 893
+      },
+      "cv": 0.6473,
+      "cv_2025": 0.2835
+    },
+    {
+      "skills": [
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 778,
+      "skill_occurrence": {
+        "HTML/CSS": 541,
+        "JavaScript": 646,
+        "React": 531,
+        "TypeScript": 315
+      },
+      "cv": 0.4773,
+      "cv_2025": 0.3916
+    },
+    {
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Shell Scripting/Linux",
+        "Software Testing",
+        "Design Patterns"
+      ],
+      "skill_count": 6,
+      "mapped_demand": 698,
+      "skill_occurrence": {
+        "Java": 688,
+        "Spring Boot": 697,
+        "Microservices": 442,
+        "Shell Scripting/Linux": 192,
+        "Software Testing": 276,
+        "Design Patterns": 226
+      },
+      "cv": 0.6782,
+      "cv_2025": 0.4587
+    },
+    {
+      "skills": [
+        "Java"
+      ],
+      "skill_count": 1,
+      "mapped_demand": 675,
+      "skill_occurrence": {
+        "Java": 675
+      },
+      "cv": 0.4193,
+      "cv_2025": 0.4255
+    },
+    {
+      "skills": [
+        "Node JS",
+        "React"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 582,
+      "skill_occurrence": {
+        "Node JS": 377,
+        "React": 551
+      },
+      "cv": 0.66,
+      "cv_2025": 0.5693
+    },
+    {
+      "skills": [
+        ".NET",
+        "Angular"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 546,
+      "skill_occurrence": {
+        ".NET": 411,
+        "Angular": 356
+      },
+      "cv": 0.621,
+      "cv_2025": 0.4332
+    },
+    {
+      "skills": [
+        "Azure",
+        "DevOps",
+        "Docker Containers",
+        "Terraform",
+        "Jenkins",
+        "API Development",
+        "Apigee"
+      ],
+      "skill_count": 7,
+      "mapped_demand": 384,
+      "skill_occurrence": {
+        "Azure": 170,
+        "DevOps": 370,
+        "Docker Containers": 362,
+        "Terraform": 343,
+        "Jenkins": 354,
+        "API Development": 342,
+        "Apigee": 308
+      },
+      "cv": 0.7094,
+      "cv_2025": 0.5474
+    },
+    {
+      "skills": [
+        "Agile",
+        "Project Management",
+        "Microsoft 365"
+      ],
+      "skill_count": 3,
+      "mapped_demand": 309,
+      "skill_occurrence": {
+        "Agile": 280,
+        "Project Management": 287,
+        "Microsoft 365": 240
+      },
+      "cv": 0.731,
+      "cv_2025": 0.4863
+    }
+  ]
+}

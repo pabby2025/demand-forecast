@@ -1,0 +1,399 @@
+{
+  "market": "Americas",
+  "params": {
+    "max_clusters": 18,
+    "min_skills_per_cluster": 2,
+    "max_skills_per_cluster": 6,
+    "max_candidate_clusters": 250,
+    "min_jaccard_for_coverage": 0.5,
+    "min_mapped_demand_per_cluster": 500
+  },
+  "min_jaccard_for_coverage": 0.5,
+  "assignment_rule": "exclusive: each row assigned to the cluster with highest Jaccard (>= min_jaccard); tie-break by smaller cluster",
+  "ties_broken": 748,
+  "total_demand": 42835,
+  "total_mapped_demand": 37257,
+  "unmapped_demand": 5578,
+  "coverage_fraction": 0.8698,
+  "num_clusters": 13,
+  "unique_skills_in_clusters": [
+    ".NET",
+    "AWS",
+    "Agile",
+    "Angular",
+    "Azure",
+    "COBOL",
+    "DB2",
+    "IT Service Management",
+    "JCL",
+    "Java",
+    "Kubernetes",
+    "Microservices",
+    "Node JS",
+    "Oracle",
+    "PPM",
+    "Python",
+    "React",
+    "SQL",
+    "ServiceNow",
+    "Shell Scripting/Linux",
+    "Software Testing",
+    "Spring Boot",
+    "VSAM"
+  ],
+  "unique_skills_count": 23,
+  "high_demand_skills_missed": {
+    "JavaScript": 2449,
+    "MySQL": 1228,
+    "Gen AI": 808,
+    "Splunk": 740,
+    "WebLogic": 736
+  },
+  "high_demand_skills_missed_count": 5,
+  "injection_focus_missed_before": [
+    "Software Testing",
+    "MySQL",
+    "Kubernetes",
+    "Gen AI",
+    "Splunk",
+    "WebLogic"
+  ],
+  "injection_focus_missed_after": [],
+  "injection_actions_taken": 6,
+  "injection_details": [
+    {
+      "phase": "append",
+      "skill": "Software Testing",
+      "cluster": 11,
+      "old": [
+        "Java",
+        "JavaScript",
+        "Oracle",
+        "SQL"
+      ],
+      "new": [
+        "Java",
+        "JavaScript",
+        "Oracle",
+        "SQL",
+        "Software Testing"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "MySQL",
+      "cluster": 11,
+      "old": [
+        "Java",
+        "JavaScript",
+        "Oracle",
+        "SQL",
+        "Software Testing"
+      ],
+      "new": [
+        "Java",
+        "JavaScript",
+        "MySQL",
+        "Oracle",
+        "SQL",
+        "Software Testing"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Kubernetes",
+      "cluster": 16,
+      "old": [
+        "AWS",
+        "Java",
+        "Microservices",
+        "Spring Boot"
+      ],
+      "new": [
+        "AWS",
+        "Java",
+        "Kubernetes",
+        "Microservices",
+        "Spring Boot"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Gen AI",
+      "cluster": 7,
+      "old": [
+        ".NET",
+        "Angular",
+        "Azure",
+        "SQL"
+      ],
+      "new": [
+        ".NET",
+        "Angular",
+        "Azure",
+        "Gen AI",
+        "SQL"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "Splunk",
+      "cluster": 2,
+      "old": [
+        "Java",
+        "ServiceNow"
+      ],
+      "new": [
+        "Java",
+        "ServiceNow",
+        "Splunk"
+      ]
+    },
+    {
+      "phase": "append",
+      "skill": "WebLogic",
+      "cluster": 0,
+      "old": [
+        "Java",
+        "Microservices",
+        "Oracle",
+        "Spring Boot"
+      ],
+      "new": [
+        "Java",
+        "Microservices",
+        "Oracle",
+        "Spring Boot",
+        "WebLogic"
+      ]
+    }
+  ],
+  "clusters_sorted_by": "mapped_demand descending",
+  "cv_note": "coefficient of variation (std/mean) of monthly demand per cluster",
+  "cv_2025_note": "CV of monthly demand in 2025 only",
+  "skill_occurrence_note": "count of mapped rows in this cluster containing each skill",
+  "clusters": [
+    {
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Oracle",
+        "AWS"
+      ],
+      "skill_count": 5,
+      "mapped_demand": 11844,
+      "skill_occurrence": {
+        "Java": 11079,
+        "Spring Boot": 11425,
+        "Microservices": 8922,
+        "Oracle": 5024,
+        "AWS": 951
+      },
+      "cv": 0.3066,
+      "cv_2025": 0.2109
+    },
+    {
+      "skills": [
+        ".NET",
+        "SQL"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 7794,
+      "skill_occurrence": {
+        ".NET": 7582,
+        "SQL": 4060
+      },
+      "cv": 0.2384,
+      "cv_2025": 0.2173
+    },
+    {
+      "skills": [
+        "Java",
+        "Oracle"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 4373,
+      "skill_occurrence": {
+        "Java": 4094,
+        "Oracle": 1793
+      },
+      "cv": 0.3815,
+      "cv_2025": 0.3116
+    },
+    {
+      "skills": [
+        "COBOL",
+        "DB2",
+        "JCL",
+        "VSAM",
+        "IT Service Management"
+      ],
+      "skill_count": 5,
+      "mapped_demand": 3388,
+      "skill_occurrence": {
+        "COBOL": 3111,
+        "DB2": 2074,
+        "JCL": 2615,
+        "VSAM": 2692,
+        "IT Service Management": 1133
+      },
+      "cv": 0.5031,
+      "cv_2025": 0.312
+    },
+    {
+      "skills": [
+        "COBOL",
+        "DB2"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1989,
+      "skill_occurrence": {
+        "COBOL": 1586,
+        "DB2": 1099
+      },
+      "cv": 0.4897,
+      "cv_2025": 0.2014
+    },
+    {
+      "skills": [
+        "Agile",
+        "PPM"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 1817,
+      "skill_occurrence": {
+        "Agile": 945,
+        "PPM": 951
+      },
+      "cv": 0.3034,
+      "cv_2025": 0.3684
+    },
+    {
+      "skills": [
+        ".NET",
+        "Angular",
+        "Azure",
+        "SQL",
+        "Node JS"
+      ],
+      "skill_count": 5,
+      "mapped_demand": 1354,
+      "skill_occurrence": {
+        ".NET": 1274,
+        "Angular": 1101,
+        "Azure": 660,
+        "SQL": 896,
+        "Node JS": 757
+      },
+      "cv": 0.9119,
+      "cv_2025": 0.3546
+    },
+    {
+      "skills": [
+        "Java",
+        "Microservices",
+        "Oracle",
+        "Spring Boot",
+        "Shell Scripting/Linux",
+        "Software Testing"
+      ],
+      "skill_count": 6,
+      "mapped_demand": 1300,
+      "skill_occurrence": {
+        "Java": 1285,
+        "Microservices": 740,
+        "Oracle": 627,
+        "Spring Boot": 1262,
+        "Shell Scripting/Linux": 976,
+        "Software Testing": 1000
+      },
+      "cv": 0.6675,
+      "cv_2025": 0.3474
+    },
+    {
+      "skills": [
+        ".NET",
+        "Node JS",
+        "React",
+        "SQL"
+      ],
+      "skill_count": 4,
+      "mapped_demand": 913,
+      "skill_occurrence": {
+        ".NET": 779,
+        "Node JS": 658,
+        "React": 887,
+        "SQL": 736
+      },
+      "cv": 0.9697,
+      "cv_2025": 0.4183
+    },
+    {
+      "skills": [
+        "React",
+        "Spring Boot"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 711,
+      "skill_occurrence": {
+        "React": 463,
+        "Spring Boot": 445
+      },
+      "cv": 0.9354,
+      "cv_2025": 1.1755
+    },
+    {
+      "skills": [
+        "Oracle",
+        "ServiceNow",
+        "Shell Scripting/Linux"
+      ],
+      "skill_count": 3,
+      "mapped_demand": 654,
+      "skill_occurrence": {
+        "Oracle": 416,
+        "ServiceNow": 437,
+        "Shell Scripting/Linux": 626
+      },
+      "cv": 1.0365,
+      "cv_2025": 0.5211
+    },
+    {
+      "skills": [
+        "AWS",
+        "Java",
+        "Microservices",
+        "Spring Boot",
+        "Kubernetes",
+        "Oracle"
+      ],
+      "skill_count": 6,
+      "mapped_demand": 601,
+      "skill_occurrence": {
+        "AWS": 117,
+        "Java": 592,
+        "Microservices": 506,
+        "Spring Boot": 579,
+        "Kubernetes": 601,
+        "Oracle": 464
+      },
+      "cv": 0.7353,
+      "cv_2025": 0.5313
+    },
+    {
+      "skills": [
+        "Python",
+        "Shell Scripting/Linux"
+      ],
+      "skill_count": 2,
+      "mapped_demand": 519,
+      "skill_occurrence": {
+        "Python": 387,
+        "Shell Scripting/Linux": 302
+      },
+      "cv": 0.5087,
+      "cv_2025": 0.2957
+    }
+  ]
+}

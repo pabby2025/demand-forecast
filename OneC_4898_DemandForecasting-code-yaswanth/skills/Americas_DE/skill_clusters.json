@@ -1,0 +1,79 @@
+{
+  "market": "Americas",
+  "num_clusters": 15,
+  "min_jaccard_for_coverage": 0.5,
+  "clusters": [
+    [
+      "React"
+    ],
+    [
+      "Python"
+    ],
+    [
+      "Angular"
+    ],
+    [
+      "Java",
+      "Spring Boot"
+    ],
+    [
+      ".NET",
+      "Angular"
+    ],
+    [
+      ".NET",
+      "React"
+    ],
+    [
+      "Azure",
+      "DevOps",
+      "Docker Containers"
+    ],
+    [
+      "Android",
+      "iOS",
+      "React Native"
+    ],
+    [
+      "Angular",
+      "Java",
+      "JavaScript"
+    ],
+    [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Spring Boot"
+    ],
+    [
+      "AWS",
+      "Java",
+      "Spring Boot"
+    ],
+    [
+      ".NET",
+      "Angular",
+      "Azure",
+      "C#",
+      "SQL"
+    ],
+    [
+      "HTML/CSS",
+      "JavaScript",
+      "React"
+    ],
+    [
+      "Agile",
+      "Project Management"
+    ],
+    [
+      "AWS",
+      "Angular",
+      "Java",
+      "JavaScript",
+      "MySQL",
+      "SQL",
+      "Spring Boot"
+    ]
+  ]
+}

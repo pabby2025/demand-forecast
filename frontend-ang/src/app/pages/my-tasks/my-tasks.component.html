@@ -1,0 +1,123 @@
+<div class="p-6">
+  <!-- Breadcrumb + Download -->
+  <div class="flex items-center justify-between mb-5">
+    <div class="flex items-center gap-2 text-xs text-gray-500">
+      <svg class="w-4 h-4 text-[#1B2559]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="7" height="7" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" stroke-width="1.5"/>
+        <rect x="14" y="14" width="7" height="7" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" stroke-width="1.5"/>
+      </svg>
+      <a class="text-[#1B2559] hover:text-[#00BCD4] cursor-pointer font-medium transition-colors">Home</a>
+      <span>/</span>
+      <span>My Tasks &amp; Approvals</span>
+    </div>
+    <button class="w-8 h-8 flex items-center justify-center rounded-lg bg-white border border-gray-200 hover:bg-gray-50 shadow-sm" title="Download CSV">
+      <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke-width="2" stroke-linecap="round"/>
+        <polyline points="7 10 12 15 17 10" stroke-width="2" stroke-linecap="round"/>
+        <line x1="12" y1="15" x2="12" y2="3" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+
+  <app-loading-skeleton *ngIf="loading" type="table" [rows]="8"></app-loading-skeleton>
+  <app-error-card *ngIf="error && !loading" (onRetry)="load()"></app-error-card>
+
+  <div *ngIf="!loading && !error" class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+    <!-- Blue band section header -->
+    <div class="bg-[#1B2559] px-4 py-3">
+      <h2 class="text-sm font-bold text-white">My Tasks and Approvals</h2>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table class="min-w-full text-sm">
+        <thead>
+          <tr class="border-b border-gray-100">
+            <th class="text-left px-4 py-3 font-medium text-gray-700 whitespace-nowrap">Task ID</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-700 whitespace-nowrap">Task Type</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-700">Description</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-700 whitespace-nowrap">Due Date</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-700">Status</th>
+            <th class="text-left px-4 py-3 font-medium text-gray-700">View</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let task of tasks"
+              class="border-b border-gray-100 hover:bg-blue-50/20 transition-colors cursor-pointer"
+              (click)="selected = task">
+            <td class="px-4 py-3 font-medium text-[#1B2559]">{{ task.task_id }}</td>
+            <td class="px-4 py-3 text-gray-700">{{ task.task_type }}</td>
+            <td class="px-4 py-3 text-gray-500">
+              <span class="truncate block max-w-[260px]" [title]="task.description">{{ task.description }}</span>
+            </td>
+            <td class="px-4 py-3 whitespace-nowrap">
+              <div class="flex items-center gap-2">
+                <svg *ngIf="task.is_overdue" class="w-4 h-4 text-red-500 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495zM10 5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 5zm0 9a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+                </svg>
+                <span [class]="task.is_overdue ? 'text-red-600 font-medium' : 'text-gray-600'">{{ task.due_date }}</span>
+              </div>
+            </td>
+            <td class="px-4 py-3">
+              <span [class]="statusClass(task.status)">{{ task.status }}</span>
+            </td>
+            <td class="px-4 py-3">
+              <a href="javascript:void(0)" (click)="$event.stopPropagation()"
+                 class="flex items-center gap-1 text-gray-500 hover:text-[#1B2559] transition-colors text-sm">
+                View link
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-width="2" stroke-linecap="round"/></svg>
+              </a>
+            </td>
+          </tr>
+          <tr *ngIf="tasks.length === 0">
+            <td colspan="6" class="px-4 py-12 text-center text-gray-400">No tasks found</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="px-4 py-3 border-t border-gray-100 flex items-center justify-end gap-2 text-xs text-gray-500">
+      <button class="w-7 h-7 flex items-center justify-center rounded border border-gray-200 hover:bg-gray-50 disabled:opacity-40">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6" stroke-width="2"/></svg>
+      </button>
+      <span class="px-2 py-1 rounded bg-[#1B2559] text-white font-medium">1</span>
+      <button class="w-7 h-7 flex items-center justify-center rounded border border-gray-200 hover:bg-gray-50">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6" stroke-width="2"/></svg>
+      </button>
+      <span>of {{ Math.ceil(tasks.length / 10) || 1 }}</span>
+    </div>
+  </div>
+
+  <!-- Detail Modal -->
+  <div *ngIf="selected" class="fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-4">
+    <div class="bg-white rounded-2xl shadow-2xl w-full max-w-md p-6">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="font-bold text-gray-900">{{ selected.task_id }}</h2>
+        <button (click)="selected = null" class="text-gray-400 hover:text-gray-600 text-xl leading-none">×</button>
+      </div>
+      <h3 class="font-semibold text-gray-800 mb-3">{{ selected.task_type }}</h3>
+      <div class="space-y-2 text-sm">
+        <div class="flex justify-between"><span class="text-gray-500">Priority</span><app-status-badge [status]="selected.priority ?? 'Medium'"></app-status-badge></div>
+        <div class="flex justify-between"><span class="text-gray-500">Status</span><app-status-badge [status]="selected.status"></app-status-badge></div>
+        <div class="flex justify-between"><span class="text-gray-500">Due Date</span>
+          <span [class]="selected.is_overdue ? 'text-red-600 font-medium flex items-center gap-1' : 'text-gray-700'">
+            <svg *ngIf="selected.is_overdue" class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495zM10 5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 5zm0 9a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/></svg>
+            {{ selected.due_date }}
+          </span>
+        </div>
+        <div class="flex justify-between"><span class="text-gray-500">Assigned By</span><span>{{ selected.assigned_by }}</span></div>
+        <div class="flex justify-between"><span class="text-gray-500">Cluster</span><span class="text-right text-xs max-w-[200px]">{{ selected.cluster }}</span></div>
+      </div>
+      <p class="text-sm text-gray-600 mt-4 bg-gray-50 p-3 rounded-lg">{{ selected.description }}</p>
+      <div class="flex gap-2 mt-5">
+        <button *ngIf="selected.status !== 'Completed'" (click)="markComplete(selected); selected = null"
+                class="flex-1 bg-green-600 text-white text-sm py-2 rounded-lg hover:bg-green-700 transition-colors">
+          Mark Complete
+        </button>
+        <button (click)="selected = null" class="flex-1 border border-gray-200 text-gray-600 text-sm py-2 rounded-lg hover:bg-gray-50 transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

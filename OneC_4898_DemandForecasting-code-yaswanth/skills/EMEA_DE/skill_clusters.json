@@ -1,0 +1,61 @@
+{
+  "market": "EMEA",
+  "num_clusters": 9,
+  "min_jaccard_for_coverage": 0.5,
+  "clusters": [
+    [
+      "AWS",
+      "Angular",
+      "Java",
+      "JavaScript",
+      "MySQL",
+      "SQL",
+      "Spring Boot"
+    ],
+    [
+      ".NET",
+      "Azure",
+      "C#",
+      "SQL"
+    ],
+    [
+      "Design Patterns",
+      "Java",
+      "Microservices",
+      "Shell Scripting/Linux",
+      "Software Testing",
+      "Spring Boot"
+    ],
+    [
+      "Agile",
+      "Microsoft 365",
+      "Project Management"
+    ],
+    [
+      "HTML/CSS",
+      "JavaScript",
+      "React",
+      "TypeScript"
+    ],
+    [
+      "Node JS",
+      "React"
+    ],
+    [
+      ".NET",
+      "Angular"
+    ],
+    [
+      "API Development",
+      "Apigee",
+      "Azure",
+      "DevOps",
+      "Docker Containers",
+      "Jenkins",
+      "Terraform"
+    ],
+    [
+      "Java"
+    ]
+  ]
+}

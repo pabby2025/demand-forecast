@@ -1,0 +1,55 @@
+{
+  "market": "EMEA",
+  "num_clusters": 9,
+  "min_jaccard_for_coverage": 0.5,
+  "clusters": [
+    [
+      ".NET",
+      "SQL"
+    ],
+    [
+      "Java",
+      "Spring Boot"
+    ],
+    [
+      "ITIL",
+      "ServiceNow"
+    ],
+    [
+      "Java",
+      "Microservices",
+      "Oracle"
+    ],
+    [
+      "COBOL",
+      "DB2"
+    ],
+    [
+      ".NET",
+      "Angular",
+      "Azure",
+      "Node JS",
+      "SQL"
+    ],
+    [
+      "COBOL",
+      "DB2",
+      "IT Service Management",
+      "JCL"
+    ],
+    [
+      "IT Service Management",
+      "Java",
+      "JavaScript",
+      "Oracle"
+    ],
+    [
+      "Java",
+      "Microservices",
+      "MySQL",
+      "Oracle",
+      "Shell Scripting/Linux",
+      "Spring Boot"
+    ]
+  ]
+}

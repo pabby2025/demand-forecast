@@ -1,0 +1,22 @@
+{
+  "market": "Americas",
+  "num_clusters": 4,
+  "min_jaccard_for_coverage": 0.5,
+  "clusters": [
+    [
+      "SAP Basis",
+      "SAP FICO"
+    ],
+    [
+      "SAP ABAP",
+      "SAP Marketing Cloud"
+    ],
+    [
+      "SAP MM",
+      "SAP SD"
+    ],
+    [
+      "SAP Security"
+    ]
+  ]
+}
