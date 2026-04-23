@@ -1,0 +1,71 @@
+# ============================================================
+# OneC 4898 — Demand Forecast Planner
+# Track : WS  (FastAPI Python Backend / Web Service)
+# Repo  : Fulfilment-IT-Systems/OneC_4898_DemandForecasting
+# Branch: feature1
+#
+# ITEMS TO CONFIRM WITH DEVOPS POC (marked # CONFIRM):
+#   1. endpoint name for this project's GitHub Enterprise service connection
+#   2. TrackName as registered in ADT
+#   3. TemplateName for WS/API in OneC_2932_CoreTemplate
+#   4. deployenvironmentportfolio value
+# ============================================================
+
+parameters:
+  - name: deployenvironmentname
+    default: SIT
+  - name: deployenvironmentportfolio
+    default: CloudBC          # CONFIRM — portfolio for 4898 project
+  - name: DeploymentTrackType
+    default: WS
+  - name: DCountenv
+    default: DEV
+  - name: TrackName
+    default: 4898-WS-AZR-DemandForecastAPI   # CONFIRM — TrackName registered in ADT
+  - name: TemplateName
+    default: WS-Deploy.yml    # CONFIRM — WS/API template name in OneC_2932_CoreTemplate
+  - name: checkoutreponame
+    default: OneC_4898_DemandForecasting
+  - name: ValidationType
+    default: CAST
+  - name: MainFolderName
+    default: OneC_4898_DemandForecasting
+
+name: $(date:yyyyMMdd)$(rev:.r)
+pr: none
+
+resources:
+  repositories:
+    - repository: templates
+      type: githubenterprise
+      name: Digital-Platform-IT-Build/OneC_2932_CoreTemplate
+      endpoint: GHA-Fulfilment IT Systems-SC-4898-DemandForecast   # CONFIRM
+    - repository: OneC_4898_DemandForecasting
+      type: githubenterprise
+      ref: $(Build.SourceBranchName)
+      name: Fulfilment-IT-Systems/OneC_4898_DemandForecasting
+      endpoint: GHA-Fulfilment IT Systems-SC-4898-DemandForecast   # CONFIRM
+
+variables:
+  - group: Devops
+  - group: Devops Secrets
+  - group: NotificationIDs
+  - name: TrackType
+    value: WS
+  - name: PublishPath
+    value: $(FulfilmentITSystems)
+
+stages:
+  - template: Core Template/Stages.yml@templates
+    parameters:
+      TemplateName: WS-Deploy.yml              # CONFIRM
+      TrackName: 4898-WS-AZR-DemandForecastAPI # CONFIRM
+      DeploymentTrackType: WS
+      deployenvironmentportfolio: CloudBC       # CONFIRM
+      deployenvironmentname: DEVINT
+      checkoutreponame: OneC_4898_DemandForecasting
+      DCountenv: DEV
+      ValidationType: CAST
+      MainFolderName: OneC_4898_DemandForecasting
+      ISKTLO: False
+      KTLOChildName: $(System.TeamProject)

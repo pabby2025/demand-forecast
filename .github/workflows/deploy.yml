@@ -1,4 +1,8 @@
-name: Deploy DFC to Azure
+# NOTE: This GitHub Actions workflow is for reference/personal-repo use only.
+# Cognizant GHES deployments are handled via ADT pipelines in YAML/
+# See YAML/4898-WA-DemandForecast.yaml and YAML/4898-WS-DemandForecastAPI.yaml
+
+name: Deploy OneC-4898 DemandForecast to Azure
 
 on:
   push:
@@ -9,8 +13,9 @@ permissions:
   contents: read
 
 env:
-  FRONTEND_APP: dfc-frontend-pabby
-  BACKEND_APP: dfc-backend-pabby
+  # CONFIRM with DevOps POC — replace with actual Azure App Service names
+  FRONTEND_APP: occ-4898-demandforecast-wa
+  BACKEND_APP: occ-4898-demandforecast-ws
 
 jobs:
   deploy-frontend:
@@ -34,7 +39,8 @@ jobs:
 
       - name: Inject API URL into index.html
         run: |
-          sed -i 's|</head>|<script>window.env={API_URL:"https://dfc-backend-pabby.azurewebsites.net"};</script></head>|' \
+          # CONFIRM: replace with actual backend App Service URL
+          sed -i 's|</head>|<script>window.env={API_URL:"https://occ-4898-demandforecast-ws.azurewebsites.net"};</script></head>|' \
             frontend-ang/dist/demand-planning-frontend-ang/browser/index.html
 
       - name: Deploy to Azure App Service
