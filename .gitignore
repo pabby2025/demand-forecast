@@ -32,3 +32,6 @@ dfc-dist.zip
 
 # Lockfiles generated outside workspace
 /package-lock.json
+
+# Test scripts with credentials — run locally only
+test_endpoint.py
